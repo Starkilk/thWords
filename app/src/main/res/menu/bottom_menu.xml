@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bLearn"
+        android:icon="@drawable/ic_learn"
+        android:title="learn"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/bDictionary"
+        android:icon="@drawable/ic_dictionary"
+        android:title="dictionary"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/bHome"
+        android:icon="@drawable/ic_home"
+        android:title="home"
+        android:orderInCategory="3"
+        />
 
 </menu>
