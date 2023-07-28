@@ -5,6 +5,7 @@
     <color name="background">#141F23</color>
     <color name="checked_true">#33CBCB</color>
     <color name="checked_false">#1184DF</color>
+    <color name="my_gray">#3B464A</color>
 
 
 </resources>
