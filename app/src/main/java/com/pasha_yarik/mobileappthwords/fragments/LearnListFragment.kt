@@ -10,16 +10,18 @@ import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnListBinding
 
 class LearnListFragment : Fragment() {
     private lateinit var binding: FragmentLearnListBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_learn_list, container, false)
+    ): View {
+        binding = FragmentLearnListBinding.inflate(inflater, container,false)
+        return binding.root
     }
 
-    companion object {
 
+
+    companion object {
         @JvmStatic
         fun newInstance() = LearnListFragment()
     }
