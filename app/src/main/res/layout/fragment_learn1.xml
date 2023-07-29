@@ -8,7 +8,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="666dp"
+        android:layout_height="match_parent"
         android:background="@color/background">
 
         <androidx.cardview.widget.CardView
@@ -58,8 +58,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvButton"
-            android:layout_width="150dp"
-            android:layout_height="140dp"
+            android:layout_width="180dp"
+            android:layout_height="170dp"
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/background"
             app:cardCornerRadius="20dp"
@@ -74,8 +74,8 @@
 
                 <Button
                     android:id="@+id/button6"
-                    android:layout_width="150dp"
-                    android:layout_height="140dp"
+                    android:layout_width="180dp"
+                    android:layout_height="170dp"
                     android:backgroundTint="@color/background"
                     android:scaleY="1.05"
                     app:cornerRadius="20dp"
@@ -113,13 +113,13 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvButton2"
-            android:layout_width="150dp"
-            android:layout_height="140dp"
+            android:layout_width="180dp"
+            android:layout_height="170dp"
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/background"
             app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintHorizontal_bias="0.94"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cvTop">
 
@@ -131,8 +131,8 @@
 
                 <Button
                     android:id="@+id/button7"
-                    android:layout_width="150dp"
-                    android:layout_height="140dp"
+                    android:layout_width="180dp"
+                    android:layout_height="170dp"
                     android:backgroundTint="@color/background"
                     android:scaleY="1.05"
                     app:cornerRadius="20dp"
