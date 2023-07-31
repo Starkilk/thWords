@@ -17,13 +17,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="3dp"
             android:layout_gravity="bottom"
             android:backgroundTint="@color/my_gray"
+            android:clickable="false"
             android:scaleY="1.2"
             app:cornerRadius="0dp" />
 
