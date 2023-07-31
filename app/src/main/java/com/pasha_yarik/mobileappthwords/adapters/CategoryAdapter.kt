@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.databinding.WordsListTemplateBinding
 
-class WordsAdapter:ListAdapter<CategoryModel,WordsAdapter.WordHolder >(MyComporator()) {
+class CategoryAdapter:ListAdapter<CategoryModel,CategoryAdapter.CategoryHolder >(MyComporator()) {
 
-    class WordHolder(view: View):RecyclerView.ViewHolder(view){
+    class CategoryHolder(view: View):RecyclerView.ViewHolder(view){
         private val binding = WordsListTemplateBinding.bind(view)
         fun setWord(word: CategoryModel) = with(binding){
 
@@ -21,12 +21,12 @@ class WordsAdapter:ListAdapter<CategoryModel,WordsAdapter.WordHolder >(MyCompora
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.words_list_template,  parent,false)
-        return WordHolder(view)
+        return CategoryHolder(view)
     }
 
-    override fun onBindViewHolder(holder: WordHolder, position: Int) {
+    override fun onBindViewHolder(holder: CategoryHolder, position: Int) {
         holder.setWord(getItem(position))
     }
 

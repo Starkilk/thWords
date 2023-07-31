@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorii">
+        <item>Человек|free-icon-employee-2553157.png</item>
+        <item>Характкристики|free-icon-letter-i-7825813.png</item>
+        <item>Время и числа|free-icon-progress-8124988.png</item>
+        <item>Глаголы|free-icon-lifestyles-6193322.png</item>
+        <item>Еда|free-icon-goulash-4727284.png</item>
+        <item>Природа|free-icon-melting-6968300.png</item>
+        <item>События и места|free-icon-place-1692037.png</item>
+        <item>Дом|free-icon-house-2163350.png</item>
+    </string-array>
+</resources>
