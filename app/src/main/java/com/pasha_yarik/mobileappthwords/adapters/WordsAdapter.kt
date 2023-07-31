@@ -15,7 +15,7 @@ class WordsAdapter:ListAdapter<WordModel,WordsAdapter.WordHolder >(MyComporator(
         private val binding = WordsListTemplateBinding.bind(view)
         fun setWord(word:WordModel) = with(binding){
 
-            tvNameCategory.text = word.name
+            tvCategoryName.text = word.name
             val quantity = "Количество слов: ${word.count}"
             tvCountWords.text = quantity
         }
