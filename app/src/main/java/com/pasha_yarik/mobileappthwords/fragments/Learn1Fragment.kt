@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.pasha_yarik.mobileappthwords.MainActivity
 import com.pasha_yarik.mobileappthwords.R
@@ -20,6 +21,18 @@ import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 
 class Learn1Fragment : Fragment() {
     private lateinit var binding: FragmentLearn1Binding
+
+    private val imageIdList = listOf(//лист с нашими изображениями
+        R.drawable.free_icon_employee_2553157,
+        R.drawable.free_icon_letter_i_7825813,
+        R.drawable.free_icon_progress_8124988,
+        R.drawable.free_icon_lifestyles_6193322,
+        R.drawable.free_icon_goulash_4727284,
+        R.drawable.free_icon_melting_6968300,
+        R.drawable.free_icon_place_1692037,
+        R.drawable.free_icon_house_2163350,
+
+        )
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -39,9 +52,9 @@ class Learn1Fragment : Fragment() {
     //заполнение массива данными
     private fun fillCategoryArray():ArrayList<CategoryModel>{
         val tempArray = ArrayList<CategoryModel>()
-        resources.getStringArray(R.array.categorii).forEach {
-            val categoryArr = it.split("|")
-            tempArray.add(CategoryModel(categoryArr[0],categoryArr[1],))
+        resources.getStringArray(R.array.categorii).forEachIndexed() {index, element->
+
+            tempArray.add(CategoryModel(element,imageIdList[index]))
 
         }
         return tempArray
@@ -50,7 +63,7 @@ class Learn1Fragment : Fragment() {
     //передача заполненного массива в адаптер
     private fun initRcView() = with(binding){
         val adapter = CategoryAdapter()
-        rcCategoryP.layoutManager = LinearLayoutManager(activity as AppCompatActivity)
+        rcCategoryP.layoutManager = GridLayoutManager(activity,2)
         rcCategoryP.adapter = adapter
         adapter.submitList(fillCategoryArray())
     }
