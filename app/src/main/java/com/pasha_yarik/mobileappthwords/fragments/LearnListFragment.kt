@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.adapters.CategoryModel
 import com.pasha_yarik.mobileappthwords.adapters.WordsAdapter
+import com.pasha_yarik.mobileappthwords.adapters.WordsModel
 import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnListBinding
 
 class LearnListFragment : Fragment() {
@@ -29,11 +30,11 @@ class LearnListFragment : Fragment() {
     }
 
     //заполнение массива данными
-    private fun fillWordsArray():ArrayList<CategoryModel>{
-        val tempArray = ArrayList<CategoryModel>()
+    private fun fillWordsArray():ArrayList<WordsModel>{
+        val tempArray = ArrayList<WordsModel>()
         resources.getStringArray(R.array.people).forEach {
             val wordArr = it.split("|")
-            tempArray.add(CategoryModel(wordArr[0],wordArr[1],null))
+            tempArray.add(WordsModel(wordArr[0],wordArr[1],null))
 
         }
         return tempArray

@@ -7,30 +7,31 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.pasha_yarik.mobileappthwords.R
+import com.pasha_yarik.mobileappthwords.databinding.BigCubeTemplateBinding
 import com.pasha_yarik.mobileappthwords.databinding.WordsListTemplateBinding
 
-class CategoryAdapter:ListAdapter<CategoryModel,CategoryAdapter.CategoryHolder >(MyComporator()) {
+class CategoryAdapter:ListAdapter<CategoryModel,CategoryAdapter.CategoryHolder >(MyComporatorr()) {
 
     class CategoryHolder(view: View):RecyclerView.ViewHolder(view){
-        private val binding = WordsListTemplateBinding.bind(view)
-        fun setWord(word: CategoryModel) = with(binding){
+        private val binding = BigCubeTemplateBinding.bind(view)
+        fun setCategory(category: CategoryModel) = with(binding){
 
-            tvCategoryName.text = word.name
-            val quantity = "Количество слов: ${word.count}"
-            tvCountWords.text = quantity
+            tvCubeTemp.text = category.nameCategory
+            imCubeTemp .setImageResource(category.imageCategory.toInt())
+
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.words_list_template,  parent,false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.big_cube_template,  parent,false)
         return CategoryHolder(view)
     }
 
     override fun onBindViewHolder(holder: CategoryHolder, position: Int) {
-        holder.setWord(getItem(position))
+        holder.setCategory(getItem(position))
     }
 
-    class MyComporator :DiffUtil.ItemCallback<CategoryModel>(){
+    class MyComporatorr :DiffUtil.ItemCallback<CategoryModel>(){
         override fun areItemsTheSame(oldItem: CategoryModel, newItem: CategoryModel): Boolean {
             return oldItem == newItem
         }

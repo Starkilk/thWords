@@ -9,11 +9,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.databinding.WordsListTemplateBinding
 
-class WordsAdapter:ListAdapter<CategoryModel,WordsAdapter.WordHolder >(MyComporator()) {
+class WordsAdapter:ListAdapter<WordsModel,WordsAdapter.WordHolder >(MyComporator()) {
 
     class WordHolder(view: View):RecyclerView.ViewHolder(view){
         private val binding = WordsListTemplateBinding.bind(view)
-        fun setWord(word: CategoryModel) = with(binding){
+        fun setWord(word: WordsModel) = with(binding){
 
             tvCategoryName.text = word.name
             val quantity = "Количество слов: ${word.count}"
@@ -30,12 +30,12 @@ class WordsAdapter:ListAdapter<CategoryModel,WordsAdapter.WordHolder >(MyCompora
         holder.setWord(getItem(position))
     }
 
-    class MyComporator :DiffUtil.ItemCallback<CategoryModel>(){
-        override fun areItemsTheSame(oldItem: CategoryModel, newItem: CategoryModel): Boolean {
+    class MyComporator :DiffUtil.ItemCallback<WordsModel>(){
+        override fun areItemsTheSame(oldItem: WordsModel, newItem: WordsModel): Boolean {
             return oldItem == newItem
         }
 
-        override fun areContentsTheSame(oldItem: CategoryModel, newItem: CategoryModel): Boolean {
+        override fun areContentsTheSame(oldItem: WordsModel, newItem: WordsModel): Boolean {
             return oldItem == newItem
         }
 
