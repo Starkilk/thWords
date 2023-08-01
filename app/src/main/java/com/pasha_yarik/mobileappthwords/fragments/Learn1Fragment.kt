@@ -19,7 +19,7 @@ import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnListBinding
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 
 
-class Learn1Fragment : Fragment() {
+class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
     private lateinit var binding: FragmentLearn1Binding
 
     private val imageIdList = listOf(//лист с нашими изображениями
@@ -62,7 +62,7 @@ class Learn1Fragment : Fragment() {
 
     //передача заполненного массива в адаптер
     private fun initRcView() = with(binding){
-        val adapter = CategoryAdapter()
+        val adapter = CategoryAdapter(this@Learn1Fragment)
         rcCategoryP.layoutManager = GridLayoutManager(activity,2)
         rcCategoryP.adapter = adapter
         adapter.submitList(fillCategoryArray())
@@ -71,5 +71,9 @@ class Learn1Fragment : Fragment() {
     companion object {
         @JvmStatic
         fun newInstance() = Learn1Fragment()
+    }
+
+    override fun onClick(category: CategoryModel) {
+        requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
     }
 }

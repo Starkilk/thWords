@@ -16,15 +16,19 @@ import java.io.InputStream
 
 
 
-class CategoryAdapter:ListAdapter<CategoryModel,CategoryAdapter.CategoryHolder >(MyComporatorr()) {
+class CategoryAdapter(var listener: Listener):ListAdapter<CategoryModel,CategoryAdapter.CategoryHolder >(MyComporatorr()) {
 
     class CategoryHolder(view: View):RecyclerView.ViewHolder(view){
         private val binding = BigCubeTemplateBinding.bind(view)
-        fun setCategory(category: CategoryModel) = with(binding){
+        fun setCategory(category: CategoryModel,listener: Listener) = with(binding){
 
             tvCubeTemp.text = category.nameCategory
 
             imCubeTemp.setImageResource(category.imageCategory)
+
+            bCubeTemp.setOnClickListener{
+                listener.onClick(category)
+            }
 
         }
     }
@@ -35,7 +39,7 @@ class CategoryAdapter:ListAdapter<CategoryModel,CategoryAdapter.CategoryHolder >
     }
 
     override fun onBindViewHolder(holder: CategoryHolder, position: Int) {
-        holder.setCategory(getItem(position))
+        holder.setCategory(getItem(position), listener)
     }
 
     class MyComporatorr :DiffUtil.ItemCallback<CategoryModel>(){
@@ -47,6 +51,10 @@ class CategoryAdapter:ListAdapter<CategoryModel,CategoryAdapter.CategoryHolder >
             return oldItem == newItem
         }
 
+    }
+
+    interface Listener{
+        fun onClick(category:CategoryModel)
     }
 
 }
