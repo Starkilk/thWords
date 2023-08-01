@@ -13,6 +13,42 @@
         <item>Работа|28</item>
         <item>Описание раб. задач|15</item>
         <item>Одежда|35</item>
+
+        <item>Цвет|15</item>
+        <item>Свойства|39</item>
+        <item>Процессы|11</item>
+
+        <item>Число|31</item>
+        <item>Порядок|5</item>
+        <item>Время|42</item>
+        <item>Промежутки|23</item>
+        <item>Деньги|8</item>
+
+        <item>Хобби|25</item>
+        <item>Путешествие|19</item>
+        <item>Движение|31</item>
+        <item>Жизнь|57</item>
+        <item>Общение|40</item>
+        <item>Союзы и вопросы|14</item>
+        <item>Эмоции|15</item>
+        <item>Чувства|5</item>
+        <item>Мышление|22</item>
+        <item>Учёба|19</item>
+        <item>Модальные глаголы|5</item>
+
+        <item>Готовка\Употребление|24</item>
+        <item>Продукты|80</item>
+        <item>Посуда|12</item>
+
+        <item>Флора\Фауна|32</item>
+        <item>Природа|32</item>
+
+        <item>События|16</item>
+        <item>Места|63</item>
+
+        <item>Дом|30</item>
+        <item>Приборы|15</item>
+        <item>Вещи|14</item>
     </string-array>
 
 

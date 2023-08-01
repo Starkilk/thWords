@@ -35,15 +35,11 @@ class LearnListFragment : Fragment() {
     //заполнение массива данными
     private fun fillWordsArray():ArrayList<WordsModel>{
         val tempArray = ArrayList<WordsModel>()
-        model.mutableListWords.observe(viewLifecycleOwner){arname->
-            val f = "categorii"
-            resources.getStringArray(R.array.f).forEach {
-                val wordArr = it.split("|")
-                tempArray.add(WordsModel(wordArr[0],wordArr[1],null))
+        resources.getStringArray(R.array.people).forEach {
+            val wordArr = it.split("|")
+            tempArray.add(WordsModel(wordArr[0],wordArr[1],null))
 
-            }
         }
-
         return tempArray
     }
 
