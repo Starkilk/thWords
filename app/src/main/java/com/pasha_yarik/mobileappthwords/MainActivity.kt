@@ -2,6 +2,7 @@ package com.pasha_yarik.mobileappthwords
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.pasha_yarik.mobileappthwords.FragmentsDictionaryY.FragmentTableLayoutY
 import com.pasha_yarik.mobileappthwords.databinding.ActivityMainBinding
 import com.pasha_yarik.mobileappthwords.fragments.Learn1Fragment
 import com.pasha_yarik.mobileappthwords.fragments.LearnListFragment
@@ -17,5 +18,16 @@ class MainActivity : AppCompatActivity() {
         //supportFragmentManager.beginTransaction().replace(R.id.placeHolder,Learn1Fragment.newInstance()).commit()
         //при запуске приложения сразу показывается фрагмент из восьми категорий
         FragmentManager.setFragment(Learn1Fragment.newInstance(), this)
+
+        binding.bnvNav.setOnItemSelectedListener {
+            when(it.itemId){
+                R.id.bLearn -> {FragmentManager.setFragment(Learn1Fragment.newInstance(), this)}
+
+                R.id.bDictionary -> {FragmentManager.setFragment(FragmentTableLayoutY(), this)}
+
+                R.id.bHome -> {}
+            }
+            true
+        }
     }
 }

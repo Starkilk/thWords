@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="English_words_all">
+
+        <item>Tea</item>
+        <item>Coffe</item>
+        <item>Cola</item>
+
+    </string-array>
+
+    <string-array name="Russian_words_all">
+
+        <item>Чай</item>
+        <item>Кофе</item>
+        <item>Кока-кола</item>
+
+    </string-array>
+
+</resources>
