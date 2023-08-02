@@ -18,4 +18,11 @@ class MainActivity : AppCompatActivity() {
         //при запуске приложения сразу показывается фрагмент из восьми категорий
         FragmentManager.setFragment(Learn1Fragment.newInstance(), this)
     }
+
+    //функция, которая запускается при нажатии кнопри "назад"
+    override fun onBackPressed() {
+        if(FragmentManager.currentFragment is Learn1Fragment) super.onBackPressed()//если основной экран, то закрываем приложение
+        else FragmentManager.setRequareFragment(Learn1Fragment.newInstance(),this)//если другой экран, то возщвращаемся на основной экран
+    }
+
 }

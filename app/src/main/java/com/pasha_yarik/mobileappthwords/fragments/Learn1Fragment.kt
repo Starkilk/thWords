@@ -95,5 +95,6 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
     override fun onClick(category: CategoryModel) {
         fillSubcategoriList(category)
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
+        FragmentManager.currentFragment = LearnListFragment()
     }
 }
