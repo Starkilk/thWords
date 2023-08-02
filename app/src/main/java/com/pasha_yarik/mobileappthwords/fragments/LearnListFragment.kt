@@ -18,6 +18,7 @@ import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 class LearnListFragment : Fragment() {
     private lateinit var binding: FragmentLearnListBinding
     private val model: MainViewModel by activityViewModels()
+    private lateinit var adapter: WordsAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,11 +30,15 @@ class LearnListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initRcView()
+        initRcList()
+
+        model.mutableListWords.observe(viewLifecycleOwner){
+            adapter.submitList(it)
+        }
     }
 
     //заполнение массива данными
-    private fun fillWordsArray():ArrayList<WordsModel>{
+   /* private fun fillWordsArray():ArrayList<WordsModel>{
         val tempArray = ArrayList<WordsModel>()
         resources.getStringArray(R.array.people).forEach {
             val wordArr = it.split("|")
@@ -41,14 +46,14 @@ class LearnListFragment : Fragment() {
 
         }
         return tempArray
-    }
+    }*/
 
     //передача заполненного массива в адаптер
-    private fun initRcView() = with(binding){
-        val adapter = WordsAdapter()
+    private fun initRcList() = with(binding){
+        adapter = WordsAdapter()
         rcViewList.layoutManager = LinearLayoutManager(activity as AppCompatActivity)
         rcViewList.adapter = adapter
-        adapter.submitList(fillWordsArray())
+
     }
 
     companion object {

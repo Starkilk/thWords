@@ -55,11 +55,12 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
     //заполнение массива данными
     private fun fillCategoryArray():ArrayList<CategoryModel>{
         val tempArray = ArrayList<CategoryModel>()
+
         val array = resources.getStringArray(R.array.categorii)
+        val arrayNumCat = resources.getStringArray(R.array.numCategories)
+
         array.forEachIndexed() {index, element->
-            val words = array[index]
-            val wordsArray = words.split("|")
-            tempArray.add(CategoryModel(element,imageIdList[index],wordsArray[1]))
+            tempArray.add(CategoryModel(element,imageIdList[index], arrayNumCat[index]))
 
         }
         return tempArray
@@ -73,11 +74,17 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
         adapter.submitList(fillCategoryArray())
     }
 
-    private fun nameArray(category: CategoryModel){
+    private fun fillSubcategoriList(category: CategoryModel){
         val tempList = ArrayList<WordsModel>()
-        val nameArr = category.nameCategory
 
-        model.mutableListWords.value = nameArr
+        category.arrayNumber.split(",").forEach{
+            val subcategoriList = resources.getStringArray(R.array.subcategories)
+            val subcategori = subcategoriList[it.toInt()]
+            val subcategoriArray = subcategori.split("|")
+
+            tempList.add(WordsModel(subcategoriArray[0],subcategoriArray[1]))
+        }
+        model.mutableListWords.value = tempList
     }
 
     companion object {
@@ -86,7 +93,7 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
     }
 
     override fun onClick(category: CategoryModel) {
-        nameArray(category)
+        fillSubcategoriList(category)
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
     }
 }

@@ -26,6 +26,8 @@ class CategoryAdapter(var listener: Listener):ListAdapter<CategoryModel,Category
 
             imCubeTemp.setImageResource(category.imageCategory)
 
+
+
             bCubeTemp.setOnClickListener{
                 listener.onClick(category)
             }
