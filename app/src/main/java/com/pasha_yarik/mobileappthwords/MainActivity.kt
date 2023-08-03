@@ -10,6 +10,7 @@ import com.pasha_yarik.mobileappthwords.fragments.Learn1Fragment
 import com.pasha_yarik.mobileappthwords.fragments.LearnListFragment
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,12 +32,16 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
     }
 
     //функция, которая запускается при нажатии кнопри "назад"
     override fun onBackPressed() {
         if(FragmentManager.currentFragment is Learn1Fragment) super.onBackPressed()//если основной экран, то закрываем приложение
-        else FragmentManager.setRequareFragment(Learn1Fragment.newInstance(),this)//если другой экран, то возщвращаемся на основной экран
+        else {
+            FragmentManager.setRequareFragment(Learn1Fragment.newInstance(),this) //если другой экран, то возщвращаемся на основной экран
+            binding.bnvNav.selectedItemId = R.id.bLearn // жёстко пофиксил баг броуди паши
+        }
     }
 
 }

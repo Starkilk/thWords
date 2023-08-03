@@ -31,6 +31,7 @@ class FragSlovMyY : Fragment() {
             binding.cvAddWord.visibility = View.VISIBLE
         }
 
+        initRcView()
 
         binding.bAdd.setOnClickListener{
             val englmy = binding.tvEnglMy.text
