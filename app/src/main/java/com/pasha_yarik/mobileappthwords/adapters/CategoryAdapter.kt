@@ -1,18 +1,13 @@
 package com.pasha_yarik.mobileappthwords.adapters
 
-import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.databinding.BigCubeTemplateBinding
-import com.pasha_yarik.mobileappthwords.databinding.WordsListTemplateBinding
-import pl.droidsonroids.gif.GifDrawable
-import java.io.InputStream
 
 
 
