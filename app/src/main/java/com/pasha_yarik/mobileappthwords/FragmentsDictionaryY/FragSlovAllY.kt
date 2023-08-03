@@ -5,12 +5,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.SearchView
 import com.pasha_yarik.mobileappthwords.R
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.pasha_yarik.mobileappthwords.adapter_dictionaryY.SlovAdapterY
 import com.pasha_yarik.mobileappthwords.adapter_dictionaryY.SlovDataModelY
 import com.pasha_yarik.mobileappthwords.databinding.FragmentFragSlovAllYBinding
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 
 class FragSlovAllY : Fragment() {
@@ -25,11 +29,10 @@ class FragSlovAllY : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        val adapter = SlovAdapterY()
         initRcView()
 
     }
-
 
     private fun initRcView() = with(binding){
         val adapter = SlovAdapterY()

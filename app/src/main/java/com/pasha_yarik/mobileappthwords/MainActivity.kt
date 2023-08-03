@@ -3,7 +3,9 @@ package com.pasha_yarik.mobileappthwords
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.pasha_yarik.mobileappthwords.FragmentsDictionaryY.FragmentTableLayoutY
+import com.pasha_yarik.mobileappthwords.FragmentsHomeY.FragmentHomeMainY
 import com.pasha_yarik.mobileappthwords.databinding.ActivityMainBinding
+import com.pasha_yarik.mobileappthwords.databinding.FragmentHomeMainYBinding
 import com.pasha_yarik.mobileappthwords.fragments.Learn1Fragment
 import com.pasha_yarik.mobileappthwords.fragments.LearnListFragment
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
@@ -25,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.bDictionary -> {FragmentManager.setFragment(FragmentTableLayoutY(), this)}
 
-                R.id.bHome -> {}
+                R.id.bHome -> {FragmentManager.setFragment(FragmentHomeMainY.newInstance(),this)}
             }
             true
         }
