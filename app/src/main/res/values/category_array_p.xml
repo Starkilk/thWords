@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorii">
+        <item>Человек</item>
+        <item>Характкристики</item>
+        <item>Время и числа</item>
+        <item>Глаголы</item>
+        <item>Еда</item>
+        <item>Природа</item>
+        <item>События и места</item>
+        <item>Дом</item>
+    </string-array>
+</resources>
