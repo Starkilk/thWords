@@ -33,21 +33,34 @@ class FragSlovMyY : Fragment() {
 
         initRcView()
 
-        binding.bAdd.setOnClickListener{
-            val englmy = binding.tvEnglMy.text
-            EnglishWordList.add(englmy.toString())
+        binding.bAdd.setOnClickListener {
 
-            val rusmy = binding.tvRusMy.text
-            RussianWordList.add(rusmy.toString())
+            if (!tvEmpt()) {
 
-            binding.cvAddWord.visibility = View.INVISIBLE
+                val englmy = binding.tvEnglMy.text
+                EnglishWordList.add(englmy.toString())
 
-            initRcView()
+                val rusmy = binding.tvRusMy.text
+                RussianWordList.add(rusmy.toString())
 
-            binding.tvEnglMy.text = null
-            binding.tvRusMy.text = null
+                binding.cvAddWord.visibility = View.INVISIBLE
+
+                initRcView()
+
+                binding.tvEnglMy.text = null
+                binding.tvRusMy.text = null
+
+            }
         }
 
+    }
+
+    private fun tvEmpt():Boolean{
+        binding.apply {
+            if (binding.tvEnglMy.text.isNullOrEmpty()) binding.tvEnglMy.error = "Поле не должно быть пустым"
+            if (binding.tvRusMy.text.isNullOrEmpty()) binding.tvRusMy.error = "Поле не должно быть пустым"
+            return (binding.tvEnglMy.text.isNullOrEmpty()) || (binding.tvRusMy.text.isNullOrEmpty())
+        }
     }
 
     private fun initRcView() = with(binding){
