@@ -18,6 +18,8 @@ class WordsAdapter:ListAdapter<WordsModel,WordsAdapter.WordHolder >(MyComporator
             tvCategoryName.text = word.name
             val quantity = "Количество слов: ${word.count}"
             tvCountWords.text = quantity
+
+            imSubCategory.setImageResource(word.image)
         }
     }
 

@@ -37,6 +37,58 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
 
         )
 
+    private val imageSubCategory = listOf(//лист с нашими изображениями
+        R.drawable.compman1,
+        R.drawable.hehim1,
+        R.drawable.famyli1,
+        R.drawable.body1,
+        R.drawable.heart1,
+        R.drawable.fanyboy1,
+        R.drawable.pofig1,
+        R.drawable.sadboy1,
+        R.drawable.work1,
+        R.drawable.work_zadacha1,
+        R.drawable.clothes1,
+
+        R.drawable.colors2,
+        R.drawable.svoistva2,
+        R.drawable.process2,
+
+        R.drawable.digits3,
+        R.drawable.poradok3,
+        R.drawable.clock3,
+        R.drawable.promejytok3,
+        R.drawable.money3,
+
+        R.drawable.hobby4,
+        R.drawable.traveling4,
+        R.drawable.dvijenie4,
+        R.drawable.live4,
+        R.drawable.communication4,
+        R.drawable.question4,
+        R.drawable.emotions4,
+        R.drawable.chyvsta4,
+        R.drawable.mishlenie4,
+        R.drawable.learn4,
+        R.drawable.modalglag4,
+
+        R.drawable.coocking5,
+        R.drawable.produkti5,
+        R.drawable.posyda5,
+
+        R.drawable.fayna6,
+        R.drawable.priroda6,
+
+        R.drawable.event7,
+        R.drawable.point7,
+
+        R.drawable.hous8,
+        R.drawable.pribori8,
+        R.drawable.veshi8,
+
+
+        )
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -82,7 +134,7 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
             val subcategori = subcategoriList[it.toInt()]
             val subcategoriArray = subcategori.split("|")
 
-            tempList.add(WordsModel(subcategoriArray[0],subcategoriArray[1]))
+            tempList.add(WordsModel(subcategoriArray[0],subcategoriArray[1],imageSubCategory[subcategoriArray[2].toInt()]))
         }
         model.mutableListWords.value = tempList
     }
