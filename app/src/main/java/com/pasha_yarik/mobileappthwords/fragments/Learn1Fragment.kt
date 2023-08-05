@@ -26,14 +26,14 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
     private val model: MainViewModel by activityViewModels()
 
     private val imageIdList = listOf(//лист с нашими изображениями
-        R.drawable.free_icon_employee_2553157,
-        R.drawable.free_icon_letter_i_7825813,
-        R.drawable.free_icon_progress_8124988,
-        R.drawable.free_icon_lifestyles_6193322,
-        R.drawable.free_icon_goulash_4727284,
-        R.drawable.free_icon_melting_6968300,
-        R.drawable.free_icon_place_1692037,
-        R.drawable.free_icon_house_2163350,
+        R.drawable.man8,
+        R.drawable.harakter8,
+        R.drawable.number8,
+        R.drawable.glagol8,
+        R.drawable.food8,
+        R.drawable.earth8,
+        R.drawable.place8,
+        R.drawable.house8,
 
         )
 
