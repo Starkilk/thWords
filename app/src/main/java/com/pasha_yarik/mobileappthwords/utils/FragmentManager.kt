@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.pasha_yarik.mobileappthwords.R
-import com.pasha_yarik.mobileappthwords.fragments.LearnListFragment
 
 
 object FragmentManager {

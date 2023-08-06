@@ -1,22 +1,17 @@
-package com.pasha_yarik.mobileappthwords.fragments
+package com.pasha_yarik.mobileappthwords.fragmentsP
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.pasha_yarik.mobileappthwords.MainActivity
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.adapters.CategoryAdapter
 import com.pasha_yarik.mobileappthwords.adapters.CategoryModel
-import com.pasha_yarik.mobileappthwords.adapters.WordsAdapter
 import com.pasha_yarik.mobileappthwords.adapters.WordsModel
 import com.pasha_yarik.mobileappthwords.databinding.FragmentLearn1Binding
-import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnListBinding
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
