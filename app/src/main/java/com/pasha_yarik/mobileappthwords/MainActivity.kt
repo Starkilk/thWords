@@ -5,9 +5,7 @@ import android.os.Bundle
 import com.pasha_yarik.mobileappthwords.FragmentsDictionaryY.FragmentTableLayoutY
 import com.pasha_yarik.mobileappthwords.FragmentsHomeY.FragmentHomeMainY
 import com.pasha_yarik.mobileappthwords.databinding.ActivityMainBinding
-import com.pasha_yarik.mobileappthwords.databinding.FragmentHomeMainYBinding
-import com.pasha_yarik.mobileappthwords.fragments.Learn1Fragment
-import com.pasha_yarik.mobileappthwords.fragments.LearnListFragment
+import com.pasha_yarik.mobileappthwords.fragmentsP.Learn1Fragment
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 
 @Suppress("DEPRECATION")

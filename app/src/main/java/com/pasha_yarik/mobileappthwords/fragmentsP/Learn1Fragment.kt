@@ -1,22 +1,17 @@
-package com.pasha_yarik.mobileappthwords.fragments
+package com.pasha_yarik.mobileappthwords.fragmentsP
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.pasha_yarik.mobileappthwords.MainActivity
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.adapters.CategoryAdapter
 import com.pasha_yarik.mobileappthwords.adapters.CategoryModel
-import com.pasha_yarik.mobileappthwords.adapters.WordsAdapter
 import com.pasha_yarik.mobileappthwords.adapters.WordsModel
 import com.pasha_yarik.mobileappthwords.databinding.FragmentLearn1Binding
-import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnListBinding
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
@@ -26,14 +21,66 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
     private val model: MainViewModel by activityViewModels()
 
     private val imageIdList = listOf(//лист с нашими изображениями
-        R.drawable.free_icon_employee_2553157,
-        R.drawable.free_icon_letter_i_7825813,
-        R.drawable.free_icon_progress_8124988,
-        R.drawable.free_icon_lifestyles_6193322,
-        R.drawable.free_icon_goulash_4727284,
-        R.drawable.free_icon_melting_6968300,
-        R.drawable.free_icon_place_1692037,
-        R.drawable.free_icon_house_2163350,
+        R.drawable.man8,
+        R.drawable.harakter8,
+        R.drawable.number8,
+        R.drawable.glagol8,
+        R.drawable.food8,
+        R.drawable.earth8,
+        R.drawable.place8,
+        R.drawable.house8,
+
+        )
+
+    private val imageSubCategory = listOf(//лист с нашими изображениями
+        R.drawable.compman1,
+        R.drawable.hehim1,
+        R.drawable.famyli1,
+        R.drawable.body1,
+        R.drawable.heart1,
+        R.drawable.fanyboy1,
+        R.drawable.pofig1,
+        R.drawable.sadboy1,
+        R.drawable.work1,
+        R.drawable.work_zadacha1,
+        R.drawable.clothes1,
+
+        R.drawable.colors2,
+        R.drawable.svoistva2,
+        R.drawable.process2,
+
+        R.drawable.digits3,
+        R.drawable.poradok3,
+        R.drawable.clock3,
+        R.drawable.promejytok3,
+        R.drawable.money3,
+
+        R.drawable.hobby4,
+        R.drawable.traveling4,
+        R.drawable.dvijenie4,
+        R.drawable.live4,
+        R.drawable.communication4,
+        R.drawable.question4,
+        R.drawable.emotions4,
+        R.drawable.chyvsta4,
+        R.drawable.mishlenie4,
+        R.drawable.learn4,
+        R.drawable.modalglag4,
+
+        R.drawable.coocking5,
+        R.drawable.produkti5,
+        R.drawable.posyda5,
+
+        R.drawable.fayna6,
+        R.drawable.priroda6,
+
+        R.drawable.event7,
+        R.drawable.point7,
+
+        R.drawable.hous8,
+        R.drawable.pribori8,
+        R.drawable.veshi8,
+
 
         )
 
@@ -82,7 +129,7 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
             val subcategori = subcategoriList[it.toInt()]
             val subcategoriArray = subcategori.split("|")
 
-            tempList.add(WordsModel(subcategoriArray[0],subcategoriArray[1]))
+            tempList.add(WordsModel(subcategoriArray[0],subcategoriArray[1],imageSubCategory[subcategoriArray[2].toInt()]))
         }
         model.mutableListWords.value = tempList
     }
@@ -92,7 +139,7 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
         fun newInstance() = Learn1Fragment()
     }
 
-    override fun onClick(category: CategoryModel) {
+    override fun onClickCategory(category: CategoryModel) {
         fillSubcategoriList(category)
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
         FragmentManager.currentFragment = LearnListFragment()

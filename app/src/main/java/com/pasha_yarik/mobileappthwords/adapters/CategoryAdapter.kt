@@ -24,7 +24,7 @@ class CategoryAdapter(var listener: Listener):ListAdapter<CategoryModel,Category
 
 
             bCubeTemp.setOnClickListener{
-                listener.onClick(category)
+                listener.onClickCategory(category)
             }
 
         }
@@ -51,7 +51,7 @@ class CategoryAdapter(var listener: Listener):ListAdapter<CategoryModel,Category
     }
 
     interface Listener{
-        fun onClick(category:CategoryModel)
+        fun onClickCategory(category:CategoryModel)
     }
 
 }

@@ -9,15 +9,22 @@ import androidx.recyclerview.widget.RecyclerView
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.databinding.WordsListTemplateBinding
 
-class WordsAdapter:ListAdapter<WordsModel,WordsAdapter.WordHolder >(MyComporator()) {
+class WordsAdapter(var listener: Listener2):ListAdapter<WordsModel,WordsAdapter.WordHolder >(MyComporator()) {
 
     class WordHolder(view: View):RecyclerView.ViewHolder(view){
         private val binding = WordsListTemplateBinding.bind(view)
-        fun setWord(word: WordsModel) = with(binding){
+        fun setWord(word: WordsModel,listener: Listener2) = with(binding){
 
             tvCategoryName.text = word.name
             val quantity = "Количество слов: ${word.count}"
             tvCountWords.text = quantity
+
+            imSubCategory.setImageResource(word.image)
+
+            clTemplWord.setOnClickListener {
+                listener.onClickSubcategory(word)
+
+            }
         }
     }
 
@@ -27,7 +34,7 @@ class WordsAdapter:ListAdapter<WordsModel,WordsAdapter.WordHolder >(MyComporator
     }
 
     override fun onBindViewHolder(holder: WordHolder, position: Int) {
-        holder.setWord(getItem(position))
+        holder.setWord(getItem(position),listener)
     }
 
     class MyComporator :DiffUtil.ItemCallback<WordsModel>(){
@@ -39,6 +46,10 @@ class WordsAdapter:ListAdapter<WordsModel,WordsAdapter.WordHolder >(MyComporator
             return oldItem == newItem
         }
 
+    }
+
+    interface Listener2{
+        fun onClickSubcategory(model:WordsModel)
     }
 
 }
