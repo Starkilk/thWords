@@ -12,10 +12,11 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:progressBackgroundTint="@color/checked_false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/imCloseProcess"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -57,6 +58,7 @@
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/background"
         android:text="Coffee"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,6 +74,7 @@
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/background"
         android:text="Tea"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,6 +90,7 @@
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/background"
         android:text="Water"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,11 +114,12 @@
         app:layout_constraintVertical_bias="0.757" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imCloseProcess"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:clickable="true"
         android:src="@drawable/cross"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

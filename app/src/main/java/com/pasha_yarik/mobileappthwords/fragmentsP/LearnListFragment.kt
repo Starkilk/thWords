@@ -8,14 +8,20 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.pasha_yarik.mobileappthwords.MainActivity
+import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.adapters.WordsAdapter
+import com.pasha_yarik.mobileappthwords.adapters.WordsModel
 import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnListBinding
+import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
-class LearnListFragment : Fragment() {
+class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
     private lateinit var binding: FragmentLearnListBinding
     private val model: MainViewModel by activityViewModels()
     private lateinit var adapter: WordsAdapter
+    private var navigViewMain :BottomNavigationView? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,6 +33,8 @@ class LearnListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        navigViewMain = activity?.findViewById(R.id.bnvNav)!!
+
         initRcList()
 
         model.mutableListWords.observe(viewLifecycleOwner){
@@ -47,7 +55,7 @@ class LearnListFragment : Fragment() {
 
     //передача заполненного массива в адаптер
     private fun initRcList() = with(binding){
-        adapter = WordsAdapter()
+        adapter = WordsAdapter(this@LearnListFragment)
         rcViewList.layoutManager = LinearLayoutManager(activity as AppCompatActivity)
         rcViewList.adapter = adapter
 
@@ -56,5 +64,11 @@ class LearnListFragment : Fragment() {
     companion object {
         @JvmStatic
         fun newInstance() = LearnListFragment()
+    }
+
+    override fun onClickSubcategory(model: WordsModel) {
+        navigViewMain?.visibility = View.GONE//сделал bottomNavigation невидимым
+        requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,ProcessFragment.newInstance()).commit()
+        FragmentManager.currentFragment = ProcessFragment()
     }
 }
