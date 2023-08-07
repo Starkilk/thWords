@@ -64,24 +64,46 @@
 
     </string-array>
 
-    <string-array name="process_array">
 
-        <item>Кофе|Tea|Coffe|Sugar</item> <!--0-->
-        <item>Кофе|Tea|Coffe|Sug1ar</item>
-        <item>Кофе|Tea|Coffe|Su2gar</item>
-        <item>Машина|Plane|Car|Ship</item>
-        <item>Маши1на|Plane|Car|Ship</item>
+    <string-array name="word_combinations">
+        <item>Человек|Woman|Girl|Person</item>
+        <item>Мужчина|Boy|Man|Friend</item>
+        <item>Женщина|Woman|Name|Child</item>
+        <item>Ребёнок|Woman|Surname|Child</item>
+        <item>Ребёнок|Woman|Surname|Child</item>
+        <item>1Ребёнок|Woman|Surname|Child</item>
+        <item>2Ребёнок|Woman|Surname|Child</item>
+        <item>3Ребёнок|Woman|Surname|Child</item>
+        <item>4Ребёнок|Woman|Surname|Child</item>
+        <item>5Ребёнок|Woman|Surname|Child</item>
+        <item>6Ребёнок|Woman|Surname|Child</item>
 
+        <item>Красный|Red|Brown|Green</item>
+        <item>Оранжевый|Orange|Blue|Pink</item>
+        <item>Жёлтый|Green|Yellow|Brown</item>
+        <item>Зелёный|Red|Pink|Gren</item>
 
     </string-array>
 
-    <string-array name="NumProcess">
+    <string-array name="word_distribution">
 
-        <item>1,2,3</item>
-        <item>3,2,3</item>
-        <item>4,2,3</item>
-
+        <item>0,1,2,3,4,5</item>
+        <item>5,7,8,9</item>
+        <item>3,7,8,9</item>
+        <item>1,7,8,9</item>
+        <item>6,7,8,9</item>
+        <item>61,7,8,9</item>
+        <item>62,7,88,9</item>
+        <item>63,7,8,9</item>
+        <item>64,7,8,9</item>
+        <item>6,7,8,9</item>
+        <item>65,7,8,89</item>
+        <item>66,7,78,9</item>
+        <item>6,7,8,9</item>
+        <item>6,7,8,89</item>
+        <item>6,7,8,9</item>
 
     </string-array>
+
 
 </resources>
