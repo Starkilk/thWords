@@ -45,7 +45,7 @@ class ProcessFragment : Fragment() {
             FragmentManager.currentFragment = LearnListFragment()
             bottomNav?.visibility = View.VISIBLE
         }
-
+                // хуй
         model.mutableArraWords.observe(viewLifecycleOwner) {
             wordList = it
             Log.d("Mylock","${wordList}")
