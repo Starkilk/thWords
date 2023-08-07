@@ -124,15 +124,18 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
     private fun fillSubcategoriList(category: CategoryModel){
         val tempList = ArrayList<WordsModel>()
 
-        category.arrayNumber.split(",").forEach{
+        val arrayNumProcess = resources.getStringArray(R.array.word_distribution)
+        category.arrayNumber.split(",").forEachIndexed(){it,element->
             val subcategoriList = resources.getStringArray(R.array.subcategories)
-            val subcategori = subcategoriList[it.toInt()]
+            val subcategori = subcategoriList[element.toInt()]
             val subcategoriArray = subcategori.split("|")
 
-            tempList.add(WordsModel(subcategoriArray[0],subcategoriArray[1],imageSubCategory[subcategoriArray[2].toInt()]))
+            tempList.add(WordsModel(subcategoriArray[0],subcategoriArray[1],imageSubCategory[subcategoriArray[2].toInt()],subcategoriArray[2].toInt()))
         }
         model.mutableListWords.value = tempList
     }
+
+
 
     companion object {
         @JvmStatic
