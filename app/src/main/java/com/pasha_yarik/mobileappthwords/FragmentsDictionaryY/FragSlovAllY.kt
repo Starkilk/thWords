@@ -41,17 +41,17 @@ class FragSlovAllY : Fragment() {
         adapter.submitList(slovInicialization())
     }
 
-    private fun slovInicialization(): ArrayList<SlovDataModelY>{
-        val englArray = resources.getStringArray(R.array.English_words_all)
-        val russlArray = resources.getStringArray(R.array.Russian_words_all)
-        val tArray = ArrayList<SlovDataModelY>()
-        val size = resources.getStringArray(R.array.Russian_words_all).size - 1
+    private fun slovInicialization(): ArrayList<SlovDataModelY> {
 
-        for(i in 0..size) {
-            tArray.add(SlovDataModelY(englArray[i], russlArray[i]))
+        val tempArray = ArrayList<SlovDataModelY>()
+        resources.getStringArray(R.array.words).forEach {
+            val wordArr = it.split("|")
+            tempArray.add(SlovDataModelY(wordArr[0],wordArr[1]))
+
         }
-        return tArray
+        return tempArray
     }
+
 
     companion object {
 

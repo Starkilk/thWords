@@ -64,5 +64,24 @@
 
     </string-array>
 
+    <string-array name="process_array">
+
+        <item>Кофе|Tea|Coffe|Sugar</item> <!--0-->
+        <item>Кофе|Tea|Coffe|Sug1ar</item>
+        <item>Кофе|Tea|Coffe|Su2gar</item>
+        <item>Машина|Plane|Car|Ship</item>
+        <item>Маши1на|Plane|Car|Ship</item>
+
+
+    </string-array>
+
+    <string-array name="NumProcess">
+
+        <item>1,2,3</item>
+        <item>3,2,3</item>
+        <item>4,2,3</item>
+
+
+    </string-array>
 
 </resources>

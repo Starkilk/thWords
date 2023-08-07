@@ -2,6 +2,7 @@ package com.pasha_yarik.mobileappthwords
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.pasha_yarik.mobileappthwords.FragmentsDictionaryY.FragmentTableLayoutY
 import com.pasha_yarik.mobileappthwords.FragmentsHomeY.FragmentHomeMainY
 import com.pasha_yarik.mobileappthwords.databinding.ActivityMainBinding
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         else {
             FragmentManager.setRequareFragment(Learn1Fragment.newInstance(),this) //если другой экран, то возщвращаемся на основной экран
             binding.bnvNav.selectedItemId = R.id.bLearn // жёстко пофиксил баг броуди паши
+            binding.bnvNav.visibility = View.VISIBLE // снова пофиксил баг броуди паши
         }
     }
 

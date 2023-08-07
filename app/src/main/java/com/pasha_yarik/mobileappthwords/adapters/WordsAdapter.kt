@@ -11,9 +11,10 @@ import com.pasha_yarik.mobileappthwords.databinding.WordsListTemplateBinding
 
 class WordsAdapter(var listener: Listener2):ListAdapter<WordsModel,WordsAdapter.WordHolder >(MyComporator()) {
 
-    class WordHolder(view: View):RecyclerView.ViewHolder(view){
+    class WordHolder(view: View) : RecyclerView.ViewHolder(view) {
+
         private val binding = WordsListTemplateBinding.bind(view)
-        fun setWord(word: WordsModel,listener: Listener2) = with(binding){
+        fun setWord(word: WordsModel, listener: Listener2) = with(binding) {
 
             tvCategoryName.text = word.name
             val quantity = "Количество слов: ${word.count}"
@@ -29,15 +30,16 @@ class WordsAdapter(var listener: Listener2):ListAdapter<WordsModel,WordsAdapter.
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.words_list_template,  parent,false)
+        val view =
+            LayoutInflater.from(parent.context).inflate(R.layout.words_list_template, parent, false)
         return WordHolder(view)
     }
 
     override fun onBindViewHolder(holder: WordHolder, position: Int) {
-        holder.setWord(getItem(position),listener)
+        holder.setWord(getItem(position), listener)
     }
 
-    class MyComporator :DiffUtil.ItemCallback<WordsModel>(){
+    class MyComporator : DiffUtil.ItemCallback<WordsModel>() {
         override fun areItemsTheSame(oldItem: WordsModel, newItem: WordsModel): Boolean {
             return oldItem == newItem
         }
@@ -48,8 +50,8 @@ class WordsAdapter(var listener: Listener2):ListAdapter<WordsModel,WordsAdapter.
 
     }
 
-    interface Listener2{
-        fun onClickSubcategory(model:WordsModel)
+    interface Listener2 {
+        fun onClickSubcategory(model: WordsModel)
     }
 
 }

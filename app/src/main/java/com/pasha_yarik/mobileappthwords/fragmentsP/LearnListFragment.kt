@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.pasha_yarik.mobileappthwords.MainActivity
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.adapters.WordsAdapter
 import com.pasha_yarik.mobileappthwords.adapters.WordsModel
@@ -17,7 +16,7 @@ import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnListBinding
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
-class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
+class LearnListFragment : Fragment(), WordsAdapter.Listener2{
     private lateinit var binding: FragmentLearnListBinding
     private val model: MainViewModel by activityViewModels()
     private lateinit var adapter: WordsAdapter
@@ -66,9 +65,11 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
         fun newInstance() = LearnListFragment()
     }
 
-    override fun onClickSubcategory(model: WordsModel) {
+    override fun onClickSubcategory(model: WordsModel, ) {
         navigViewMain?.visibility = View.GONE//сделал bottomNavigation невидимым
-        requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,ProcessFragment.newInstance()).commit()
+        requireActivity().supportFragmentManager.beginTransaction()
+            .replace(R.id.placeHolder,ProcessFragment.newInstance()).commit()
         FragmentManager.currentFragment = ProcessFragment()
     }
+
 }
