@@ -6,4 +6,5 @@ import com.pasha_yarik.mobileappthwords.adapters.WordsModel
 
 class MainViewModel:ViewModel() {
     val mutableListWords = MutableLiveData<ArrayList<WordsModel>>()
+    val mutableArraWords = MutableLiveData<Int>()
 }

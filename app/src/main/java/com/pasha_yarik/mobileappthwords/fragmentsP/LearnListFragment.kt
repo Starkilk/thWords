@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.pasha_yarik.mobileappthwords.MainActivity
 import com.pasha_yarik.mobileappthwords.R
+import com.pasha_yarik.mobileappthwords.adapters.CategoryModel
 import com.pasha_yarik.mobileappthwords.adapters.WordsAdapter
 import com.pasha_yarik.mobileappthwords.adapters.WordsModel
 import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnListBinding
@@ -39,19 +40,17 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
 
         model.mutableListWords.observe(viewLifecycleOwner){
             adapter.submitList(it)
+
         }
     }
 
-    //заполнение массива данными
-   /* private fun fillWordsArray():ArrayList<WordsModel>{
-        val tempArray = ArrayList<WordsModel>()
-        resources.getStringArray(R.array.people).forEach {
-            val wordArr = it.split("|")
-            tempArray.add(WordsModel(wordArr[0],wordArr[1],null))
+    private fun fillXyil(word: WordsModel){
+       val digit = word.arrayProcess
+        model.mutableArraWords.value = digit
 
-        }
-        return tempArray
-    }*/
+    }
+
+
 
     //передача заполненного массива в адаптер
     private fun initRcList() = with(binding){
@@ -66,7 +65,8 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
         fun newInstance() = LearnListFragment()
     }
 
-    override fun onClickSubcategory(model: WordsModel) {
+    override fun onClickSubcategory(word: WordsModel) {
+        fillXyil(word)
         navigViewMain?.visibility = View.GONE//сделал bottomNavigation невидимым
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,ProcessFragment.newInstance()).commit()
         FragmentManager.currentFragment = ProcessFragment()
