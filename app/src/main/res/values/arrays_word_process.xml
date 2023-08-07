@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="procc_array">
+
+        <item>Чай|Tea|Coffe|Sugar</item>
+        <item>Машина|Car|Coffe|Sugar</item>
+        <item>Хуй|Tea|Car|Dance</item>
+
+    </string-array>
+
+    <string-array name="procc_array1">
+
+        <item>Ча1123й|Tea|Coffe|Sugar</item>
+        <item>Маш123123ина|Car|Coffe|Sugar</item>
+        <item>Ху123123й|Tea|Car|Dance</item>
+
+    </string-array>
+
+
+</resources>
