@@ -49,6 +49,7 @@
             android:background="@drawable/circle_shape"
             android:indeterminate="false"
             android:progressDrawable="@drawable/circle_progress_bar"
+            android:progressTint="@color/checked_true"
             android:textAlignment="center" />
 
         <LinearLayout

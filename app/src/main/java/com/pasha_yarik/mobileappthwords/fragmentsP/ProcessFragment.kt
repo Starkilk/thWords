@@ -1,5 +1,6 @@
 package com.pasha_yarik.mobileappthwords.fragmentsP
 
+import android.animation.ObjectAnimator
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -7,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -27,6 +29,11 @@ class ProcessFragment : Fragment() {
     private var wordsInSubcategory = 0
     private var wordList: Int? = null
 
+    private var progressBcategory: ProgressBar? = null
+
+    private var procc = 6
+    private var startPb = 0
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -38,6 +45,7 @@ class ProcessFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         bottomNav = activity?.findViewById(R.id.bnvNav)
+
 
         //при нажатии на крестик закрывается фрагмент и открывается предыдущий с выбором подкатегорий и навигация становится визибл
         binding.imCloseProcess.setOnClickListener {
@@ -103,6 +111,7 @@ class ProcessFragment : Fragment() {
         val array = arr
         var flag = 0
 
+
         val array1 = array[siz].split("|")
         val adapter = ArrayAdapter<String>(requireContext(), R.layout.fragment_process, array1)
 
@@ -119,13 +128,17 @@ class ProcessFragment : Fragment() {
 
         val adaptB3Ans = adapter.getItem(3).toString()
         val txtB3Ans = adaptB3Ans.substring(0,1).uppercase() + adaptB3Ans.substring(1)
-
+        
         binding.tvAnsWord.text = txtAnswer
         binding.bAnswer1.text = txtB1Ans
         binding.bAnswer2.text = txtB2Ans
         binding.bAnswer3.text = txtB3Ans
 
+        if (siz == arr.size - 1){
 
+            binding.bNextWord.text = "Завершить"
+
+        }
 
         binding.bAnswer1.setOnClickListener {
             val pos = adapter.getItem(4)!!
@@ -196,33 +209,92 @@ class ProcessFragment : Fragment() {
             }
         }
 
-            binding.bNextWord.setOnClickListener {
-                if (flag == 1) {
-                    siz += 1
-                    if (siz > arr.size - 1) {
+        binding.bNextWord.setOnClickListener {
+
+
+            if (flag == 1) {
+                siz += 1
+                when(siz){
+
+                    !in 0..arr.size -1 -> {
+
                         requireActivity().supportFragmentManager.beginTransaction()
                             .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
                         FragmentManager.currentFragment = LearnListFragment()
                         bottomNav?.visibility = View.VISIBLE
+                    }
 
-                    } else {
+                    in 0..arr.size - 1 -> {
+
+                        val animator = ObjectAnimator.ofInt(binding.pbProcess,
+                            "progress", startPb, procc)
+
+                        animator.duration = 150
+                        animator.start()
+
+                        //binding.pbProcess.setProgress(procc)
 
                         binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                         binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                         binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+
                         processSlova(siz, arr)
 
+                        startPb = procc
+                        procc += 100 / (arr.size - 1)
                     }
-                }
-                else{
 
+                    else -> {}
                 }
+
             }
+            else{
+
+            }
+        }
 
     }
 
+    /*binding.bNextWord.setOnClickListener {
 
-        companion object {
+
+        if (flag == 1) {
+            siz += 1
+            if (siz > arr.size - 1) {
+                requireActivity().supportFragmentManager.beginTransaction()
+                    .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
+                FragmentManager.currentFragment = LearnListFragment()
+                bottomNav?.visibility = View.VISIBLE
+
+            } else {
+
+                val animator = ObjectAnimator.ofInt(binding.pbProcess,
+                    "progress", startPb, procc)
+
+                animator.duration = 600
+                animator.start()
+
+                //binding.pbProcess.setProgress(procc)
+
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+
+                processSlova(siz, arr)
+
+                startPb = procc
+                procc += 100 / (arr.size - 1)
+
+            }
+
+        }
+        else{
+
+        }
+    }*/
+
+
+    companion object {
             @JvmStatic
             fun newInstance() = ProcessFragment()
         }
