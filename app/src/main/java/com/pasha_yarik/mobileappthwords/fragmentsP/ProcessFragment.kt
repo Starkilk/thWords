@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.pasha_yarik.mobileappthwords.R
@@ -50,11 +51,11 @@ class ProcessFragment : Fragment() {
             wordList = it
             Log.d("Mylock","${wordList}")
             when (wordList) {
-                0 -> processSlova(0,resources.getStringArray(R.array.human_0))
-                1 -> processSlova(0,resources.getStringArray(R.array.human_1))
-                /*2 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                3 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                4 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                0 -> processSlova(0,resources.getStringArray(R.array.human))
+                1 -> processSlova(0,resources.getStringArray(R.array.mestoimeniya))
+                2 -> processSlova(0,resources.getStringArray(R.array.family))
+                3 -> processSlova(0,resources.getStringArray(R.array.body))
+                /*4 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 5 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 6 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 7 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
@@ -100,28 +101,124 @@ class ProcessFragment : Fragment() {
     private fun processSlova(size: Int, arr: Array<String>) {
         var siz = size
         val array = arr
-
+        var flag = 0
 
         val array1 = array[siz].split("|")
         val adapter = ArrayAdapter<String>(requireContext(), R.layout.fragment_process, array1)
 
-        binding.tvAnsWord.text = adapter.getItem(0)
-        binding.bAnswer1.text = adapter.getItem(1)
-        binding.bAnswer2.text = adapter.getItem(2)
-        binding.bAnswer3.text = adapter.getItem(3)
+        binding.bNextWord.isClickable = false
 
-        binding.bNextWord.setOnClickListener {
-            siz += 1
-            if (siz > arr.size - 1){requireActivity().supportFragmentManager.beginTransaction()
-                .replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
-                FragmentManager.currentFragment = LearnListFragment()
-                bottomNav?.visibility = View.VISIBLE
+        val adaptAns = adapter.getItem(0).toString()
+        val txtAnswer = adaptAns.substring(0,1).uppercase() + adaptAns.substring(1)
 
+        val adaptB1Ans = adapter.getItem(1).toString()
+        val txtB1Ans = adaptB1Ans.substring(0,1).uppercase() + adaptB1Ans.substring(1)
+
+        val adaptB2Ans = adapter.getItem(2).toString()
+        val txtB2Ans = adaptB2Ans.substring(0,1).uppercase() + adaptB2Ans.substring(1)
+
+        val adaptB3Ans = adapter.getItem(3).toString()
+        val txtB3Ans = adaptB3Ans.substring(0,1).uppercase() + adaptB3Ans.substring(1)
+
+        binding.tvAnsWord.text = txtAnswer
+        binding.bAnswer1.text = txtB1Ans
+        binding.bAnswer2.text = txtB2Ans
+        binding.bAnswer3.text = txtB3Ans
+
+
+
+        binding.bAnswer1.setOnClickListener {
+            val pos = adapter.getItem(4)!!
+            val getText = adapter.getItem(pos.toInt()).toString()
+            val txtBansw1 = getText.substring(0,1).uppercase() + getText.substring(1)
+
+            if (binding.bAnswer1.text == txtBansw1) {
+
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.nice_answer, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+
+                binding.bAnswer2.isClickable = false
+                binding.bAnswer3.isClickable = false
+
+                flag = 1
             }
-            else {
-                processSlova(siz, arr)
+            else{
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
             }
         }
+
+        binding.bAnswer2.setOnClickListener {
+            val pos = adapter.getItem(4)!!
+            val getText = adapter.getItem(pos.toInt()).toString()
+            val txtBansw2 = getText.substring(0,1).uppercase() + getText.substring(1)
+
+            if (binding.bAnswer2.text == txtBansw2) {
+
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.nice_answer, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+
+                binding.bAnswer1.isClickable = false
+                binding.bAnswer3.isClickable = false
+
+                flag = 1
+            }
+            else{
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+            }
+        }
+
+        binding.bAnswer3.setOnClickListener {
+            val pos = adapter.getItem(4)!!
+            val getText = adapter.getItem(pos.toInt()).toString()
+            val txtBansw3 = getText.substring(0,1).uppercase() + getText.substring(1)
+
+            if (binding.bAnswer3.text == txtBansw3) {
+
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.nice_answer, null))
+
+                binding.bAnswer1.isClickable = false
+                binding.bAnswer2.isClickable = false
+
+                flag = 1
+            }
+            else{
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
+            }
+        }
+
+            binding.bNextWord.setOnClickListener {
+                if (flag == 1) {
+                    siz += 1
+                    if (siz > arr.size - 1) {
+                        requireActivity().supportFragmentManager.beginTransaction()
+                            .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
+                        FragmentManager.currentFragment = LearnListFragment()
+                        bottomNav?.visibility = View.VISIBLE
+
+                    } else {
+
+                        binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                        binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                        binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                        processSlova(siz, arr)
+
+                    }
+                }
+                else{
+
+                }
+            }
+
     }
 
 

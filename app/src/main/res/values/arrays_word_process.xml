@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="human_0">
+    <string-array name="human">
 
-    <item>человек, персона|Apple|a person|lion</item>
-    <item>мужчина|Banana|Cat|computer</item>
-    <item>женщина|Cat|Chair|blue</item>
-    <item>ребенок|Dog|Tree|jacket</item>
-    <item>мальчик|Elephant|Car|elephant</item>
-    <item>девочка|Fish|Dog|juice</item>
-    <item>друг|Grape|Book|coffee</item>
-    <item>сосед|Horse|Table|school</item>
-    <item>имя, название|Icecream|Window|football</item>
-    <item>фамилия|Joker|Lamp|orange</item>
-    <item> фамилия|Kangaroo|Pen|pencil</item>
-    <item>адрес|Lemon|Pencil|table</item>
-    <item>холостой/незамужняя|Monkey|Paper|pizza</item>
-    <item>женатый/замужняя|Nut|Flower|guitar</item>
-    <item>возраст|Orange|Sun|happy</item>
-    <item>старый|Penguin|Moon|window</item>
-    <item>молодой|Queen|Star|river</item>
-
-    </string-array>
-
-    <string-array name="human_1">
-    <item>я|Turtle|Cloud|internet</item>
-    <item>ты, вы|Unicorn|Grass|car</item>
-    <item>мы|Vase|River|banana</item>
-    <item>они|Watermelon|Ocean|dog</item>
-    <item>он|Xylophone|Mountain|music</item>
-    <item>она|Yak|Road|book</item>
-    <item>оно (о неодушевленном в единственном числе)|Zebra|House|chair</item>
-    <item>мой/мне|Aeroplane|Door|cat</item>
-    <item>твой, ваш / тебе, вам|Book|Key|sun</item>
-    <item>наш/нам|Car|Clock|star</item>
-    <item>их/им|Desk|Mirror|phone</item>
-    <item>его/ему|Elephant|Music|moon</item>
-    <item>ее/ей|Fork|Guitar|chocolate</item>
-    <item>его, ее / ему, ей (о неодушевленном)|Guitar|Piano|house</item>
+    <item>человек, персона|Apple|Person|Lion|2</item>
+    <item>мужчина|Man|Cat|Computer|1</item>
+    <item>женщина|Cat|Woman|Blue|2</item>
+    <item>ребенок|Dog|Tree|Child|3</item>
+    <item>мальчик|Elephant|Boy|Girl|2</item>
+    <item>девочка|Girl|Dog|Juice|1</item>
+    <item>друг|Grape|Book|Friend|3</item>
+    <item>сосед|Horse|Table|Neighbour|3</item>
+    <item>имя, название|Icecream|Name|Rename|2</item>
+    <item>фамилия|Surname|Lamp|Orange|1</item>
+    <item>девичья фамилия|Name|Day|Maiden Name|3</item>
+    <item>адрес|Lemon|Pencil|Address|3</item>
+    <item>холостой/незамужняя|Single|Paper|Pizza|1</item>
+    <item>женатый/замужняя|Nut|Married|Guitar|2</item>
+    <item>возраст|Orange|Age|Happy|2</item>
+    <item>старый|Penguin|Old|Window|2</item>
+    <item>молодой|Queen|Star|Young|3</item>
 
     </string-array>
 
-    <string-array name="human_324341">
-    <item>родители|Jacket|Dance|flower</item>
-    <item>отец|Kite|Party|beach</item>
-    <item>мать|Lamp|Wine|bird</item>
-    <item>муж|Mouse|Cheese|bed</item>
-    <item>жена|Nail|Pizza|camera</item>
-    <item>сын|Island|Burger|rain</item>
-    <item>дочь|Hat|Salad|shoe</item>
-    <item>брат|Strawberry|Chicken|red</item>
-    <item>сестра|Rabbit|Fish|friend</item>
-    <item>дедушка|apple|Rice|apple</item>
-    <item>бабушка|banana|Juice|watch</item>
-    <item>дядя|cat|Coffee|football</item>
-    <item>тетя|dog|Tea|shirt</item>
-    <item>племянник|elephant|Sugar|paper</item>
-    <item>племянница|fish|Salt|headphone</item>
-    <item>ный брат/сестра|guitar|Pepper|mountain</item>
+    <string-array name="mestoimeniya">
+    <item>я|Turtle|Cloud|I|3</item>
+    <item>ты, вы|Unicorn|You|Car|2</item>
+    <item>мы|Vase|River|We|3</item>
+    <item>они|They|Ocean|Dog|1</item>
+    <item>он|He|Mountain|Music|1</item>
+    <item>она|Yak|Road|She|3</item>
+    <item>оно (о неодушевленном в единственном числе)|It|House|Chair|1</item>
+    <item>мой|Aeroplane|My|Cat|2</item>
+    <item>твой|Your|Key|Sun|1</item>
+    <item>наш|Car|Clock|Our|3</item>
+    <item>их|Their|Mirror|Phone|1</item>
+    <item>его|His|Music|Moon|1</item>
+    <item>ее/ей|Fork|Her|Chocolate|2</item>
+    <item>его, ее / ему, ей (о неодушевленном)|Guitar|Its|House|2</item>
 
     </string-array>
 
-    <string-array name="human_199">
-    <item>рука|juice|Honey|pizza</item>
-    <item>спина|kite|Egg|soccer</item>
-    <item>борода|lion|Bread|water</item>
-    <item>кость|monkey|Tomato|cup</item>
-    <item>ягодицы|nest|Potato|pen</item>
-    <item>щека|orange|Onion|butterfly</item>
-    <item>грудь|parrot|Garlic|purple</item>
-    <item>подбородок|queen|Lemon|tiger</item>
-    <item>ухо|rabbit|Orange|eagle</item>
-    <item>локоть|sun|Banana|penguin</item>
-    <item>глаз|tree|Strawberry|hat</item>
-    <item>бровь|umbrella|Watermelon|ocean</item>
-    <item>лицо|violin|Grapes|cheese</item>
-    <item>а руке|whale|Pineapple|bicycle</item>
-    <item>ступня|xylophone|Mango|butter</item>
-    <item>лоб|yogurt|Pear|sunflower</item>
-    <item>волосы|zebra|Avocado|keyboard</item>
-    <item>уки|airplane|Coconut|rabbit</item>
-    <item>голова|ball|Cucumber|yellow</item>
-    <item>сердце|car|Carrot|bottle</item>
-    <item>пятка|donkey|Broccoli|clock</item>
-    <item>колено|egg|Lettuce|cloud</item>
-    <item>нога|frog|Spinach|book</item>
-    <item>губы|giraffe|Mushroom|chair</item>
-    <item>рот|helicopter|Chocolate|bag</item>
-    <item>усы|igloo|Candy|mouse</item>
-    <item>ноготь|jacket|Cookie|music</item>
-    <item>шея|kangaroo|Icecream|beach</item>
-    <item>нос|lion|Cake|rose</item>
-    <item>орган|mouse|Pie|window</item>
-    <item>плечо|nut|Chocolatechip|door</item>
-    <item>кожа|octopus|Vanilla|doctor</item>
-    <item>позвоночник|pig|Strawberry|pencil</item>
-    <item>живот, желудок|quilt|Blueberry|spider</item>
-    <item>горло|rabbit|Raspberry|vase</item>
-    <item>а ноге|snake|Blackberry|orange</item>
-    <item>язык|turtle|Pine|television</item>
-    <item>зуб|unicorn|Oak|moon</item>
+    <string-array name="family">
+    <item>родители|Parents|Dance|Flower|1</item>
+    <item>отец|Kite|Party|Father|3</item>
+    <item>мать|Mother|Wine|Bird|1</item>
+    <item>муж|Mouse|Cheese|Husband|3</item>
+    <item>жена|Nail|Wife|Camera|2</item>
+    <item>сын|Island|Son|Rain|2</item>
+    <item>дочь|daughter|Salad|shoe|1</item>
+    <item>брат|Strawberry|brother|red|2</item>
+    <item>сестра|Rabbit|Fish|sister|3</item>
+    <item>дедушка|grandfather|Rice|apple|1</item>
+    <item>бабушка|banana|grandmother|watch|2</item>
+    <item>дядя|cat|Coffee|uncle|3</item>
+    <item>тетя|aunt|Tea|shirt|1</item>
+    <item>племянник|nephew|Sugar|paper|1</item>
+    <item>племянница|fish|niece|headphone|2</item>
+    <item>двоюродный брат/сестра|guitar|cousin|mountain|2</item>
 
     </string-array>
 
-    <string-array name="human_15627">
+    <string-array name="body">
+    <item>рука|arm|Honey|pizza|1</item>
+    <item>спина|kite|Egg|back|3</item>
+    <item>борода|beard|Bread|water|1</item>
+    <item>кость|monkey|bone|cup|2</item>
+    <item>ягодицы|nest|Potato|buttocks|3</item>
+    <item>щека|orange|Onion|cheek|3</item>
+    <item>грудь|chest|Garlic|purple|1</item>
+    <item>подбородок|queen|chin|tiger|2</item>
+    <item>ухо|rabbit|Orange|ear|3</item>
+    <item>локоть|elbow|Banana|penguin|1</item>
+    <item>глаз|tree|eye|hat|2</item>
+    <item>бровь|umbrella|eyebrow|ocean|2</item>
+    <item>лицо|face|Grapes|cheese|1</item>
+    <item>палец на руке|finger|Pineapple|bicycle|1</item>
+    <item>ступня|xylophone|Mango|foot|3</item>
+    <item>лоб|yogurt|forehead|sunflower|2</item>
+    <item>волосы|zebra|hair|keyboard|2</item>
+    <item>кисть руки|airplane|Coconut|hand|3</item>
+    <item>голова|head|Cucumber|yellow|1</item>
+    <item>сердце|car|Carrot|heart|3</item>
+    <item>пятка|donkey|heel|clock|2</item>
+    <item>колено|knee|Lettuce|cloud|1</item>
+    <item>нога|frog|leg|book|2</item>
+    <item>губы|giraffe|Mushroom|lips|3</item>
+    <item>рот|mouth|Chocolate|bag|1</item>
+    <item>усы|igloo|Candy|mustache|3</item>
+    <item>ноготь|nail|Cookie|music|1</item>
+    <item>шея|kangaroo|neck|beach|2</item>
+    <item>нос|lion|nose|rose|2</item>
+    <item>орган|mouse|Pie|organ|3</item>
+    <item>плечо|shoulder|Chocolatechip|door|1</item>
+    <item>кожа|octopus|Vanilla|skin|3</item>
+    <item>позвоночник|spine|Strawberry|pencil|1</item>
+    <item>живот, желудок|quilt|stomach|spider|2</item>
+    <item>горло|rabbit|Raspberry|throat|3</item>
+    <item>а ноге|snake|toe|orange|2</item>
+    <item>язык|turtle|Pine|tongue|3</item>
+    <item>зуб|tooth |Oak|moon|1</item>
+
+    </string-array>
+
+    <string-array name="health">
     <item>кровь|x-ray|Palm|banana</item>
     <item>синяк|yak|Rose|dog</item>
     <item>кашель|zucchini|Lily|mirror</item>
@@ -126,7 +126,7 @@
 
     </string-array>
 
-    <string-array name="human_57561">
+    <string-array name="good">
     <item>положительный|squirrel|Nature|pizza</item>
     <item>удивительный|tiger|Sunrise|guitar</item>
     <item>красивый|unicorn|Sunset|happy</item>
@@ -153,7 +153,7 @@
 
     </string-array>
 
-    <string-array name="human_1445">
+    <string-array name="neitral">
     <item>нейтральный|raspberry|About|bird</item>
     <item>средний|strawberry|Above|bed</item>
     <item>скучный|tomato|Abroad|camera</item>
@@ -175,7 +175,7 @@
 
     </string-array>
 
-    <string-array name="human_71">
+    <string-array name="bad">
     <item>отрицательный|canoe|Accelerate|pen</item>
     <item>сердитый|dumptruck|Accent|butterfly</item>
     <item>раздражающий|excavator|Accept|purple</item>
@@ -191,7 +191,7 @@
 
     </string-array>
 
-    <string-array name="human_124652">
+    <string-array name="work">
 
     <item>бухгалтер|rocket|Accrue|yellow</item>
     <item>актер/актриса|spaceship|Accuracy|bottle</item>
@@ -224,7 +224,7 @@
 
     </string-array>
 
-    <string-array name="human_1456">
+    <string-array name="work_question">
 
     <item>область, сфера, район|watch|Adhesive|bee</item>
     <item>дело|xylophone|Adjacent|lion</item>
@@ -244,7 +244,7 @@
 
     </string-array>
 
-    <string-array name="human_1765">
+    <string-array name="clothes">
 
     <item>пояс, ремень|nurse|Adventure|river</item>
     <item>блузка|optician|Adverb|lamp</item>
