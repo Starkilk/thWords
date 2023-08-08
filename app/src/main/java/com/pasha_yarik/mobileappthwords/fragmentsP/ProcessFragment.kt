@@ -110,7 +110,6 @@ class ProcessFragment : Fragment() {
         binding.bAnswer2.text = adapter.getItem(2)
         binding.bAnswer3.text = adapter.getItem(3)
 
-
         binding.bNextWord.setOnClickListener {
             siz += 1
             if (siz > arr.size - 1){requireActivity().supportFragmentManager.beginTransaction()
@@ -125,17 +124,6 @@ class ProcessFragment : Fragment() {
         }
     }
 
-
-
-
-
-        private fun nextWord() {
-            if (wordsInSubcategory > 20) {
-
-            } else {
-
-            }
-        }
 
         companion object {
             @JvmStatic

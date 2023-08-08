@@ -3,7 +3,7 @@
 
     <string-array name="human_0">
 
-    <item>человек, персона|Apple|Apple|lion</item>
+    <item>человек, персона|Apple|a person|lion</item>
     <item>мужчина|Banana|Cat|computer</item>
     <item>женщина|Cat|Chair|blue</item>
     <item>ребенок|Dog|Tree|jacket</item>
