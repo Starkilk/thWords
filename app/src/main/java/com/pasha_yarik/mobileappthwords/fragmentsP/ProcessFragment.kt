@@ -50,9 +50,9 @@ class ProcessFragment : Fragment() {
             wordList = it
             Log.d("Mylock","${wordList}")
             when (wordList) {
-                0 -> processSlova(0,resources.getStringArray(R.array.procc_array))
-                1 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                2 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                0 -> processSlova(0,resources.getStringArray(R.array.human_0))
+                1 -> processSlova(0,resources.getStringArray(R.array.human_1))
+                /*2 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 3 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 4 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 5 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
@@ -88,7 +88,7 @@ class ProcessFragment : Fragment() {
                 36 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 37 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 38 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                39 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                39 -> processSlova(0,resources.getStringArray(R.array.procc_array1))*/
             }
         }
 
