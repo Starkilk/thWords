@@ -16,7 +16,7 @@ import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnList1Binding
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
-class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
+class LearnListFragment : Fragment(), WordsAdapter.Listener2,ProcessFragment.OnFragCloseListener {
     private lateinit var binding: FragmentLearnList1Binding
     private val model: MainViewModel by activityViewModels()
     private lateinit var adapter: WordsAdapter
@@ -74,6 +74,10 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
     companion object {
         @JvmStatic
         fun newInstance() = LearnListFragment()
+    }
+
+    override fun onFramentCloxe() {
+
     }
 
     override fun onClickSubcategory(word: WordsModel) {

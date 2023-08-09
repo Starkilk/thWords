@@ -53,8 +53,6 @@ class ProcessFragment : Fragment() {
 
         counterItem = model.getPref(model.currentWord.toString())
 
-
-
         procc = model.getProgr(model.currentWord.toString())
 
         animator = ObjectAnimator.ofInt(binding.pbProcess,"progress",
@@ -158,9 +156,18 @@ class ProcessFragment : Fragment() {
         binding.bAnswer3.text = txtB3Ans
         binding.bAnswer4.text = txtB4Ans
 
+        if (counterItem == arr.size - 2){
+
+            procc = 100
+            animator!!.duration = 150
+            animator!!.start()
+
+        }
+
         if (counterItem == arr.size - 1){
 
             binding.bNextWord.text = "Завершить"
+
 
         }
 
@@ -325,8 +332,22 @@ class ProcessFragment : Fragment() {
         super.onDetach()
         model.savePref(model.currentWord.toString(),counterItem)
         model.saveProgr(model.currentWord.toString(),procc)
+        requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
+        FragmentManager.currentFragment = LearnListFragment()
         Log.d("MyLog","${procc}")
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        (activity as? OnFragCloseListener)?.onFramentCloxe()
+    }
+
+    interface OnFragCloseListener{
+        fun onFramentCloxe()
+
+    }
+
+
     /*binding.bNextWord.setOnClickListener {
 
 
