@@ -22,6 +22,8 @@ class WordsAdapter(var listener: Listener2):ListAdapter<WordsModel,WordsAdapter.
 
             imSubCategory.setImageResource(word.image)
 
+            progressKrug.progress = word.statusProgres!!
+
             clTemplWord.setOnClickListener {
                 listener.onClickSubcategory(word)
 

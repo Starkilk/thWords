@@ -31,8 +31,8 @@ class ProcessFragment : Fragment() {
     private var counterItem = 0
     private  var animator: ObjectAnimator? = null
 
-    private var procc = 0f
-    private var startPb = 0f
+    private var procc = 0
+    private var startPb = 0
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -286,7 +286,7 @@ class ProcessFragment : Fragment() {
                     in 0..arr.size - 1 -> {
 
                         startPb = procc
-                        procc += 100f / (arr.size.toFloat() - 1f)
+                        procc += 100 / (arr.size - 1)
 
                         animator = ObjectAnimator.ofInt(binding.pbProcess,"progress",
                             (startPb).toInt(),(procc).toInt())

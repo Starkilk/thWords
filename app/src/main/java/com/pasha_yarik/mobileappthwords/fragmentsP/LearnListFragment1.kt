@@ -36,10 +36,23 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
 
         initRcList()
 
-        model.mutableListWords.observe(viewLifecycleOwner){
-            adapter.submitList(it)
+        model.mutableListWords.observe(viewLifecycleOwner) { item ->
+
+            val element = item[0]
+            var key = element.arrayProcess
+
+            item.forEach() {
+
+                it.statusProgres = model.getProgr(key.toString())
+                key++
+            }
+
+            adapter.submitList(item)
 
         }
+
+
+
     }
 
     private fun fillXyil(word: WordsModel){

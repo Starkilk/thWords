@@ -1,6 +1,7 @@
 package com.pasha_yarik.mobileappthwords.fragmentsP
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -124,7 +125,7 @@ class Learn1Fragment : Fragment(), CategoryAdapter.Listener {
     private fun fillSubcategoriList(category: CategoryModel){
         val tempList = ArrayList<WordsModel>()
 
-        val arrayNumProcess = resources.getStringArray(R.array.word_distribution)
+        //val arrayNumProcess = resources.getStringArray(R.array.word_distribution)
         category.arrayNumber.split(",").forEachIndexed(){it,element->
             val subcategoriList = resources.getStringArray(R.array.subcategories)
             val subcategori = subcategoriList[element.toInt()]
