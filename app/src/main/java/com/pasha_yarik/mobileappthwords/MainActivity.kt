@@ -3,19 +3,28 @@ package com.pasha_yarik.mobileappthwords
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.activity.viewModels
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import com.pasha_yarik.mobileappthwords.FragmentsDictionaryY.FragmentTableLayoutY
 import com.pasha_yarik.mobileappthwords.FragmentsHomeY.FragmentHomeMainY
 import com.pasha_yarik.mobileappthwords.databinding.ActivityMainBinding
 import com.pasha_yarik.mobileappthwords.fragmentsP.Learn1Fragment
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
+import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+    private val model:MainViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        model.pref = getSharedPreferences("main", MODE_PRIVATE)
+        model.progr = getSharedPreferences("main2", MODE_PRIVATE)
+
 
         //supportFragmentManager.beginTransaction().replace(R.id.placeHolder,Learn1Fragment.newInstance()).commit()
         //при запуске приложения сразу показывается фрагмент из восьми категорий
@@ -31,6 +40,8 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
+
 
     }
 

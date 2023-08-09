@@ -7,6 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.ValueEventListener
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import com.pasha_yarik.mobileappthwords.adapter_dictionaryY.SlovAdapterY
 import com.pasha_yarik.mobileappthwords.adapter_dictionaryY.SlovDataModelY
 import com.pasha_yarik.mobileappthwords.databinding.FragmentFragSlovMyYBinding
@@ -50,10 +56,14 @@ class FragSlovMyY : Fragment() {
                 binding.tvEnglMy.text = null
                 binding.tvRusMy.text = null
 
+
+
             }
         }
 
     }
+
+
 
     private fun tvEmpt():Boolean{
         binding.apply {

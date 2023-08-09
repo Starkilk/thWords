@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "107389325810",
+    "firebase_url": "https://thwords-1ef7e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "thwords-1ef7e",
+    "storage_bucket": "thwords-1ef7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107389325810:android:c0220e0ea455e25c2f1b6b",
+        "android_client_info": {
+          "package_name": "com.pasha_yarik.mobileappthwords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107389325810-jm1pjkjkgnaregj454f3vtkukp8j8lns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPl2q8Z7mSqyND1Mokj3wweMdYQSSLJXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107389325810-jm1pjkjkgnaregj454f3vtkukp8j8lns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

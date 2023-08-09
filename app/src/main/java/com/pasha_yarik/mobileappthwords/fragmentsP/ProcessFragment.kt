@@ -25,11 +25,11 @@ class ProcessFragment : Fragment() {
     private lateinit var binding: FragmentProcessBinding
     private var bottomNav: BottomNavigationView? = null
     private val model: MainViewModel by activityViewModels()
-    private var quantityWords: Int? = null
-    private var wordsInSubcategory = 0
-    private var wordList: Int? = null
+    var wordList: Int? = null
+    private var counterItem = 0
+    private  var animator: ObjectAnimator? = null
 
-    private var progressBcategory: ProgressBar? = null
+
 
     private var procc = 6
     private var startPb = 0
@@ -42,10 +42,29 @@ class ProcessFragment : Fragment() {
         return binding.root
     }
 
+
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         bottomNav = activity?.findViewById(R.id.bnvNav)
 
+        counterItem = model.getPref(model.currentWord.toString())
+
+
+
+        procc = model.getProgr(model.currentWord.toString())
+
+        animator = ObjectAnimator.ofInt(binding.pbProcess,
+            "progress", startPb, procc)
+        if(procc == 0) {
+
+        }
+        else{
+            animator?.duration = 150
+            animator?.start()
+        }
+
+        Log.d("MyLog","${procc}")
 
         //при нажатии на крестик закрывается фрагмент и открывается предыдущий с выбором подкатегорий и навигация становится визибл
         binding.imCloseProcess.setOnClickListener {
@@ -59,10 +78,10 @@ class ProcessFragment : Fragment() {
             wordList = it
             Log.d("Mylock","${wordList}")
             when (wordList) {
-                0 -> processSlova(0,resources.getStringArray(R.array.human))
-                1 -> processSlova(0,resources.getStringArray(R.array.mestoimeniya))
-                2 -> processSlova(0,resources.getStringArray(R.array.family))
-                3 -> processSlova(0,resources.getStringArray(R.array.body))
+                0 -> processSlova(counterItem,resources.getStringArray(R.array.human))
+                1 -> processSlova(counterItem,resources.getStringArray(R.array.mestoimeniya))
+                2 -> processSlova(counterItem,resources.getStringArray(R.array.family))
+                3 -> processSlova(counterItem,resources.getStringArray(R.array.body))
                 /*4 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 5 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 6 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
@@ -99,6 +118,7 @@ class ProcessFragment : Fragment() {
                 38 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 39 -> processSlova(0,resources.getStringArray(R.array.procc_array1))*/
             }
+
         }
 
 
@@ -107,12 +127,12 @@ class ProcessFragment : Fragment() {
 
 
     private fun processSlova(size: Int, arr: Array<String>) {
-        var siz = size
+        counterItem = size
         val array = arr
         var flag = 0
 
 
-        val array1 = array[siz].split("|")
+        val array1 = array[counterItem].split("|")
         val adapter = ArrayAdapter<String>(requireContext(), R.layout.fragment_process, array1)
 
         binding.bNextWord.isClickable = false
@@ -134,7 +154,7 @@ class ProcessFragment : Fragment() {
         binding.bAnswer2.text = txtB2Ans
         binding.bAnswer3.text = txtB3Ans
 
-        if (siz == arr.size - 1){
+        if (counterItem == arr.size - 1){
 
             binding.bNextWord.text = "Завершить"
 
@@ -213,8 +233,8 @@ class ProcessFragment : Fragment() {
 
 
             if (flag == 1) {
-                siz += 1
-                when(siz){
+                counterItem += 1
+                when(counterItem){
 
                     !in 0..arr.size -1 -> {
 
@@ -226,11 +246,11 @@ class ProcessFragment : Fragment() {
 
                     in 0..arr.size - 1 -> {
 
-                        val animator = ObjectAnimator.ofInt(binding.pbProcess,
+                        animator = ObjectAnimator.ofInt(binding.pbProcess,
                             "progress", startPb, procc)
 
-                        animator.duration = 150
-                        animator.start()
+                        animator!!.duration = 150
+                        animator!!.start()
 
                         //binding.pbProcess.setProgress(procc)
 
@@ -238,10 +258,11 @@ class ProcessFragment : Fragment() {
                         binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                         binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
 
-                        processSlova(siz, arr)
+                        processSlova(counterItem, arr)
 
                         startPb = procc
                         procc += 100 / (arr.size - 1)
+                        Log.d("MyLog","${procc}")
                     }
 
                     else -> {}
@@ -251,10 +272,18 @@ class ProcessFragment : Fragment() {
             else{
 
             }
+
         }
+
 
     }
 
+    override fun onDetach() {
+        super.onDetach()
+        model.savePref(model.currentWord.toString(),counterItem)
+        model.saveProgr(model.currentWord.toString(),procc)
+        Log.d("MyLog","${procc}")
+    }
     /*binding.bNextWord.setOnClickListener {
 
 

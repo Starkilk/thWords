@@ -65,6 +65,7 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2 {
 
     override fun onClickSubcategory(word: WordsModel) {
         fillXyil(word)
+        model.currentWord = word.arrayProcess
         navigViewMain?.visibility = View.GONE//сделал bottomNavigation невидимым
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,ProcessFragment.newInstance()).commit()
         FragmentManager.currentFragment = ProcessFragment()
