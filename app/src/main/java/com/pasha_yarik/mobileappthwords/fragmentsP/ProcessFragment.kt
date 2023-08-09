@@ -1,12 +1,14 @@
 package com.pasha_yarik.mobileappthwords.fragmentsP
 
 import android.animation.ObjectAnimator
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.DecelerateInterpolator
 import android.widget.ArrayAdapter
 import android.widget.ProgressBar
 import android.widget.Toast
@@ -29,10 +31,8 @@ class ProcessFragment : Fragment() {
     private var counterItem = 0
     private  var animator: ObjectAnimator? = null
 
-
-
-    private var procc = 6
-    private var startPb = 0
+    private var procc = 0f
+    private var startPb = 0f
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,6 +41,9 @@ class ProcessFragment : Fragment() {
         binding = FragmentProcessBinding.inflate(inflater, container, false)
         return binding.root
     }
+
+
+
 
 
 
@@ -54,15 +57,12 @@ class ProcessFragment : Fragment() {
 
         procc = model.getProgr(model.currentWord.toString())
 
-        animator = ObjectAnimator.ofInt(binding.pbProcess,
-            "progress", startPb, procc)
-        if(procc == 0) {
+        animator = ObjectAnimator.ofInt(binding.pbProcess,"progress",
+            (startPb).toInt(),(procc).toInt())
 
-        }
-        else{
-            animator?.duration = 150
-            animator?.start()
-        }
+        animator?.duration = 150
+        animator?.start()
+
 
         Log.d("MyLog","${procc}")
 
@@ -82,18 +82,18 @@ class ProcessFragment : Fragment() {
                 1 -> processSlova(counterItem,resources.getStringArray(R.array.mestoimeniya))
                 2 -> processSlova(counterItem,resources.getStringArray(R.array.family))
                 3 -> processSlova(counterItem,resources.getStringArray(R.array.body))
-                /*4 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                5 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                6 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                7 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                8 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                9 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                10 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                11 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                12 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                13 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                14 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                15 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                4 -> processSlova(counterItem,resources.getStringArray(R.array.health))
+                5 -> processSlova(counterItem,resources.getStringArray(R.array.good))
+                6 -> processSlova(counterItem,resources.getStringArray(R.array.neitral))
+                7 -> processSlova(counterItem,resources.getStringArray(R.array.bad))
+                8 -> processSlova(counterItem,resources.getStringArray(R.array.work))
+                9 -> processSlova(counterItem,resources.getStringArray(R.array.work_question))
+                10 -> processSlova(counterItem,resources.getStringArray(R.array.clothes))
+                11 -> processSlova(counterItem,resources.getStringArray(R.array.colors))
+                12 -> processSlova(counterItem,resources.getStringArray(R.array.svoistva))
+                13 -> processSlova(counterItem,resources.getStringArray(R.array.process))
+                14 -> processSlova(counterItem,resources.getStringArray(R.array.digit))
+                /*15 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 16 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 17 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
                 18 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
@@ -148,11 +148,15 @@ class ProcessFragment : Fragment() {
 
         val adaptB3Ans = adapter.getItem(3).toString()
         val txtB3Ans = adaptB3Ans.substring(0,1).uppercase() + adaptB3Ans.substring(1)
-        
+
+        val adaptB4Ans = adapter.getItem(4).toString()
+        val txtB4Ans = adaptB4Ans.substring(0,1).uppercase() + adaptB4Ans.substring(1)
+
         binding.tvAnsWord.text = txtAnswer
         binding.bAnswer1.text = txtB1Ans
         binding.bAnswer2.text = txtB2Ans
         binding.bAnswer3.text = txtB3Ans
+        binding.bAnswer4.text = txtB4Ans
 
         if (counterItem == arr.size - 1){
 
@@ -161,7 +165,7 @@ class ProcessFragment : Fragment() {
         }
 
         binding.bAnswer1.setOnClickListener {
-            val pos = adapter.getItem(4)!!
+            val pos = adapter.getItem(5)!!
             val getText = adapter.getItem(pos.toInt()).toString()
             val txtBansw1 = getText.substring(0,1).uppercase() + getText.substring(1)
 
@@ -170,9 +174,11 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.nice_answer, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
 
                 binding.bAnswer2.isClickable = false
                 binding.bAnswer3.isClickable = false
+                binding.bAnswer4.isClickable = false
 
                 flag = 1
             }
@@ -180,11 +186,12 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
             }
         }
 
         binding.bAnswer2.setOnClickListener {
-            val pos = adapter.getItem(4)!!
+            val pos = adapter.getItem(5)!!
             val getText = adapter.getItem(pos.toInt()).toString()
             val txtBansw2 = getText.substring(0,1).uppercase() + getText.substring(1)
 
@@ -193,9 +200,11 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.nice_answer, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
 
                 binding.bAnswer1.isClickable = false
                 binding.bAnswer3.isClickable = false
+                binding.bAnswer4.isClickable = false
 
                 flag = 1
             }
@@ -203,11 +212,12 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
             }
         }
 
         binding.bAnswer3.setOnClickListener {
-            val pos = adapter.getItem(4)!!
+            val pos = adapter.getItem(5)!!
             val getText = adapter.getItem(pos.toInt()).toString()
             val txtBansw3 = getText.substring(0,1).uppercase() + getText.substring(1)
 
@@ -216,9 +226,11 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.nice_answer, null))
+                binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
 
                 binding.bAnswer1.isClickable = false
                 binding.bAnswer2.isClickable = false
+                binding.bAnswer4.isClickable = false
 
                 flag = 1
             }
@@ -226,6 +238,33 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
+                binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
+            }
+        }
+
+        binding.bAnswer4.setOnClickListener {
+            val pos = adapter.getItem(5)!!
+            val getText = adapter.getItem(pos.toInt()).toString()
+            val txtBansw3 = getText.substring(0,1).uppercase() + getText.substring(1)
+
+            if (binding.bAnswer4.text == txtBansw3) {
+
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.nice_answer, null))
+
+                binding.bAnswer1.isClickable = false
+                binding.bAnswer2.isClickable = false
+                binding.bAnswer3.isClickable = false
+
+                flag = 1
+            }
+            else{
+                binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
             }
         }
 
@@ -246,8 +285,11 @@ class ProcessFragment : Fragment() {
 
                     in 0..arr.size - 1 -> {
 
-                        animator = ObjectAnimator.ofInt(binding.pbProcess,
-                            "progress", startPb, procc)
+                        startPb = procc
+                        procc += 100f / (arr.size.toFloat() - 1f)
+
+                        animator = ObjectAnimator.ofInt(binding.pbProcess,"progress",
+                            (startPb).toInt(),(procc).toInt())
 
                         animator!!.duration = 150
                         animator!!.start()
@@ -257,11 +299,12 @@ class ProcessFragment : Fragment() {
                         binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                         binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                         binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                        binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
 
                         processSlova(counterItem, arr)
 
-                        startPb = procc
-                        procc += 100 / (arr.size - 1)
+
+
                         Log.d("MyLog","${procc}")
                     }
 

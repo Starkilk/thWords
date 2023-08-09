@@ -19,11 +19,11 @@ class MainViewModel:ViewModel() {
         return pref?.getInt(key, 0) ?:0
     }
 
-    fun saveProgr(key:String, value: Int){
-        progr?.edit()?.putInt(key, value)?.apply()
+    fun saveProgr(key:String, value: Float){
+        progr?.edit()?.putFloat(key, value)?.apply()
     }
 
-    fun getProgr(key:String): Int{
-        return progr?.getInt(key, 0) ?:0
+    fun getProgr(key: String): Float {
+        return progr?.getFloat(key, -1f) ?: 0f
     }
 }
