@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/background">
+    <shape>
+        <gradient
+            android:angle="270"
+            android:startColor="@color/my_gray"
+            android:centerColor="@color/my_gray"
+            android:endColor="@color/my_gray"
+            android:centerY="1.0"
+            android:useLevel="false"/>
+        <corners android:radius="10dp"/>
+
+    </shape>
+</item>
+<item android:id="@+id/peogress">
+    <clip>
+        <shape>
+            <gradient
+                android:startColor="@color/checked_false"
+                android:endColor="@color/checked_true"
+                android:useLevel="false"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </clip>
+</item>
+</layer-list>

@@ -2,7 +2,9 @@ package com.pasha_yarik.mobileappthwords.fragmentsP
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -33,6 +35,8 @@ class ProcessFragment : Fragment() {
 
     private var procc = 0
     private var startPb = 0
+
+    private lateinit var timer: CountDownTimer
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -171,6 +175,26 @@ class ProcessFragment : Fragment() {
 
         }
 
+        binding.tvAnsWord.setOnClickListener {
+            val pos = adapter.getItem(5)!!
+            val getText = adapter.getItem(pos.toInt()).toString()
+            val txtBansw3 = getText.substring(0,1).uppercase() + getText.substring(1)
+
+            binding.vtDliaTypix.text = txtBansw3
+            binding.vtDliaTypix.visibility = View.VISIBLE
+            timer = object  : CountDownTimer(2000,1000){//таймер на 22 секунды
+            override fun onTick(millisUntilFinished: Long) {
+
+            }
+
+                override fun onFinish() {//по истечению 2ух секунд открывается мэйн активити
+                    binding.vtDliaTypix.visibility = View.INVISIBLE
+                }
+
+            }.start()//запуск таймера
+
+        }
+
         binding.bAnswer1.setOnClickListener {
             val pos = adapter.getItem(5)!!
             val getText = adapter.getItem(pos.toInt()).toString()
@@ -187,6 +211,7 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer3.isClickable = false
                 binding.bAnswer4.isClickable = false
 
+                binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
                 flag = 1
             }
             else{
@@ -213,6 +238,7 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer3.isClickable = false
                 binding.bAnswer4.isClickable = false
 
+                binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
                 flag = 1
             }
             else{
@@ -239,6 +265,7 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer2.isClickable = false
                 binding.bAnswer4.isClickable = false
 
+                binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
                 flag = 1
             }
             else{
@@ -265,6 +292,7 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer2.isClickable = false
                 binding.bAnswer3.isClickable = false
 
+                binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
                 flag = 1
             }
             else{
@@ -276,7 +304,8 @@ class ProcessFragment : Fragment() {
         }
 
         binding.bNextWord.setOnClickListener {
-
+            binding.bNextWord.setBackgroundColor(resources.getColor(R.color.my_gray,null))
+            binding.vtDliaTypix.visibility = View.INVISIBLE
 
             if (flag == 1) {
                 counterItem += 1
@@ -340,6 +369,8 @@ class ProcessFragment : Fragment() {
     override fun onDestroy() {
         super.onDestroy()
         (activity as? OnFragCloseListener)?.onFramentCloxe()
+        /*model.savePref(model.currentWord.toString(),counterItem)
+        model.saveProgr(model.currentWord.toString(),procc)*/
     }
 
     interface OnFragCloseListener{

@@ -44,6 +44,11 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2,ProcessFragment.OnF
             item.forEach() {
 
                 it.statusProgres = model.getProgr(key.toString())
+                var ifMoreHungret: Int = model.getProgr(key.toString()).toString().toInt()
+                if(ifMoreHungret >100){
+                    ifMoreHungret = 100
+                }
+                it.textInProgres = ifMoreHungret.toString()
                 key++
             }
 

@@ -8,6 +8,10 @@
     <color name="my_gray">#3B464A</color>
     <color name="nice_answer">#44BA54</color>
     <color name="bad_answer">#AE2929</color>
+    <color name="gradient_progres">#2D86CC</color>
+    <color name="progres_background">#252525</color>
+
+
 
 
 </resources>

@@ -22,6 +22,9 @@ class WordsAdapter(var listener: Listener2):ListAdapter<WordsModel,WordsAdapter.
 
             imSubCategory.setImageResource(word.image)
 
+
+            val temp = word.textInProgres + "%"
+            tvProgress100.text = temp
             progressKrug.progress = word.statusProgres!!
 
             clTemplWord.setOnClickListener {

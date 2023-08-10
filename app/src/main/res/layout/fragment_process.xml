@@ -10,11 +10,12 @@
     <ProgressBar
         android:id="@+id/pbProcess"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="325dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="16dp"
-        android:progressBackgroundTint="@color/checked_false"
-        android:progressTint="@color/checked_true"
+        android:layout_marginEnd="30dp"
+        android:progressDrawable="@drawable/progress_bar_style_single"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imCloseProcess"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,23 +29,9 @@
         android:text="@string/how_to_translate"
         android:textColor="@color/white"
         android:textSize="16sp"
-        android:textStyle="normal"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.417"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pbProcess" />
-
-    <TextView
-        android:id="@+id/tvAnsWord"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="70dp"
-        android:text="Чай?"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pbProcess" />
 
@@ -53,7 +40,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="204dp"
         android:layout_marginEnd="24dp"
         android:autoText="false"
         android:backgroundTint="@color/background"
@@ -61,12 +48,13 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textIsSelectable="false"
+        app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:strokeColor="@color/my_gray"
-        app:strokeWidth="2dp" />
+        app:strokeWidth="3dp" />
 
     <Button
         android:id="@+id/bAnswer2"
@@ -77,12 +65,13 @@
         android:backgroundTint="@color/background"
         android:text="Tea"
         android:textColor="@color/white"
+        app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bAnswer1"
         app:strokeColor="@color/my_gray"
-        app:strokeWidth="2dp" />
+        app:strokeWidth="3dp" />
 
     <Button
         android:id="@+id/bAnswer3"
@@ -93,12 +82,13 @@
         android:backgroundTint="@color/background"
         android:text="Water"
         android:textColor="@color/white"
+        app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bAnswer2"
         app:strokeColor="@color/my_gray"
-        app:strokeWidth="2dp" />
+        app:strokeWidth="3dp" />
 
     <Button
         android:id="@+id/bAnswer4"
@@ -109,22 +99,24 @@
         android:backgroundTint="@color/background"
         android:text="Juice"
         android:textColor="@color/white"
+        app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bAnswer3"
         app:strokeColor="@color/my_gray"
-        app:strokeWidth="2dp" />
+        app:strokeWidth="3dp" />
 
     <Button
         android:id="@+id/bNextWord"
         android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:backgroundTint="@color/checked_false"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="@color/my_gray"
         android:text="@string/button_next_word"
         android:textSize="16sp"
+        app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,5 +133,53 @@
         android:src="@drawable/cross"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vtDliaTypix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@color/my_gray"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/sdfs" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sdfs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:backgroundTint="@color/background"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <Button
+            android:id="@+id/bNothing"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/my_gray"
+            android:clickable="false"
+            app:cornerRadius="0dp"
+            app:layout_constraintEnd_toEndOf="@+id/tvAnsWord"
+            app:layout_constraintStart_toStartOf="@+id/tvAnsWord"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAnsWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Чай?"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
