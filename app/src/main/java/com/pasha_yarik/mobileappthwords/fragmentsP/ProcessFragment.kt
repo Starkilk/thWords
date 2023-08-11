@@ -48,25 +48,26 @@ class ProcessFragment : Fragment() {
 
 
 
-
-
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         bottomNav = activity?.findViewById(R.id.bnvNav)
 
+
+
+        animator?.start()
         counterItem = model.getPref(model.currentWord.toString())
 
         procc = model.getProgr(model.currentWord.toString())
 
-        animator = ObjectAnimator.ofInt(binding.pbProcess,"progress",
-            (startPb).toInt(),(procc).toInt())
+        Log.d("MyLog","${procc}")
+        animator = ObjectAnimator.ofInt(binding.pbProcess,"progress", (startPb),(procc))
 
         animator?.duration = 150
         animator?.start()
 
 
-        Log.d("MyLog","${procc}")
+
+
 
         //при нажатии на крестик закрывается фрагмент и открывается предыдущий с выбором подкатегорий и навигация становится визибл
         binding.imCloseProcess.setOnClickListener {
@@ -171,6 +172,7 @@ class ProcessFragment : Fragment() {
         if (counterItem == arr.size - 1){
 
             binding.bNextWord.text = "Завершить"
+
 
 
         }
@@ -307,7 +309,12 @@ class ProcessFragment : Fragment() {
             binding.bNextWord.setBackgroundColor(resources.getColor(R.color.my_gray,null))
             binding.vtDliaTypix.visibility = View.INVISIBLE
 
+
             if (flag == 1) {
+                if(binding.bNextWord.text == "Завершить"){
+                    binding.pbProcess.progress = 0
+                }
+
                 counterItem += 1
                 when(counterItem){
 

@@ -13,6 +13,7 @@ import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.adapters.WordsAdapter
 import com.pasha_yarik.mobileappthwords.adapters.WordsModel
 import com.pasha_yarik.mobileappthwords.databinding.FragmentLearnList1Binding
+import com.pasha_yarik.mobileappthwords.utils.DialogManager
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
@@ -86,10 +87,28 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2,ProcessFragment.OnF
     }
 
     override fun onClickSubcategory(word: WordsModel) {
+        if(word.statusProgres!! < 100){
         fillXyil(word)
         model.currentWord = word.arrayProcess
         navigViewMain?.visibility = View.GONE//сделал bottomNavigation невидимым
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,ProcessFragment.newInstance()).commit()
         FragmentManager.currentFragment = ProcessFragment()
+        }else{
+            DialogManager.showDialog(
+                activity as AppCompatActivity, R.string.quastion_to_Reset,
+                object : DialogManager.ListenerClear{
+                    override fun onClick() {
+                        model.savePref(word.arrayProcess.toString(),0)
+                        model.saveProgr(word.arrayProcess.toString(),0)
+
+
+                        requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
+                        FragmentManager.currentFragment = LearnListFragment()
+
+
+                    }
+                }
+            )
+        }
     }
 }
