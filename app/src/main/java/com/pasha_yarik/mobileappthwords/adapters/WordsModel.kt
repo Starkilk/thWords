@@ -6,6 +6,7 @@ data class WordsModel(
     var image:Int,
     var arrayProcess:Int,
     var statusProgres:Int? = null,
-    var textInProgres:String? = null
+    var textInProgres:String? = null,
+    var countErrors: Int? = null
 
 )

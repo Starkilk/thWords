@@ -8,4 +8,8 @@
     <string name="reset_category">Сбросить</string>
     <string name="cancel_category">Отмена</string>
     <string name="quastion_to_Reset">Вы действительно хотите сбросить весть прогресс с данной категории?</string>
+    <string name="texp_home_progress">Выучено слов</string>
+    <string name="o_prilojenii">О приложении</string>
+    <string name="share_prilijeniem">Поделиться</string>
+    <string name="grade_prilojeniem">Оценить приложение</string>
 </resources>

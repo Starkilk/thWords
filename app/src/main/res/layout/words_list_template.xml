@@ -7,6 +7,7 @@
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cvGold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/background"
@@ -30,18 +31,30 @@
             android:scaleY="1.2"
             app:cornerRadius="0dp" />
 
+        <Button
+            android:id="@+id/bRamka"
+            android:layout_width="64dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="-2dp"
+            android:layout_marginBottom="2dp"
+            android:backgroundTint="@color/background"
+            android:clickable="false"
+            app:cornerRadius="5dp"
+            app:strokeColor="@color/gray_home"
+            app:strokeWidth="1.5dp" />
+
         <ImageView
             android:id="@+id/imSubCategory"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="3dp"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="3.5dp"
+            android:layout_marginTop="4.3dp"
             android:layout_marginBottom="3dp"
             app:srcCompat="@android:drawable/btn_star_big_on" />
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
             android:orientation="vertical">
 
@@ -49,7 +62,8 @@
                 android:id="@+id/tvCategoryName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
                 android:layout_weight="1"
                 android:text="TextView"
                 android:textColor="@color/white"
@@ -59,12 +73,25 @@
                 android:id="@+id/tvCountWords"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
                 android:layout_marginBottom="9dp"
                 android:layout_weight="1"
-                android:text="TextView"
+                android:text="Количество слов: 33"
                 android:textColor="@color/white"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tvCountError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginBottom="6dp"
+                android:layout_weight="1"
+                android:text="Допущено ошибок: 88"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <ProgressBar
@@ -73,7 +100,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="330dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="8dp"
 
             android:layout_marginEnd="60dp"
             android:layout_marginBottom="5dp"
@@ -82,15 +109,14 @@
             android:progress="100"
             android:progressDrawable="@drawable/circle_progress_bar"
             android:scaleX="0.9"
-            android:scaleY="0.9"
-            />
+            android:scaleY="0.9" />
 
         <TextView
             android:id="@+id/tvProgress100"
             android:layout_width="30dp"
             android:layout_height="18dp"
             android:layout_marginStart="340dp"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="23dp"
             android:gravity="center"
             android:text="100%"
             android:textColor="@color/white"

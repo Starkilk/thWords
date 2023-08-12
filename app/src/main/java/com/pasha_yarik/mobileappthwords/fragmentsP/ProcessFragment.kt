@@ -12,6 +12,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.animation.DecelerateInterpolator
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.fragment.app.activityViewModels
@@ -28,10 +29,12 @@ import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 class ProcessFragment : Fragment() {
     private lateinit var binding: FragmentProcessBinding
     private var bottomNav: BottomNavigationView? = null
+    private var bGray : Button? = null
     private val model: MainViewModel by activityViewModels()
     var wordList: Int? = null
     private var counterItem = 0
     private  var animator: ObjectAnimator? = null
+    private  var mistakes = 0
 
     private var procc = 0
     private var startPb = 0
@@ -51,9 +54,10 @@ class ProcessFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         bottomNav = activity?.findViewById(R.id.bnvNav)
+        bGray = activity?.findViewById(R.id.bGrayLine)!!
 
 
-
+        mistakes = model.getCountError(model.currentWord.toString())
         animator?.start()
         counterItem = model.getPref(model.currentWord.toString())
 
@@ -75,6 +79,7 @@ class ProcessFragment : Fragment() {
                 .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
             FragmentManager.currentFragment = LearnListFragment()
             bottomNav?.visibility = View.VISIBLE
+            bGray?.visibility = View.VISIBLE
         }
 
         model.mutableArraWords.observe(viewLifecycleOwner) {
@@ -217,6 +222,7 @@ class ProcessFragment : Fragment() {
                 flag = 1
             }
             else{
+                mistakes++
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
@@ -244,6 +250,7 @@ class ProcessFragment : Fragment() {
                 flag = 1
             }
             else{
+                mistakes++
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
@@ -271,6 +278,7 @@ class ProcessFragment : Fragment() {
                 flag = 1
             }
             else{
+                mistakes++
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
@@ -298,6 +306,7 @@ class ProcessFragment : Fragment() {
                 flag = 1
             }
             else{
+                mistakes++
                 binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
@@ -324,6 +333,8 @@ class ProcessFragment : Fragment() {
                             .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
                         FragmentManager.currentFragment = LearnListFragment()
                         bottomNav?.visibility = View.VISIBLE
+                        bGray?.visibility = View.VISIBLE
+
                     }
 
                     in 0..arr.size - 1 -> {
@@ -368,8 +379,10 @@ class ProcessFragment : Fragment() {
         super.onDetach()
         model.savePref(model.currentWord.toString(),counterItem)
         model.saveProgr(model.currentWord.toString(),procc)
+        model.saveCountError(model.currentWord.toString(),mistakes)
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
         FragmentManager.currentFragment = LearnListFragment()
+        bGray?.visibility = View.VISIBLE
         Log.d("MyLog","${procc}")
     }
 

@@ -11,19 +11,30 @@ class MainViewModel:ViewModel() {
     var pref: SharedPreferences? = null
     var currentWord = 0
     var progr: SharedPreferences? = null
-    fun savePref(key:String, value: Int){
+    var cError: SharedPreferences? = null
+    fun savePref(key:String, value: Int){//индекс элемента в массиве
         pref?.edit()?.putInt(key, value)?.apply()
     }
 
-    fun getPref(key:String): Int{
+    fun getPref(key:String): Int{//индекс элемента в массиве
         return pref?.getInt(key, 0) ?:0
     }
 
-    fun saveProgr(key:String, value: Int){
+
+    fun saveProgr(key:String, value: Int){//заполненност progress bar
+        cError?.edit()?.putInt(key, value)?.apply()
+    }
+
+    fun getProgr(key: String): Int {//заполненност progress bar
+        return cError?.getInt(key, 0) ?: 0
+    }
+
+
+    fun saveCountError(key:String, value: Int){//заполненност progress bar
         progr?.edit()?.putInt(key, value)?.apply()
     }
 
-    fun getProgr(key: String): Int {
+    fun getCountError(key: String): Int {//заполненност progress bar
         return progr?.getInt(key, 0) ?: 0
     }
 }

@@ -10,6 +10,9 @@
     <color name="bad_answer">#AE2929</color>
     <color name="gradient_progres">#2D86CC</color>
     <color name="progres_background">#252525</color>
+    <color name="gray_home">#282828</color>
+    <color name="gold_prog0">#FADC00</color>
+    <color name="gold_prog1">#F0BF12</color>
 
 
 
