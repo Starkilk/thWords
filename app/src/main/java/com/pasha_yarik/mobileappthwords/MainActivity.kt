@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         model.pref = getSharedPreferences("main", MODE_PRIVATE)
         model.progr = getSharedPreferences("main2", MODE_PRIVATE)
+        model.cError = getSharedPreferences("main3", MODE_PRIVATE)
 
 
         //supportFragmentManager.beginTransaction().replace(R.id.placeHolder,Learn1Fragment.newInstance()).commit()
