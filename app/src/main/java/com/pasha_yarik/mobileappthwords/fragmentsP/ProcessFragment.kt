@@ -55,12 +55,10 @@ class ProcessFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         bottomNav = activity?.findViewById(R.id.bnvNav)
         bGray = activity?.findViewById(R.id.bGrayLine)!!
-
+        animator?.start()
 
         mistakes = model.getCountError(model.currentWord.toString())
-        animator?.start()
         counterItem = model.getPref(model.currentWord.toString())
-
         procc = model.getProgr(model.currentWord.toString())
 
         Log.d("MyLog","${procc}")
@@ -191,16 +189,13 @@ class ProcessFragment : Fragment() {
             binding.vtDliaTypix.visibility = View.VISIBLE
             timer = object  : CountDownTimer(2000,1000){//таймер на 22 секунды
             override fun onTick(millisUntilFinished: Long) {
-
             }
-
                 override fun onFinish() {//по истечению 2ух секунд открывается мэйн активити
                     binding.vtDliaTypix.visibility = View.INVISIBLE
                 }
-
             }.start()//запуск таймера
-
         }
+
 
         binding.bAnswer1.setOnClickListener {
             val pos = adapter.getItem(5)!!
