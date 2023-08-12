@@ -22,19 +22,19 @@ class MainViewModel:ViewModel() {
 
 
     fun saveProgr(key:String, value: Int){//заполненност progress bar
-        cError?.edit()?.putInt(key, value)?.apply()
+        progr?.edit()?.putInt(key, value)?.apply()
     }
 
     fun getProgr(key: String): Int {//заполненност progress bar
-        return cError?.getInt(key, 0) ?: 0
+        return progr?.getInt(key, 0) ?: 0
     }
 
 
     fun saveCountError(key:String, value: Int){//заполненност progress bar
-        progr?.edit()?.putInt(key, value)?.apply()
+        cError?.edit()?.putInt(key, value)?.apply()
     }
 
     fun getCountError(key: String): Int {//заполненност progress bar
-        return progr?.getInt(key, 0) ?: 0
+        return cError?.getInt(key, 0) ?: 0
     }
 }
