@@ -11,6 +11,7 @@ import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.databinding.SlovListItemYBinding
 
 
+
 class SlovAdapterY() : ListAdapter<SlovDataModelY, SlovAdapterY.SlovHolder>(MyComparator()) {
 
     class SlovHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -29,7 +30,6 @@ class SlovAdapterY() : ListAdapter<SlovDataModelY, SlovAdapterY.SlovHolder>(MyCo
 
     }
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SlovHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.slov_list_item_y, parent, false)
@@ -42,12 +42,12 @@ class SlovAdapterY() : ListAdapter<SlovDataModelY, SlovAdapterY.SlovHolder>(MyCo
 
 
     class MyComparator : DiffUtil.ItemCallback<SlovDataModelY>() {
-        // сравниваем элементы по одиночке
+
         override fun areItemsTheSame(oldItem: SlovDataModelY, newItem: SlovDataModelY): Boolean {
             return oldItem == newItem
         }
 
-        // сравниваем элементы целиком
+
         override fun areContentsTheSame(oldItem: SlovDataModelY, newItem: SlovDataModelY): Boolean {
             return oldItem == newItem
         }
