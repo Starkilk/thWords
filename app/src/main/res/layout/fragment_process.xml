@@ -168,6 +168,7 @@
             android:layout_marginTop="18dp"
             android:backgroundTint="@color/my_gray"
             android:clickable="false"
+            android:visibility="invisible"
             app:cornerRadius="0dp"
             app:layout_constraintEnd_toEndOf="@+id/tvAnsWord"
             app:layout_constraintStart_toStartOf="@+id/tvAnsWord"

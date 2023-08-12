@@ -35,7 +35,7 @@ class ProcessFragment : Fragment() {
     private var counterItem = 0
     private  var animator: ObjectAnimator? = null
     private  var mistakes = 0
-
+    var flagMistace = 0
     private var procc = 0
     private var startPb = 0
 
@@ -141,7 +141,6 @@ class ProcessFragment : Fragment() {
         val array1 = array[counterItem].split("|")
         val adapter = ArrayAdapter<String>(requireContext(), R.layout.fragment_process, array1)
 
-        binding.bNextWord.isClickable = false
 
         val adaptAns = adapter.getItem(0).toString()
         val txtAnswer = adaptAns.substring(0,1).uppercase() + adaptAns.substring(1)
@@ -176,24 +175,28 @@ class ProcessFragment : Fragment() {
 
             binding.bNextWord.text = "Завершить"
 
-
-
         }
 
-        binding.tvAnsWord.setOnClickListener {
-            val pos = adapter.getItem(5)!!
-            val getText = adapter.getItem(pos.toInt()).toString()
-            val txtBansw3 = getText.substring(0,1).uppercase() + getText.substring(1)
 
-            binding.vtDliaTypix.text = txtBansw3
-            binding.vtDliaTypix.visibility = View.VISIBLE
-            timer = object  : CountDownTimer(2000,1000){//таймер на 22 секунды
-            override fun onTick(millisUntilFinished: Long) {
-            }
-                override fun onFinish() {//по истечению 2ух секунд открывается мэйн активити
-                    binding.vtDliaTypix.visibility = View.INVISIBLE
+        binding.tvAnsWord.setOnClickListener {
+            if(flagMistace == 1){
+
+                val pos = adapter.getItem(5)!!
+                val getText = adapter.getItem(pos.toInt()).toString()
+                val txtBansw3 = getText.substring(0,1).uppercase() + getText.substring(1)
+
+                binding.vtDliaTypix.text = txtBansw3
+                binding.vtDliaTypix.visibility = View.VISIBLE
+                timer = object  : CountDownTimer(2000,1000){//таймер на 22 секунды
+                override fun onTick(millisUntilFinished: Long) {
                 }
-            }.start()//запуск таймера
+                    override fun onFinish() {//по истечению 2ух секунд открывается мэйн активити
+                        binding.vtDliaTypix.visibility = View.INVISIBLE
+                    }
+                }.start()//запуск таймера
+            }
+
+
         }
 
 
@@ -214,7 +217,9 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer4.isClickable = false
 
                 binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
+                flagMistace = 0
                 flag = 1
+
             }
             else{
                 mistakes++
@@ -222,6 +227,15 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
+
+                binding.bAnswer2.isClickable = false
+                binding.bAnswer3.isClickable = false
+                binding.bAnswer4.isClickable = false
+
+                binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
+                flagMistace = 1
+                flag = 1
+
             }
         }
 
@@ -243,6 +257,8 @@ class ProcessFragment : Fragment() {
 
                 binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
                 flag = 1
+                flagMistace = 0
+
             }
             else{
                 mistakes++
@@ -250,6 +266,15 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
+
+                binding.bAnswer1.isClickable = false
+                binding.bAnswer3.isClickable = false
+                binding.bAnswer4.isClickable = false
+
+                binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
+                flagMistace = 1
+                flag = 1
+
             }
         }
 
@@ -271,6 +296,8 @@ class ProcessFragment : Fragment() {
 
                 binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
                 flag = 1
+                flagMistace = 0
+
             }
             else{
                 mistakes++
@@ -278,6 +305,15 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
                 binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
+
+                binding.bAnswer1.isClickable = false
+                binding.bAnswer2.isClickable = false
+                binding.bAnswer4.isClickable = false
+
+                binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
+                flag = 1
+                flagMistace = 1
+
             }
         }
 
@@ -299,6 +335,9 @@ class ProcessFragment : Fragment() {
 
                 binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
                 flag = 1
+                flagMistace = 0
+
+
             }
             else{
                 mistakes++
@@ -306,6 +345,16 @@ class ProcessFragment : Fragment() {
                 binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
                 binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.bad_answer, null))
+
+                binding.bAnswer1.isClickable = false
+                binding.bAnswer2.isClickable = false
+                binding.bAnswer3.isClickable = false
+
+                binding.bNextWord.setBackgroundColor(resources.getColor(R.color.checked_false,null))
+                flag = 1
+                flagMistace = 1
+
+
             }
         }
 
@@ -319,45 +368,89 @@ class ProcessFragment : Fragment() {
                     binding.pbProcess.progress = 0
                 }
 
-                counterItem += 1
-                when(counterItem){
+                if(flagMistace == 1){
+                    binding.bNextWord.setBackgroundColor(resources.getColor(R.color.my_gray,null))
 
-                    !in 0..arr.size -1 -> {
+                    binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
+                    binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
+                    binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
+                    binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
 
-                        requireActivity().supportFragmentManager.beginTransaction()
-                            .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
-                        FragmentManager.currentFragment = LearnListFragment()
-                        bottomNav?.visibility = View.VISIBLE
-                        bGray?.visibility = View.VISIBLE
+                    binding.bAnswer1.isClickable = true
+                    binding.bAnswer2.isClickable = true
+                    binding.bAnswer3.isClickable = true
+                    binding.bAnswer4.isClickable = true
 
+                    binding.tvAnsWord.isClickable = true
+                    binding.bNothing.visibility = View.VISIBLE
+                    processSlova(counterItem, arr)
+                    flagMistace = 1
+                }else {
+                    binding.tvAnsWord.isClickable = false
+                    binding.bNothing.visibility = View.INVISIBLE
+
+                    counterItem += 1
+                    when (counterItem) {
+
+                        !in 0..arr.size - 1 -> {
+
+                            requireActivity().supportFragmentManager.beginTransaction()
+                                .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
+                            FragmentManager.currentFragment = LearnListFragment()
+                            bottomNav?.visibility = View.VISIBLE
+                            bGray?.visibility = View.VISIBLE
+
+                        }
+
+                        in 0..arr.size - 1 -> {
+
+                            startPb = procc
+                            procc += 100 / (arr.size - 1)
+
+                            animator = ObjectAnimator.ofInt(
+                                binding.pbProcess, "progress",
+                                (startPb).toInt(), (procc).toInt()
+                            )
+
+                            animator!!.duration = 150
+                            animator!!.start()
+
+                            //binding.pbProcess.setProgress(procc)
+
+                            binding.bAnswer1.setBackgroundColor(
+                                resources.getColor(
+                                    R.color.background,
+                                    null
+                                )
+                            )
+                            binding.bAnswer2.setBackgroundColor(
+                                resources.getColor(
+                                    R.color.background,
+                                    null
+                                )
+                            )
+                            binding.bAnswer3.setBackgroundColor(
+                                resources.getColor(
+                                    R.color.background,
+                                    null
+                                )
+                            )
+                            binding.bAnswer4.setBackgroundColor(
+                                resources.getColor(
+                                    R.color.background,
+                                    null
+                                )
+                            )
+
+                            processSlova(counterItem, arr)
+
+
+
+                            Log.d("MyLog", "${procc}")
+                        }
+
+                        else -> {}
                     }
-
-                    in 0..arr.size - 1 -> {
-
-                        startPb = procc
-                        procc += 100 / (arr.size - 1)
-
-                        animator = ObjectAnimator.ofInt(binding.pbProcess,"progress",
-                            (startPb).toInt(),(procc).toInt())
-
-                        animator!!.duration = 150
-                        animator!!.start()
-
-                        //binding.pbProcess.setProgress(procc)
-
-                        binding.bAnswer1.setBackgroundColor(resources.getColor(R.color.background, null))
-                        binding.bAnswer2.setBackgroundColor(resources.getColor(R.color.background, null))
-                        binding.bAnswer3.setBackgroundColor(resources.getColor(R.color.background, null))
-                        binding.bAnswer4.setBackgroundColor(resources.getColor(R.color.background, null))
-
-                        processSlova(counterItem, arr)
-
-
-
-                        Log.d("MyLog","${procc}")
-                    }
-
-                    else -> {}
                 }
 
             }
@@ -434,9 +527,9 @@ class ProcessFragment : Fragment() {
 
 
     companion object {
-            @JvmStatic
-            fun newInstance() = ProcessFragment()
-        }
+        @JvmStatic
+        fun newInstance() = ProcessFragment()
+    }
 }
 
 
