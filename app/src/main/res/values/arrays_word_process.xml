@@ -398,186 +398,185 @@
     </string-array>
 
     <string-array name="poradok">
-    <item>первый|alarmclock|Anteater|star</item>
-    <item>второй|bed|Antelope|happy</item>
-    <item>третий|chair|Anthem|cookie</item>
-    <item>четвертый|desk|Anticipate|smile</item>
-    <item>пятый|easel|Antique|butter</item>
+    <item>первый|alarmclock|Anteater|star|first|4</item>
+    <item>второй|bed|second|happy|first|2</item>
+    <item>третий|second|fifth|third|first|3</item>
+    <item>четвертый|fourth|first|third|two|1</item>
+    <item>пятый|first|fourth|third|fifth|4</item>
 
     </string-array>
 
     <string-array name="time">
-    <item>сезон, время года|hat|Anxious|song</item>
-    <item>зима|ironingboard|Anybody|forest</item>
-    <item>весна|juicer|Anyhow|horse</item>
-    <item>лето|knife|Anyone|road</item>
-    <item>осень|lamp|Anything|moon</item>
-    <item>месяц|oven|Apathetic|train</item>
-    <item>январь|pillow|Ape|basket</item>
-    <item>февраль|quilt|Aperture|chocolate</item>
-    <item>март|remotecontrol|Apex|skate</item>
-    <item>апрель|stool|Aphorism|fire</item>
-    <item>май|table|Apocalypse|watch</item>
-    <item>июнь|umbrellastand|Apologize|paint</item>
-    <item>июль|vacuumcleaner|Apparatus|globe</item>
-    <item>август|washingmachine|Apparel|monkey</item>
-    <item>сентябрь|xylophone|Apparent|basketball</item>
-    <item>октябрь|yogamat|Appeal|castle</item>
-    <item>ноябрь|zipper|Appear|park</item>
-    <item>декабрь|apple|Appearance|mouse</item>
-    <item>день|date|Apple|mountain</item>
-    <item>понедельник|elderberry|Application|cookie</item>
-    <item>вторник|fig|Apply|bird</item>
-    <item>среда|grape|Appoint|laptop</item>
-    <item>четверг|honeydewmelon|Appointment|lake</item>
-    <item>пятница|indiangooseberry|Appraise|flower</item>
-    <item>суббота|jackfruit|Appreciate|radio</item>
-    <item>воскресенье|kiwi|Approach|umbrella</item>
-    <item>вчера|lychee|Approval|gold</item>
-    <item>сегодня|mango|Approximate|pen</item>
-    <item>сейчас, теперь|nectarine|Apricot|soccer</item>
-    <item>утро|orange|Aptitude|river</item>
-    <item>день (после полудня)|peach|Aquatic|tree</item>
-    <item>вечер|quince|Arable|cloud</item>
-    <item>ночь|Apple|Arbitrary|cat</item>
-    <item>вечером, ночью|Orange|Arcade|dog</item>
-    <item>полночь|Banana|Archery|planet</item>
-    <item>завтра|Mango|Archive|balloon</item>
-    <item>секунда|Grapefruit|Area|dolphin</item>
-    <item>минута|Lemon|Arena|basketball</item>
-    <item>час|Lime|Argue|garden</item>
-    <item>неделя|Kiwi|Argument|umbrella</item>
-    <item>год|Strawberry|Arithmetic|diamond</item>
-    <item>век|Raspberry|Armadillo|door</item>
-
+    <item>сезон, время года|hat|Anxious|song|a season|4</item>
+    <item>зима|spring|summer|winter|autumn|3</item>
+    <item>весна|spring|Anyhow|horse|juicer|1</item>
+    <item>лето|winter|summer|spring|Anyone|2</item>
+    <item>осень|spring|summer|winter|autumn|4</item>
+    <item>месяц|oven|Apathetic|train|a month|4</item>
+    <item>январь|January|June|March|February|1</item>
+    <item>февраль|June|February|August|March|2</item>
+    <item>март|September|March|June|February|2</item>
+    <item>апрель|March|February|August|April|4</item>
+    <item>май|May|March|April|August|1</item>
+    <item>июнь|February|June|August|April|3</item>
+    <item>июль|July|February|June|August|1</item>
+    <item>август|April|Apparel|August|February|3</item>
+    <item>сентябрь|September|August|June|March|1</item>
+    <item>октябрь|February|August|September|October|4</item>
+    <item>ноябрь|October|November|September|February|2</item>
+    <item>декабрь|November|September|February|December|4</item>
+    <item>день|date|data|dear|day|4</item>
+    <item>понедельник|Monday|Tuesday|Wednesday|Thursday|1</item>
+    <item>вторник|Monday|Tuesday|Friday|Saturday|2</item>
+    <item>среда|Friday|Sunday|Wednesday|Thursday|3</item>
+    <item>четверг|Thursday|Monday|Sunday|Saturday|1</item>
+    <item>пятница|Thursday|Tuesday|Sunday|Friday|4</item>
+    <item>суббота|Saturday|Thursday|Sunday|Wednesday|1</item>
+    <item>воскресенье|Tuesday|Saturday|Friday|Sunday|4</item>
+    <item>вчера|yesterday|today|now|afternoon|1</item>
+    <item>сегодня|midnight|yesterday|evening|today|4</item>
+    <item>сейчас, теперь|tomorrow|morning|now|evening|3</item>
+    <item>утро|tomorrow|yesterday|midnight|morning|4</item>
+    <item>день (после полудня)|evening|afternoon|today|night|2</item>
+    <item>вечер|today|morning|tomorrow|evening|4</item>
+    <item>ночь|night|morning|today|afternoon|1</item>
+    <item>сегодня вечером, ночью|morning|tonight|yesterday|tomorrow|2</item>
+    <item>полночь|now|yesterday|afternoon|midnight|4</item>
+    <item>завтра|yesterday|now|tomorrow|afternoon|3</item>
+    <item>секунда|show|hour|minute|second|4</item>
+    <item>минута|minute|hour|second|minus|1</item>
+    <item>час|minus|minute|hour|second|3</item>
+    <item>неделя|week|year|century|near|1</item>
+    <item>год|near|minute|diamond|year|4</item>
+    <item>век|second|century|year|week|3</item>
     </string-array>
 
     <string-array name="promezutki">
-    <item>назад (например, 2 дня назад)|Cherry|Armor|sun</item>
-    <item>ранний, рано|Peach|Arms|pillow</item>
-    <item>последний, прошлый|Pear|Army|swim</item>
-    <item>поздний, поздно, опоздавший|Plum|Aroma|fish</item>
-    <item>следующий (год, неделя)|Coconut|Around|ball</item>
-    <item>после|Avocado|Arrange|key</item>
-    <item>до|Papaya|Array|sunflower</item>
-    <item>я|Fig|Arrest|rain</item>
-    <item>для, в течение (времени)|Guava|Arrival|book</item>
-    <item>с (определенного времени)|Passionfruit|Arrive|lemon</item>
-    <item>затем, потом, тогда|Pomegranate|Arrow|cup</item>
-    <item>всегда|Cantaloupe|Arsenic|shoes</item>
-    <item>никогда|Honeydew|Artful|heart</item>
-    <item>часто|Apricot|Article|mountain</item>
-    <item>иногда|Lychee|Artillery|bike</item>
-    <item>скоро|Cranberry|Artist|snake</item>
-    <item>обычно|Gooseberry|Artistic|apple</item>
-    <item>уже|Elderberry|Ascend|house</item>
-    <item>что, просто|Nectarine|Ascent|ocean</item>
-    <item>Persimmon|Ashamed|phone</item>
-    <item>вероятно|Boysenberry|Ashore|pencil</item>
-    <item>действительно|Clementine|Aside|cake</item>
-    <item>азования будущего времени|Kumquat|Askew|bird</item>
+    <item>назад (например, 2 дня назад)|late|before|during|ago|4</item>
+    <item>ранний, рано|then|early|before|for|2</item>
+    <item>последний, прошлый|early|before|last|during|3</item>
+    <item>поздний, поздно, опоздавший|always|during|before|late|4</item>
+    <item>следующий (год, неделя)|next|before|then|for|1</item>
+    <item>после|ago|after|before|during|2</item>
+    <item>до|ago|always|since|before|4</item>
+    <item>во время|during|last|after|since|1</item>
+    <item>для, в течение (времени)|since|last|for|always|3</item>
+    <item>с (определенного времени)|early|since|always|then|2</item>
+    <item>затем, потом, тогда|then|next|during|always|1</item>
+    <item>всегда|always|after|late|before|1</item>
+    <item>никогда|soon|usually|already|never|4</item>
+    <item>часто|probably|often|usually|already|2</item>
+    <item>иногда|often|just|sometimes|already|3</item>
+    <item>скоро|will|soon|probably|already|2</item>
+    <item>обычно|will|probably|just|usually|4</item>
+    <item>уже|already|sometimes|often|never|1</item>
+    <item>только что, просто|sometimes|just|already|never|2</item>
+    <item>ещё не|often|will|just|yet|4</item>
+    <item>вероятно|really|probably|often|never|2</item>
+    <item>действительно|really|just|sometimes|usually|1</item>
+    <item>для образования будущего времени|soon|really|probably|will|4</item>
 
     </string-array>
 
     <string-array name="money">
-    <item>счет|Redcurrant|Aspire|lamp</item>
-    <item>наличка|Grape|Assailant|star</item>
-    <item>скидка|Tomato|Assault|ship</item>
-    <item>цена|Cucumber|Assembly|grass</item>
-    <item>чаевые|Carrot|Assertive|icecream</item>
-    <item>дешевый|Broccoli|Assess|moon</item>
-    <item>дорогой (о цене)|Cauliflower|Asset|fish</item>
-    <item>бесплатный, свободный|Spinach|Assign|elephant</item>
+    <item>счет|discount|price|expensive|bill|4</item>
+    <item>наличка|cash|cheap|price|discount|1</item>
+    <item>скидка|cheap|discount|cheap|expensive|2</item>
+    <item>цена|discount|tip|expensive|price|4</item>
+    <item>чаевые|discount|cash|tip|expensive|3</item>
+    <item>дешевый|cheap|discount|price|free|1</item>
+    <item>дорогой (о цене)|bill|expensive|cash|free|2</item>
+    <item>бесплатный, свободный|price|expensive|discount|free|4</item>
 
     </string-array>
 
-    <string-array name="human_8">
-    <item>искусство|Bellpepper|Associate|orange</item>
-    <item>фильм|Onion|Assorted|image</item>
-    <item>литература|Garlic|Assume|ivory</item>
-    <item>музыка|Potato|Assurance|guitar</item>
-    <item>фото|Sweetpotato|Assure|mother</item>
-    <item>картина, фотография|Pumpkin|Asterisk|knock</item>
-    <item>песня|Zucchini|Asthma|yawning</item>
-    <item>история, рассказ|Eggplant|Astonish|zebra</item>
-    <item>играть (на сцене),вести себя|Radish|Astringent|brother</item>
-    <item>строить|Beetroot|Astrology|mountain</item>
-    <item>создавать|Corn|Astronaut|river</item>
-    <item>танец|Peas|Astronomy|ocean</item>
-    <item>танцевать|Greenbean|Asylum|dream</item>
-    <item>делать|Asparagus|Athlete|garden</item>
-    <item>рисовать|Artichoke|Athletic|pencil</item>
-    <item>слушать|Brusselssprouts|Atmosphere|banana</item>
-    <item>делать, изготавливать|Cabbage|Atom|book</item>
-    <item>спектакль|Leek|Atonement|flower</item>
-    <item>играть|Mushroom|Atrocious|tree</item>
-    <item>читать|Jalapeno|Atrophy|window</item>
-    <item>петь|Chilipepper|Attach|dog</item>
-    <item>плавать|Ginger|Attack|cat</item>
-    <item>учить, преподавать|Cilantro|Attain|chair</item>
-    <item>писать|Basil|Attempt|paper</item>
+    <string-array name="hobbi">
+    <item>искусство|literature|music|picture|art|4</item>
+    <item>фильм|story|music|film|picture|3</item>
+    <item>литература|literature|story|act|song|1</item>
+    <item>музыка|play|music|act|song|2</item>
+    <item>фото|film|write|make|photo|4</item>
+    <item>картина, фотография|picture|write|draw|play|1</item>
+    <item>песня|swim|write|read|song|4</item>
+    <item>история, рассказ|story|dance|teach|swim|1</item>
+    <item>играть (на сцене),вести себя|swim|act|make|read|2</item>
+    <item>строить|build|create|teach|write|1</item>
+    <item>создавать|draw|swim|create|teach|3</item>
+    <item>танец|photo|dance|swim|picture|2</item>
+    <item>танцевать|swim|play|make|to dance|4</item>
+    <item>делать|to do|teach|dance|swim|</item>
+    <item>рисовать|write|draw|read|play|2</item>
+    <item>слушать|listen|play|teach|literature|1</item>
+    <item>делать, изготавливать|literature|make|teach|play|2</item>
+    <item>спектакль|a play|make|literature|dance|1</item>
+    <item>играть|build|Atrocious|to play|music|3</item>
+    <item>читать|literature|draw|teach|read|4</item>
+    <item>петь|sing|literature|build|draw|1</item>
+    <item>плавать|music|swim|draw|build|2</item>
+    <item>учить, преподавать|music|draw|teach|build|3</item>
+    <item>писать|play|write|draw|build|2</item>
 
     </string-array>
 
-    <string-array name="human_9">
-    <item>рюкзак|Rosemary|Attentive|friend</item>
-    <item>сумка|Thyme|Attic|car</item>
-    <item>открытка, карточка (банковская)|Oregano|Attract|phone</item>
-    <item>задержка|Sage|Attribute|music</item>
-    <item>задерживать|Dill|Auction|hour</item>
-    <item>азначения|Bayleaf|Hysterical|airplane</item>
-    <item>багаж|Coriander|Omelette|butterfly</item>
-    <item>карта|Nutmeg|Luminous|radio</item>
-    <item>чемодан|Cinnamon|Eminent|bottle</item>
-    <item>билет|Clove|Foliage|sunrise</item>
-    <item>велосипед|Cardamom|Inquisitive|lamp</item>
-    <item>автобус|Turmeric|Exquisite|jump</item>
-    <item>автомобиль|Saffron|Grateful|queen</item>
-    <item>самолет|Vanilla|Scrumptious|guitar</item>
-    <item>корабль|Cocoa|Jubilant|dream</item>
-    <item>такси|Coffee|Melancholy|lake</item>
-    <item>поезд|Tea|Gargantuan|horse</item>
-    <item>трамвай|Milk|Inevitable|mouse</item>
-    <item>страховка|Yogurt|Whimsical|ruby</item>
+    <string-array name="travel">
+    <item>рюкзак|card|suitcase|destination|backpack|4</item>
+    <item>сумка|bag|taxi|ship|train|1</item>
+    <item>открытка, карточка (банковская)|luggage|ticket|card|suitcase|3</item>
+    <item>задержка|plane|delay|destination|bus|2</item>
+    <item>задерживать|ticket|luggage|ship|to delay|4</item>
+    <item>пункт назначения|bicycle|destination|ticket|suitcase|2</item>
+    <item>багаж|incurance|luggage|butterfly|suitcase|2</item>
+    <item>карта|plane|incurance|tram|map|4</item>
+    <item>чемодан|plane|destination|suitcase|incurance|3</item>
+    <item>билет|ticket|ship|bicycle|car|1</item>
+    <item>велосипед|Cardamom|Inquisitive|lamp||</item>
+    <item>автобус|ship|bicycle|car|incurance|2</item>
+    <item>автомобиль|taxi|plane|car|ship|3</item>
+    <item>самолет|plane|ship|car|taxi|1</item>
+    <item>корабль|taxi|ship|dream|car|2</item>
+    <item>такси|bicycle|plane|car|taxi|4</item>
+    <item>поезд|ship|train|car|taxi|2</item>
+    <item>трамвай|car|tram|mouse|train|2</item>
+    <item>страховка|plane|ship|car|incurance|4</item>
 
     </string-array>
 
-    <string-array name="human_10">
-    <item>прибывать|Eggs|Serendipity|watch</item>
-    <item>приносить|Bread|Persnickety|paint</item>
-    <item>ловить|Rice|Peculiar|globe</item>
-    <item>приходить|Pasta|Enchanting|monkey</item>
-    <item>водить (транспорт)|Noodles|Discombobulated|basketball</item>
-    <item>ронять|Quinoa|Flamboyant|castle</item>
-    <item>падать|Couscous|Immaculate|park</item>
-    <item>заканчивать|Lentils|Nefarious|cloud</item>
-    <item>летать|Chickpeas|Perplexed|bird</item>
-    <item>идти, уезжать|Blackbeans|Radiant|soccer</item>
-    <item>расти|Kidneybeans|Disgruntled|gold</item>
-    <item>случаться|Limabeans|Pensive|tree</item>
-    <item>прыгать|Soybeans|Zealous|key</item>
-    <item>приземляться|Tofu|Quirky|dog</item>
-    <item>покидать, оставлять, уходить|Tempeh|Resilient|cat</item>
-    <item>двигаться|Seitan|Euphoric|zebra</item>
-    <item>проходить|Almonds|Inscrutable|dolphin</item>
-    <item>тянуть|Walnuts|Mysterious|apple</item>
-    <item>толкать|Pecans|Frivolous|house</item>
-    <item>положить, класть|Cashews|Ostentatious|heart</item>
-    <item>верхом (на лошади, велосипеде)|Pistachios|Lethargic|shoes</item>
-    <item>бежать|Peanuts|Vibrant|heart</item>
-    <item>стоять|Hazelnuts|Wondrous|bike</item>
-    <item>начинать|Macadamianuts|Vexed|butter</item>
-    <item>оставаться|Sunflowerseeds|Nostalgic|swim</item>
-    <item>останавливаться|Pumpkinseeds|Eclectic|star</item>
-    <item>брать|Chiaseeds|Majestic|flower</item>
-    <item>бросать|Flaxseeds|Dazzling|window</item>
-    <item>путешествовать|Sesameseeds|Scintillating|door</item>
-    <item>поворачивать|Popcorn|Insidious|jungle</item>
-    <item>шком, гулять|Pretzels|Sublime|lemon</item>
+    <string-array name="move">
+    <item>прибывать|Eggs|Serendipity|watch||</item>
+    <item>приносить|Bread|Persnickety|paint||</item>
+    <item>ловить|Rice|Peculiar|globe||</item>
+    <item>приходить|Pasta|Enchanting|monkey||</item>
+    <item>водить (транспорт)|Noodles|Discombobulated|basketball||</item>
+    <item>ронять|Quinoa|Flamboyant|castle||</item>
+    <item>падать|Couscous|Immaculate|park||</item>
+    <item>заканчивать|Lentils|Nefarious|cloud||</item>
+    <item>летать|Chickpeas|Perplexed|bird||</item>
+    <item>идти, уезжать|Blackbeans|Radiant|soccer||</item>
+    <item>расти|Kidneybeans|Disgruntled|gold||</item>
+    <item>случаться|Limabeans|Pensive|tree||</item>
+    <item>прыгать|Soybeans|Zealous|key||</item>
+    <item>приземляться|Tofu|Quirky|dog||</item>
+    <item>покидать, оставлять, уходить|Tempeh|Resilient|cat||</item>
+    <item>двигаться|Seitan|Euphoric|zebra||</item>
+    <item>проходить|Almonds|Inscrutable|dolphin||</item>
+    <item>тянуть|Walnuts|Mysterious|apple||</item>
+    <item>толкать|Pecans|Frivolous|house||</item>
+    <item>положить, класть|Cashews|Ostentatious|heart||</item>
+    <item>верхом (на лошади, велосипеде)|Pistachios|Lethargic|shoes||</item>
+    <item>бежать|Peanuts|Vibrant|heart||</item>
+    <item>стоять|Hazelnuts|Wondrous|bike||</item>
+    <item>начинать|Macadamianuts|Vexed|butter||</item>
+    <item>оставаться|Sunflowerseeds|Nostalgic|swim||</item>
+    <item>останавливаться|Pumpkinseeds|Eclectic|star||</item>
+    <item>брать|Chiaseeds|Majestic|flower||</item>
+    <item>бросать|Flaxseeds|Dazzling|window||</item>
+    <item>путешествовать|Sesameseeds|Scintillating|door||</item>
+    <item>поворачивать|Popcorn|Insidious|jungle||</item>
+    <item>шком, гулять|Pretzels|Sublime|lemon||</item>
 
     </string-array>
 
-    <string-array name="human_11">
+    <string-array name="life">
     <item>добавлять|Cornchips|Idiosyncratic|cake</item>
     <item>быть|Crackers|Magnanimous|tree</item>
     <item>становиться|Granolabar|Elusive|bird</item>
@@ -637,7 +636,7 @@
 
     </string-array>
 
-    <string-array name="human_12">
+    <string-array name="dialog">
     <item>да|Smoothie|Prolific|radio</item>
     <item>нет|Lemonade|Protean|bottle</item>
     <item>не|Soda|Querulous|lamp</item>
@@ -681,7 +680,7 @@
 
     </string-array>
 
-    <string-array name="human_13">
+    <string-array name="sousi_i_voprosi">
     <item>также|Pumpkinpie|Surreptitious|cake</item>
     <item>и|Keylimepie|Susurrant|tree</item>
     <item>что|Pecanpie|Svelte|bird</item>
@@ -699,7 +698,7 @@
 
     </string-array>
 
-    <string-array name="human_14">
+    <string-array name="emotion">
     <item>страх|Pudding|Ubiquitous|heart</item>
     <item>веселье|Custard|Umbrageous|window</item>
     <item>страсть|Tiramisu|Unctuous|radio</item>
@@ -718,7 +717,7 @@
 
     </string-array>
 
-    <string-array name="human_15">
+    <string-array name="feels">
     <item>чувствовать|KitKat|Unsullied|yawning</item>
     <item>слышать|Twix|Untoward|zebra</item>
     <item>видеть|Reese|Upbeat|brother</item>
@@ -727,7 +726,7 @@
 
     </string-array>
 
-    <string-array name="human_16">
+    <string-array name="mishlenie">
     <item>поведение|Starburst|Variegated|ocean</item>
     <item>выбор|Gummibears|Venerable|pencil</item>
     <item>опыт|Swedishfish|Veracious|banana</item>
@@ -753,7 +752,7 @@
 
     </string-array>
 
-    <string-array name="human_17">
+    <string-array name="students">
     <item>книга|Lemonzest|Witty|lake</item>
     <item>календарь|Cinnamonsugar|Woebegone|mouse</item>
     <item>тетрадь|Creamcheese|Wondrous|ruby</item>
@@ -776,7 +775,7 @@
 
     </string-array>
 
-    <string-array name="human_18">
+    <string-array name="modal_verbs">
     <item>уметь, мочь (сделать что-то)|Tabascosauce|Abdomen|apple</item>
     <item>нужденным (сделать что-то)|Honeymustard|Abduct|house</item>
     <item>азрешение (сделать что-то)|Hotsauce|Abhor|heart</item>
