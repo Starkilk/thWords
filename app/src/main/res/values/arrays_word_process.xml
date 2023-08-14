@@ -518,6 +518,7 @@
 
     </string-array>
 
+
     <string-array name="travel">
     <item>рюкзак|card|suitcase|destination|backpack|4</item>
     <item>сумка|bag|taxi|ship|train|1</item>
@@ -542,187 +543,189 @@
     </string-array>
 
     <string-array name="move">
-    <item>прибывать|Eggs|Serendipity|watch||</item>
-    <item>приносить|Bread|Persnickety|paint||</item>
-    <item>ловить|Rice|Peculiar|globe||</item>
-    <item>приходить|Pasta|Enchanting|monkey||</item>
-    <item>водить (транспорт)|Noodles|Discombobulated|basketball||</item>
-    <item>ронять|Quinoa|Flamboyant|castle||</item>
-    <item>падать|Couscous|Immaculate|park||</item>
-    <item>заканчивать|Lentils|Nefarious|cloud||</item>
-    <item>летать|Chickpeas|Perplexed|bird||</item>
-    <item>идти, уезжать|Blackbeans|Radiant|soccer||</item>
-    <item>расти|Kidneybeans|Disgruntled|gold||</item>
-    <item>случаться|Limabeans|Pensive|tree||</item>
-    <item>прыгать|Soybeans|Zealous|key||</item>
-    <item>приземляться|Tofu|Quirky|dog||</item>
-    <item>покидать, оставлять, уходить|Tempeh|Resilient|cat||</item>
-    <item>двигаться|Seitan|Euphoric|zebra||</item>
-    <item>проходить|Almonds|Inscrutable|dolphin||</item>
-    <item>тянуть|Walnuts|Mysterious|apple||</item>
-    <item>толкать|Pecans|Frivolous|house||</item>
-    <item>положить, класть|Cashews|Ostentatious|heart||</item>
-    <item>верхом (на лошади, велосипеде)|Pistachios|Lethargic|shoes||</item>
-    <item>бежать|Peanuts|Vibrant|heart||</item>
-    <item>стоять|Hazelnuts|Wondrous|bike||</item>
-    <item>начинать|Macadamianuts|Vexed|butter||</item>
-    <item>оставаться|Sunflowerseeds|Nostalgic|swim||</item>
-    <item>останавливаться|Pumpkinseeds|Eclectic|star||</item>
-    <item>брать|Chiaseeds|Majestic|flower||</item>
-    <item>бросать|Flaxseeds|Dazzling|window||</item>
-    <item>путешествовать|Sesameseeds|Scintillating|door||</item>
-    <item>поворачивать|Popcorn|Insidious|jungle||</item>
-    <item>шком, гулять|Pretzels|Sublime|lemon||</item>
+    <item>прибывать|to bring|to catch|to put|to arrive|4</item>
+    <item>приносить|to bring|to come|to drive|to ride|1</item>
+    <item>ловить|to run|to put|to catch|to push|3</item>
+    <item>приходить|to walk|to come|to put|to start|2</item>
+    <item>водить (транспорт)|to stand|to drive|to move|to run|2</item>
+    <item>ронять|to drop|to walk|to turn|to arrive|1</item>
+    <item>падать|to pass|to fly|to fall|to put|3</item>
+    <item>заканчивать|to stay|to finish|to run|to throw|2</item>
+    <item>летать|to fly|to move|to walk|to leave|1</item>
+    <item>идти, уезжать|to pass|to start|to run|to go|4</item>
+    <item>расти|to walk|to ride|to grow|to put|3</item>
+    <item>случаться|to happen|to run|to walk|to turn|1</item>
+    <item>прыгать|to walk|to stop|to start|to jump|4</item>
+    <item>приземляться|to grow|to land|to walk|to turn|2</item>
+    <item>покидать, оставлять, уходить|to leave|to run|to start|to take|1</item>
+    <item>двигаться|to fall|to put|to move|to push|3</item>
+    <item>проходить|to leave|to walk|to stand|to pass|4</item>
+    <item>тянуть|to pull|to put|to walk|to leave|1</item>
+    <item>толкать|to walk|to stand|to ride|to push|4</item>
+    <item>положить, класть|to push|to stand|to put|to walk|3</item>
+    <item>верхом (на лошади, велосипеде)|to run|to ride|to walk|to travel|2</item>
+    <item>бежать|to take|to stop|to run|to travel|3</item>
+    <item>стоять|to stand|to turn|to walk|to ride|1</item>
+    <item>начинать|to ride|to stop|to travel|to start|4</item>
+    <item>оставаться|to stay|to take|to walk|to travel|1</item>
+    <item>останавливаться|to turn|to walk|to stop|to travel|3</item>
+    <item>брать|to travel|to take|to turn|to ride|2</item>
+    <item>бросать|to ride|to travel|to throw|to walk|3</item>
+    <item>путешествовать|to turn|to walk|to start|to travel|4</item>
+    <item>поворачивать|to turn|to throw|to start|to take|1</item>
+    <item>шком, гулять|to ride|to walk|to start|to take|2</item>
 
     </string-array>
 
     <string-array name="life">
-    <item>добавлять|Cornchips|Idiosyncratic|cake</item>
-    <item>быть|Crackers|Magnanimous|tree</item>
-    <item>становиться|Granolabar|Elusive|bird</item>
-    <item>начинать|Cereal|Incandescent|apple</item>
-    <item>ломать|Oats|Furtive|house</item>
-    <item>покупать|Pancakes|Ephemeral|phone</item>
-    <item>менять|Waffles|Luminiferous|fish</item>
-    <item>проверять|Frenchtoast|Mellifluous|dog</item>
-    <item>выбирать|Bagel|Clandestine|cat</item>
-    <item>закрывать|Croissant|Hilarious|computer</item>
-    <item>продолжать|Muffin|Visceral|lamp</item>
-    <item>контролировать|Toast|Ubiquitous|key</item>
-    <item>готовить|Jam|Amorphous|mirror</item>
-    <item>стоить|Honey|Ineffable|river</item>
-    <item>резать|Peanutbutter|Inscrutable|cloud</item>
-    <item>развивать|Nutella|Dissonant|book</item>
-    <item>пить|Maplesyrup|Ethereal|heart</item>
-    <item>есть, кушать|Oliveoil|Inexorable|window</item>
-    <item>кормить|Canolaoil|Insipid|radio</item>
-    <item>находить|Avocadooil|Intransigent|sunset</item>
-    <item>получать, добывать|Coconutoil|Irreverent|garden</item>
-    <item>давать|Sunfloweroil|Jubilant|grass</item>
-    <item>иметь, обладать|Soysauce|Lachrymose|moon</item>
-    <item>держать|Srirachasauce|Languid|bird</item>
-    <item>хранить, продолжать|Ketchup|Loquacious|tree</item>
-    <item>убивать|Mustard|Lugubrious|elephant</item>
-    <item>жить|Mayonnaise|Mercurial|whisper</item>
-    <item>выглядеть|Barbecuesauce|Metaphysical|juice</item>
-    <item>открывать|Ranchdressing|Monolithic|orange</item>
-    <item>заказывать|Caesardressing|Multifaceted|image</item>
-    <item>платить|Vinaigrette|Myopic|pen</item>
-    <item>планировать|Salsa|Nebulous|chair</item>
-    <item>надевать|Guacamole|Nefarious|mother</item>
-    <item>отдыхать|Hummus|Nonchalant|yawning</item>
-    <item>звенеть, звонить|Pesto|Obdurate|zebra</item>
-    <item>рисковать|Marinarasauce|Obtuse|brother</item>
-    <item>спасать, сохранять|Alfredosauce|Officious|mountain</item>
-    <item>продавать|Pitabread|Ominous|guitar</item>
-    <item>отправлять|Tortilla|Omnipotent|river</item>
-    <item>бриться|Naan|Opulent|dream</item>
-    <item>показывать|Baguette|Ornery|ocean</item>
-    <item>подписывать|Sourdoughbread|Ostensible|pencil</item>
-    <item>сидеть|Ciabatta|Palatable|banana</item>
-    <item>спать|Ryebread|Paradoxical|book</item>
-    <item>курить|Multigrainbread|Pedantic|flower</item>
-    <item>проводить (время), тратить|Wholewheatbread|Penurious|dog</item>
-    <item>снимать (одежду),взлетать (о самолете)|Hamburgerbun|Perfunctory|cat</item>
-    <item>пытаться|Hotdogbun|Pertinacious|paper</item>
-    <item>использовать|Crostini|Phlegmatic|mirror</item>
-    <item>посещать|Focaccia|Pithy|rainbow</item>
-    <item>ждать|Pizzacrust|Placid|green</item>
-    <item>просыпаться|Tacoshell|Plausible|friend</item>
-    <item>мыть, стирать|Icecream|Poignant|phone</item>
-    <item>смотреть, наблюдать|Sorbet|Precocious|car</item>
-    <item>носить (одежду)|Gelato|Preponderant|music</item>
-    <item>работать|Frozenyogurt|Prescient|hour</item>
+    <item>добавлять|to be|to become|to drink|to add|4</item>
+    <item>быть|to smoke|to take off|to be|to sleep|3</item>
+    <item>становиться|to become|to visit|to use|to wake up|1</item>
+    <item>начинать|to try|to begin|to spend|to work|2</item>
+    <item>ломать|to sleep|to spend|to break|to take off|3</item>
+    <item>покупать|to buy|to give|to break|to be|1</item>
+    <item>менять|to smoke|to wait|to visit|to change|4</item>
+    <item>проверять|to be|to check|to buy|to change|2</item>
+    <item>выбирать|to become|to change|to choose|to visit|3</item>
+    <item>закрывать|to close|to wait|to change|to buy|1</item>
+    <item>продолжать|to change|to visit|to continue|to buy|3</item>
+    <item>контролировать|to control|to change|to buy|to visit|1</item>
+    <item>готовить|to sleep|to give|to cook|to plan|3</item>
+    <item>стоить|to change|to plan|to visit|to cost|4</item>
+    <item>резать|to cut|to cost|to put|to spend|1</item>
+    <item>развивать|to take|to spend|to use|to develop|4</item>
+    <item>пить|to cost|to drink|to use|to visit|2</item>
+    <item>есть, кушать|to change|to sleep|to eat|to visit|3</item>
+    <item>кормить|to feed|to try|to wait|to work|1</item>
+    <item>находить|to cook|to give|to find|to wait|3</item>
+    <item>получать, добывать|to get|to wait|to try|to wait|1</item>
+    <item>давать|to smoke|to try|to sleep|to give|4</item>
+    <item>иметь, обладать|to try|to have|to wait|to move|2</item>
+    <item>держать|to wake up|to smoke|to hold|to visit|3</item>
+    <item>хранить, продолжать|to keep|to hold|to watch|to rest|1</item>
+    <item>убивать|to buy|to keep|to kill|to sell|3</item>
+    <item>жить|to live|to look|to sell|to smoke|1</item>
+    <item>выглядеть|to put|to look|to eat|to swim|2</item>
+    <item>открывать|to visit|to wait|to spend|to open|4</item>
+    <item>заказывать|to order|to try|to wear|to watch|1</item>
+    <item>платить|to show|to pay|to risk|to sell|2</item>
+    <item>планировать|to ring|to save|to plan|to put on|3</item>
+    <item>надевать|to put on|to order|to work|to sell|1</item>
+    <item>отдыхать|to shave|to sign|to rest|to try|3</item>
+    <item>звенеть, звонить|to use|to work|to sit|to ring|4</item>
+    <item>рисковать|to rest|to work|to risk|to smoke|3</item>
+    <item>спасать, сохранять|to send|to save|to buy|to visit|2</item>
+    <item>продавать|to sell|to risk|to wash|to smoke|1</item>
+    <item>отправлять|to smoke|to sleep|to show|to send|4</item>
+    <item>бриться|to watch|to wake up|to use|to shave|4</item>
+    <item>показывать|to show|to send|to wait|to sleep|1</item>
+    <item>подписывать|to work|to risk|to sign|to buy|3</item>
+    <item>сидеть|to sleep|to sit|to show|to sell|2</item>
+    <item>спать|to visit|to wake|to sell|to sleep|4</item>
+    <item>курить|to wear|to smoke|to buy|to wait|2</item>
+    <item>проводить (время), тратить|to spend|to sell|to sign|to buy|1</item>
+    <item>снимать (одежду),взлетать (о самолете)|to wear|to wake up|to visit|to take off|4</item>
+    <item>пытаться|to rest|to try|to work|to sleep|2</item>
+    <item>использовать|to send|to ring|to use|to save|3</item>
+    <item>посещать|to visit|to wear|to wash|to spend|1</item>
+    <item>ждать|to wear|to wait|to ring|to sell|2</item>
+    <item>просыпаться|to wash|to ring|to wake up|to ring|3</item>
+    <item>мыть, стирать|to wash|to shave|to sit|to work|1</item>
+    <item>смотреть, наблюдать|to take off|to watch|to try|to sleep|2</item>
+    <item>носить (одежду)|to rest|to save|music|to wear|4</item>
+    <item>работать|to buy|to work|to show|to sleep|2</item>
 
     </string-array>
 
     <string-array name="dialog">
-    <item>да|Smoothie|Prolific|radio</item>
-    <item>нет|Lemonade|Protean|bottle</item>
-    <item>не|Soda|Querulous|lamp</item>
-    <item>привет|Sparklingwater|Quixotic|queen</item>
-    <item>здравствуйте|Icedtea|Rancorous|dream</item>
-    <item>извините (просим прощения)|Hotchocolate|Rapturous|garden</item>
-    <item>извините (просим разрешение)|Lemonwater|Recalcitrant|lake</item>
-    <item>пожалуйста, прошу|Minttea|Redolent|mouse</item>
-    <item>спасибо|Greentea|Redoubtable|ruby</item>
-    <item>то|Blacktea|Rejoiceful|fire</item>
-    <item>пока|Oolongtea|Relentless|watch</item>
-    <item>ыть|Chamomiletea|Resplendent|paint</item>
-    <item>ь бы (сделать что-то)|EarlGreytea|Reticent|globe</item>
-    <item>соглашаться|Jasminetea|Rhapsodic|monkey</item>
-    <item>отвечать|Hibiscustea|Risible|basketball</item>
-    <item>спорить, ругаться|Rooibostea|Sagacious|castle</item>
-    <item>спрашивать|Pepperminttea|Salient|park</item>
-    <item>звонить, звать, называть|Gingertea|Sanguine|cloud</item>
-    <item>жаловаться|Caramel|Sardonic|bird</item>
-    <item>описывать|Chocolatechip|Scabrous|soccer</item>
-    <item>обсуждать|Vanillabean|Scintillating|gold</item>
-    <item>беспокоить|Strawberryswirl|Scrupulous|tree</item>
-    <item>объяснять|Rockyroad|Sedulous|key</item>
-    <item>драться|Cookiesandcream|Seraphic|dog</item>
-    <item>прощать|Mintchocolatechip|Serpentine|cat</item>
-    <item>помогать|Pistachio|Sibilant|zebra</item>
-    <item>ударять|Butterpecan|Sidereal|dolphin</item>
-    <item>присоединяться|Neapolitan|Sinuous|apple</item>
-    <item>шутить|Rainbowsherbet|Somnolent|house</item>
-    <item>обманывать, врать|Coconutflakes|Soporific|heart</item>
-    <item>встречать|Whippedcream|Spasmodic|shoes</item>
-    <item>предлагать|Sprinkles|Spartan|heart</item>
-    <item>защищать|Caramelsauce|Specious|bike</item>
-    <item>сказать|Chocolatesauce|Splenetic|swim</item>
-    <item>делиться|Strawberrysyrup|Sporadic|star</item>
-    <item>разговаривать|Marshmallows|Stentorian|flower</item>
-    <item>поддерживать|Nuts|Stolid|window</item>
-    <item>удивлять|Oreocookies|Strident|door</item>
-    <item>разговаривать|Gummybears|Sublime|jungle</item>
-    <item>рассказывать|Brownie|Succinct|lemon</item>
+    <item>да|not|not|hi|yes|4</item>
+    <item>нет|no|not|yes|hi|1</item>
+    <item>не|not|yes|me|hello|1</item>
+    <item>привет|thank|hi|please|sorry|2</item>
+    <item>здравствуйте|excuse|sorry|thank|hello|4</item>
+    <item>извините (просим прощения)|welcome|maybe|sorry|me|3</item>
+    <item>извините (просим разрешение)|no|excuse me|me|thank|2</item>
+    <item>пожалуйста, прошу|no|maybe|you|please|4</item>
+    <item>спасибо|thank you|you|ruby|me|1</item>
+    <item>не за что|me|bye|thank|you are welcome|4</item>
+    <item>пока|good|bye|would|me|2</item>
+    <item>может быть|good|excuse me|maybe|me|3</item>
+    <item>хотелось бы (сделать что-то)|would like to|me|to talk|to share|1</item>
+    <item>соглашаться|to explain|to protect|to agree|to talk|3</item>
+    <item>отвечать|to answer|to complain|to support|to share|1</item>
+    <item>спорить, ругаться|to joke|to argue|to call|to speak|2</item>
+    <item>спрашивать|tp say|to meet|to support|to ask|4</item>
+    <item>звонить, звать, называть|to call|to talk|to tell|to fight|1</item>
+    <item>жаловаться|to ask|to joke|to tell|to complain|4</item>
+    <item>описывать|to tell|to share|to describe|to sleep|3</item>
+    <item>обсуждать|to discuss|to offer|to lie|to join|1</item>
+    <item>беспокоить|to fight|to disturb|to share|to say|2</item>
+    <item>объяснять|to joke|to hit|to explain|to help|3</item>
+    <item>драться|to help|to fight|to sleep|to buy|2</item>
+    <item>прощать|to tell|to protect|to offer|to forgive|4</item>
+    <item>помогать|to lie|to help|to fight|to hit|2</item>
+    <item>ударять|to call|to join|to hit|to help|3</item>
+    <item>присоединяться|to join|to share|to buy|to wear|1</item>
+    <item>шутить|to meet|to speak|to joke|to say|3</item>
+    <item>обманывать, врать|to protect|to support|to share|to lie|4</item>
+    <item>встречать|to meet|to sleep|to smoke|to say|1</item>
+    <item>предлагать|to tell|to help|to share|to offer|4</item>
+    <item>защищать|to protect|to join|to talk|to surprise|1</item>
+    <item>сказать|to talk|to ask|to say|to support|3</item>
+    <item>делиться|to share|to sleep|to wear|to tell|1</item>
+    <item>разговаривать|to joke|to meet|to watch|to speak|4</item>
+    <item>поддерживать|to support|to ring|to help|to ask|1</item>
+    <item>удивлять|to join|to lie|to surprise|to tell|3</item>
+    <item>разговаривать|to talk|to meet|to fight|to offer|1</item>
+    <item>рассказывать|to tell|to ask|to talk|to lie|1</item>
 
     </string-array>
 
     <string-array name="sousi_i_voprosi">
-    <item>также|Pumpkinpie|Surreptitious|cake</item>
-    <item>и|Keylimepie|Susurrant|tree</item>
-    <item>что|Pecanpie|Svelte|bird</item>
-    <item>из-за|Blueberrymuffin|Sybaritic|apple</item>
-    <item>но|Chocolatecake|Taciturn|house</item>
-    <item>если|Carrotcake|Tantalizing|phone</item>
-    <item>или|Redvelvetcake|Tautological|fish</item>
-    <item>итак, таким образом, поэтому|Angelfoodcake|Temerarious|dog</item>
-    <item>что, какой|Cupcake|Tenacious|cat</item>
-    <item>кто|Donut|Terpsichorean|computer</item>
-    <item>когда|Danish|Thaumaturgic|lamp</item>
-    <item>где, куда|Éclair|Timorous|key</item>
-    <item>как, каким образом|Cannoli|Trenchant|mirror</item>
-    <item>почему, зачем|Macaron|Truculent|river</item>
+    <item>также|and|because|but|also|4</item>
+    <item>и|when|what|and|but|3</item>
+    <item>потому что|because|but|who|if|1</item>
+    <item>из-за|how|when|what|because of|4</item>
+    <item>но|but|what|how|why|1</item>
+    <item>если|why|if|what|where|2</item>
+    <item>или|so|but|or|if|3</item>
+    <item>итак, таким образом, поэтому|Angelfoodcake|Temerarious|so|why|3</item>
+    <item>что, какой|why|when|how|what|4</item>
+    <item>кто|if|who|what|when|2</item>
+    <item>когда|when|what|how|who|1</item>
+    <item>где, куда|or|where|who|how|2</item>
+    <item>как, каким образом|what|or|how|if|3</item>
+    <item>почему, зачем|or|where|what|why|4</item>
 
     </string-array>
 
     <string-array name="emotion">
-    <item>страх|Pudding|Ubiquitous|heart</item>
-    <item>веселье|Custard|Umbrageous|window</item>
-    <item>страсть|Tiramisu|Unctuous|radio</item>
-    <item>мир|Truffle|Undulant|sunset</item>
-    <item>удовольствие|Fudge|Unfathomable|garden</item>
-    <item>плакать, кричать|Toffee|Unflappable|grass</item>
-    <item>наслаждаться|Caramelapple|Ungainly|moon</item>
-    <item>смеяться|Peanutbrittle|Unimpeachable|bird</item>
-    <item>нравиться|Cottoncandy|Unkempt|tree</item>
-    <item>любить|Gummyworms|Unobtrusive|elephant</item>
-    <item>скучать|Jellybeans|Unpalatable|whisper</item>
-    <item>нуждаться|Licorice|Unprepossessing|juice</item>
-    <item>улыбаться|Lollipop|Unpropitious|orange</item>
-    <item>хотеть|Marshmallow|Unremitting|image</item>
-    <item>беспокоиться|Peppermint|Unscrupulous|pen</item>
+        to cry to enjoy to laugh to like to love to miss to need to smile to want to worry
+    <item>страх|passion|peace|pleasure|fear|4</item>
+    <item>веселье|fun|to cry|to enjoy|passion|1</item>
+    <item>страсть|pleasure|passion|fun|fear|2</item>
+    <item>мир|passion|pleasure|peace|fun|3</item>
+    <item>удовольствие|pleasure|to enjoy|to like|peace|1</item>
+    <item>плакать, кричать|to miss|to cry|to love|to need|2</item>
+    <item>наслаждаться|to cry|to worry|to smile|to enjoy|4</item>
+    <item>смеяться|to cry|to laugh|to miss|to need|2</item>
+    <item>нравиться|to laugh|to cry|to miss|to like|4</item>
+    <item>любить|to cry|to love|to miss|to grow|2</item>
+    <item>скучать|to miss|to like|to love|to smile|1</item>
+    <item>нуждаться|to laugh|to love|to need|to worry|3</item>
+    <item>улыбаться|to cry|to enjoy|to worry|to smile|4</item>
+    <item>хотеть|to like|to want|to worry|to enjoy|2</item>
+    <item>беспокоиться|to worry|to like|to cry|to smile|1</item>
 
     </string-array>
 
     <string-array name="feels">
-    <item>чувствовать|KitKat|Unsullied|yawning</item>
-    <item>слышать|Twix|Untoward|zebra</item>
-    <item>видеть|Reese|Upbeat|brother</item>
-    <item>нюхать, иметь запах|Hershey|Urbane|mountain</item>
-    <item>пробовать, иметь вкус|MilkyWay|Uxorious|guitar</item>
+        to feel to hear to see to smell to taste
+    <item>чувствовать|to hear|to see|to smell|to feel|4</item>
+    <item>слышать|to hear|to taste|to smell|to feel|1</item>
+    <item>видеть|to feel|to hear|to see|to smell|3</item>
+    <item>нюхать, иметь запах|to hear|to smell|to feel|to taste|2</item>
+    <item>пробовать, иметь вкус|to smell|to help|to hear|to taste|4</item>
 
     </string-array>
 
