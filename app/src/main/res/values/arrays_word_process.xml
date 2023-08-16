@@ -1325,78 +1325,78 @@
     </string-array>
 
     <string-array name="human_36">
-    <item>квартира|Victory|Blockade|gold</item>
-    <item>дом (помещение)|Defeat|Blockbuster|pen</item>
-    <item>балкон|Courage|Bloodshed|soccer</item>
-    <item>ванная|Fear|Bloom|river</item>
-    <item>спальня|Hope|Blossom|tree</item>
-    <item>штора|Faith|Blouse|cloud</item>
-    <item>дверь|Patience|Blueberry|cat</item>
-    <item>забор|Persistence|Blueprint|dog</item>
-    <item>пол, этаж|Talent|Blunder|planet</item>
-    <item>коридор|Passion|Blunt|balloon</item>
-    <item>кухня|Creativity|Blur|sunset</item>
-    <item>гостиная, зал|Imagination|Blush|zebra</item>
-    <item>крыша|Inspiration|Boardinghouse|dolphin</item>
-    <item>комната|Motivation|Boastful|basketball</item>
-    <item>душ|Happiness|Boatman|garden</item>
-    <item>раковина|Sadness|Bobbin|umbrella</item>
-    <item>розетка|Anger|Bodily|diamond</item>
-    <item>лестница, ступеньки|Emotions|Bogus|door</item>
-    <item>туалет|Mind|Boilerplate|jungle</item>
-    <item>стена|Body|Boldness|camera</item>
-    <item>окно|Soul|Bolster|sun</item>
-    <item>двор|Spirit|Bombardment|pillow</item>
+        <item>квартира|flat|Blockade|gold|house|1</item>
+        <item>дом (помещение)|Defeat|Blockbuster|pen|house|4</item>
+        <item>балкон|Courage|Bloodshed|soccer|balcony|4</item>
+        <item>ванная|Fear|bathroom|river|balcony|2</item>
+        <item>спальня|Hope|Blossom|bedroom|bathroom|3</item>
+        <item>штора|curtain|Blouse|cloud|bedroom|1</item>
+        <item>дверь|Patience|door|cat|curtain|2</item>
+        <item>забор|fence|Blueprint|dog|door|1</item>
+        <item>пол, этаж|floor|Blunder|planet|fence|1</item>
+        <item>коридор|Passion|Blunt|balloon|hall|4</item>
+        <item>кухня|Creativity|Blur|kitchen|floor|3</item>
+        <item>гостиная, зал|Imagination|living room|zebra|hall|2</item>
+        <item>крыша|Inspiration|roof|dolphin|kitchen|2</item>
+        <item>комната|room|Boastful|basketball|roof|1</item>
+        <item>душ|Happiness|Boatman|shower|table|3</item>
+        <item>раковина|Sadness|sink|umbrella|sofa|2</item>
+        <item>розетка|Anger|Bodily|diamond|socket|4</item>
+        <item>лестница, ступеньки|stairs|Bogus|door|chair|1</item>
+        <item>туалет|toilet|Boilerplate|jungle|armchair|1</item>
+        <item>стена|Body|wall|camera|yard|2</item>
+        <item>окно|Soul|Bolster|window|roof|3</item>
+        <item>двор|yard|Bombardment|pillow|house|1</item>
+        <item>мебель|Peace|Bondage|ball|furniture|4</item>
+        <item>кресло|Joy|armchair|key|fence|2</item>
+        <item>кровать|Freedom|Bookcase|bed|curtain|3</item>
+        <item>стул|chair|Chicken|rain|balcony|1</item>
+        <item>полка|Environment|Fish|book|shelf|4</item>
+        <item>диван|Pollution|Rice|lemon|sofa|4</item>
+        <item>стол|Climate|table|cup|wall|2</item>
+        <item>шкаф|Global|Coffee|wardrobe|stairs|3</item>
 
     </string-array>
 
-    <string-array name="human_37">
-    <item>мебель|Peace|Bondage|ball</item>
-    <item>кресло|Joy|Bonfire|key</item>
-    <item>кровать|Freedom|Bookcase|sunflower</item>
-    <item>стул|Nature|Chicken|rain</item>
-    <item>полка|Environment|Fish|book</item>
-    <item>диван|Pollution|Rice|lemon</item>
-    <item>стол|Climate|Juice|cup</item>
-    <item>шкаф|Global|Coffee|shoes</item>
 
-    </string-array>
 
     <string-array name="human_38">
-    <item>батарейка, аккумулятор|Innovation|Salt|bike</item>
-    <item>камера|Internet|Pepper|snake</item>
-    <item>компьютер|Socialmedia|Butter|apple</item>
-    <item>холодильник|Communication|Milk|house</item>
-    <item>утюг|Connection|Honey|ocean</item>
-    <item>клавиатура|Networking|Egg|phone</item>
-    <item>лампа|Information|Bread|pencil</item>
-    <item>ноутбук|Knowledge|Tomato|cake</item>
-    <item>микроволновка|Education|Potato|bird</item>
-    <item>печь, духовка|Wisdom|Onion|computer</item>
-    <item>телефон|Learning|Garlic|rainbow</item>
-    <item>радио|Reading|Lemon|lamp</item>
-    <item>кухонная плита|Writing|Orange|star</item>
-    <item>телевизор|Speaking|Banana|ship</item>
-    <item>провод|Listening|Strawberry|grass</item>
-    <item>erstanding|Watermelon|icecream</item>
+        <item>батарейка, аккумулятор|Innovation|Salt|bike|battery|4</item>
+        <item>камера|camera|Pepper|snake|wire|1</item>
+        <item>компьютер|Socialmedia|computer|apple|TV|2</item>
+        <item>холодильник|Communication|fridge|house|cooker|2</item>
+        <item>утюг|iron|Honey|ocean|radio|1</item>
+        <item>клавиатура|Networking|Egg|phone|keyboard|4</item>
+        <item>лампа|radio|Bread|lamp|phone|3</item>
+        <item>ноутбук|Knowledge|Tomato|cake|laptop|4</item>
+        <item>микроволновка|wire|Potato|bird|microwave|4</item>
+        <item>печь, духовка|Wisdom|oven|computer|oven|2</item>
+        <item>телефон|phone|Garlic|rainbow|microwave|1</item>
+        <item>радио|Reading|Lemon|radio|laptop|3</item>
+        <item>кухонная плита|cooker|Orange|star|computer|1</item>
+        <item>телевизор|keyboard|TV|ship|camera|2</item>
+        <item>провод|wire|Strawberry|grass|battery|1</item>
+
 
     </string-array>
 
+
+
     <string-array name="human_39">
-    <item>мяч, шар|Kindness|Pineapple|fish||</item>
-    <item>одеяло|Gratitude|Mango|elephant||</item>
-    <item>ковер|Love|Pear|juice||</item>
-    <item>ключ, клавиша|Hope|Avocado|whisper||</item>
-    <item>журнал|Happiness|Coconut|orange||</item>
-    <item>почта|Forgiveness|Cucumber|image||</item>
-    <item>зеркало|Peace|Carrot|ivory||</item>
-    <item>газета|Success|Broccoli|guitar||</item>
-    <item>упаковка, посылка|Growth|Lettuce|mother||</item>
-    <item>подушка|Change|Spinach|knock||</item>
-    <item>простыня|Progress|Mushroom|yawning||</item>
-    <item>мыло|Improvement|Chocolate|zebra||</item>
-    <item>полотенце|Health|Candy|brother||</item>
-    <item>ваза|Wealth|Cookie|mountain||</item>
+        <item>мяч, шар|ball|Pineapple|fish|mail|1</item>
+        <item>одеяло|Gratitude|blanket|elephant|key|2</item>
+        <item>ковер|Love|Pear|carpet|towel|3</item>
+        <item>ключ, клавиша|Hope|Avocado|whisper|key|4</item>
+        <item>журнал|Happiness|magazine|orange|carpet|2</item>
+        <item>почта|Forgiveness|mail|image|package|2</item>
+        <item>зеркало|Peace|Carrot|ivory|mirror|4</item>
+        <item>газета|Success|pillow|newspaper|vase|3</item>
+        <item>упаковка, посылка|package|Lettuce|mother|roof|1</item>
+        <item>подушка|pillow|Spinach|knock|blanket|1</item>
+        <item>простыня|Progress|sheet|yawning|soap|2</item>
+        <item>мыло|Improvement|soap|zebra|sheet|2</item>
+        <item>полотенце|Health|towel|brother|newspaper|2</item>
+        <item>ваза|Wealth|Cookie|vase|carpet|3</item>
     </string-array>
 
 </resources>
