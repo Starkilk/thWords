@@ -700,7 +700,6 @@
     </string-array>
 
     <string-array name="emotion">
-        to cry to enjoy to laugh to like to love to miss to need to smile to want to worry
     <item>страх|passion|peace|pleasure|fear|4</item>
     <item>веселье|fun|to cry|to enjoy|passion|1</item>
     <item>страсть|pleasure|passion|fun|fear|2</item>
