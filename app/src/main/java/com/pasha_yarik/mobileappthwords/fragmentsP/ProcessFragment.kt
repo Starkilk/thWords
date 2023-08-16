@@ -111,19 +111,19 @@ class ProcessFragment : Fragment() {
                 24 -> processSlova(counterItem,resources.getStringArray(R.array.sousi_i_voprosi))
                 25 -> processSlova(counterItem,resources.getStringArray(R.array.emotion))
                 26 -> processSlova(counterItem,resources.getStringArray(R.array.feels))
-                /*27 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               28 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               29 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               30 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               31 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               32 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               33 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               34 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               35 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               36 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               37 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               38 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               39 -> processSlova(0,resources.getStringArray(R.array.procc_array1))*/
+                27 -> processSlova(counterItem,resources.getStringArray(R.array.mishlenie))
+                28 -> processSlova(counterItem,resources.getStringArray(R.array.students))
+                29 -> processSlova(counterItem,resources.getStringArray(R.array.modal_verbs))
+                30 -> processSlova(counterItem,resources.getStringArray(R.array.gotovka_upotreblenie))
+                /*31 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                32 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                33 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                34 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                35 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                36 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                37 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                38 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+                39 -> processSlova(0,resources.getStringArray(R.array.procc_array1))*/
             }
 
         }
