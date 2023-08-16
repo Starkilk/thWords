@@ -1324,7 +1324,7 @@
 
     </string-array>
 
-    <string-array name="human_36">
+    <string-array name="dom">
         <item>квартира|flat|Blockade|gold|house|1</item>
         <item>дом (помещение)|Defeat|Blockbuster|pen|house|4</item>
         <item>балкон|Courage|Bloodshed|soccer|balcony|4</item>
@@ -1360,7 +1360,7 @@
 
 
 
-    <string-array name="human_38">
+    <string-array name="pribori">
         <item>батарейка, аккумулятор|Innovation|Salt|bike|battery|4</item>
         <item>камера|camera|Pepper|snake|wire|1</item>
         <item>компьютер|Socialmedia|computer|apple|TV|2</item>
@@ -1382,7 +1382,7 @@
 
 
 
-    <string-array name="human_39">
+    <string-array name="veshi">
         <item>мяч, шар|ball|Pineapple|fish|mail|1</item>
         <item>одеяло|Gratitude|blanket|elephant|key|2</item>
         <item>ковер|Love|Pear|carpet|towel|3</item>
