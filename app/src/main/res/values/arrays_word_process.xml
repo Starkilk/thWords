@@ -814,192 +814,175 @@
     </string-array>
 
     <string-array name="producti">
-    <item>фрукты|Chimpanzee|Accord|tree</item>
-    <item>овощи|Monkey|According|elephant</item>
-    <item>яблоко|Koala|Account|whisper</item>
-    <item>абрикос|Kangaroo|Accredit|juice</item>
-    <item>банан|Platypus|Accrue|orange</item>
-    <item>ягода|Crocodile|Accuracy|image</item>
-    <item>вишня|Alligator|Accuse|pen</item>
-    <item>огурец|Discovery|Ace|chair</item>
-    <item>виноград|Curiosity|Ache|mother</item>
-    <item>лимон|Imagination|Achieve|yawning</item>
-    <item>мандарин|Innovation|Acidic|zebra</item>
-    <item>манго|Wisdom|Acknowledge|brother</item>
-    <item>дыня|Knowledge|Acorn|mountain</item>
-    <item>персик|Learning|Acoustic|guitar</item>
-    <item>груша|Education|Acquire|river</item>
-    <item>ананас|Progress|Acreage|dream</item>
-    <item>слива|Change|Acrobat|ocean</item>
-    <item>тыква|Challenges|Across|pencil</item>
-    <item>малина|Opportunities|Act|banana</item>
-    <item>клубника|Success|Action|book</item>
-    <item>помидор|Failure|Activate|flower</item>
-    <item>арбуз|Resilience|Active|dog</item>
-    <item>баклажан|Persistence|Actor|cat</item>
-    <item>бобы, фасоль|Optimism|Actress|paper</item>
-    <item>свекла|Positivity|Actual|mirror</item>
-    <item>кий перец|Confidence|Acute|rainbow</item>
-    <item>капуста|Self-esteem|Adage|green</item>
-    <item>морковь|Self-belief|Adapt|friend</item>
-    <item>кукуруза|Motivation|Add|phone</item>
-    <item>кабачок|Focus|Addict|car</item>
-    <item>чеснок|Productivity|Addition|music</item>
-    <item>лук|Time-management|Address|hour</item>
-    <item>гриб|Organization|Adequate|airplane</item>
-    <item>картофель|Adaptability|Adhere|butterfly</item>
-
-
-    <item>е продукты|Chair|Adjective|lamp</item>
-    <item>масло|Tree|Adjoin|queen</item>
-    <item>сыр|Car|Adjust|dream</item>
-    <item>крем, сливки|Dog|Admirable|garden</item>
-    <item>творог|Book|Admire|lake</item>
-    <item>молоко|Table|Admit|mouse</item>
-    <item>йогурт|Window|Admix|ruby</item>
-
-
-    <item>котлета|Pencil|Adore|paint</item>
-    <item>мясо|Paper|Adorn|globe</item>
-    <item>говядина|Flower|Adult|monkey</item>
-    <item>курица, цыпленок|Sun|Advance|basketball</item>
-    <item>рыба|Moon|Advantage|castle</item>
-    <item>утка|Star|Advent|park</item>
-    <item>ветчина|Earth|Adventure|cloud</item>
-    <item>баранина, ягненок|Sky|Adverb|bird</item>
-    <item>свинина|Cloud|Adversary|soccer</item>
-    <item>колбаса, сосиска|Grass|Adverse|gold</item>
-    <item>морепродукты|River|Advertise|tree</item>
-
-
-    <item>десерт|Road|Advocate|cat</item>
-    <item>печенье|House|Aerial|zebra</item>
-    <item>булочка|Door|Aerobic|dolphin</item>
-    <item>торт|Key|Affair|apple</item>
-    <item>шоколад|Clock|Affect|house</item>
-    <item>мед|Mirror|Affectionate|heart</item>
-    <item>мороженое|Music|Affiliate|shoes</item>
-    <item>варенье|Guitar|Affinity|heart</item>
-    <item>пирог|Piano|Affirmative|bike</item>
-
-
-    <item>хлеб|Dance|Affluent|flower</item>
-    <item>яйцо|Party|Afford|window</item>
-    <item>мука|Wine|Afghan|door</item>
-    <item>орех|Cheese|Afraid|jungle</item>
-    <item>овсянка|Pizza|African|lemon</item>
-    <item>льное масло|Burger|Aftermath|cup</item>
-    <item>перец|Salad|Afternoon|rain</item>
-    <item>рис|Chicken|Afterward|cake</item>
-    <item>соль|Fish|Again|tree</item>
-    <item>соус|Rice|Against|bird</item>
-    <item>специи|Juice|Agape|apple</item>
-    <item>сахар|Coffee|Agate|house</item>
-
-
-    <item>напиток|Salt|Agenda|dog</item>
-    <item>кофе|Pepper|Agent|cat</item>
-    <item>сок|Butter|Aggravate|computer</item>
-    <item>газировка|Milk|Asteroid|lamp</item>
-    <item>чай|Honey|Astonish|key</item>
-    <item>вода|Egg|Athlete|mirror</item>
-    <item>вино|Bread|Atmosphere|river</item>
+    <item>фрукты|vegetables|apple|apricot|fruit|4</item>
+    <item>овощи|apple|vegetables|apricot|fruit|2</item>
+    <item>яблоко|juice|orange|apple|apricot|3</item>
+    <item>абрикос|apricot|apple|orange|juice|1</item>
+    <item>банан|apple|orange|banana|apricot|3</item>
+    <item>ягода|fruit|juice|banana|berry|4</item>
+    <item>вишня|orange|cherry|banana|berry|2</item>
+    <item>огурец|cucumber|banana|berry|juice|1</item>
+    <item>виноград|apricot|berry|juice|grapes|4</item>
+    <item>лимон|juice|banana|grapes|lemon|4</item>
+    <item>мандарин|mandarin|apple|fruit|lemon|1</item>
+    <item>манго|fruit|mango|banana|apple|2</item>
+    <item>дыня|lemon|fruit|melon|apple|3</item>
+    <item>персик|peach|apple|fruit|banana|1</item>
+    <item>груша|grapes|fruit|pear|banana|3</item>
+    <item>ананас|melon|pineapple|pear|lemon|2</item>
+    <item>слива|melon|plum|pear|banana|2</item>
+    <item>тыква|pumpkin|lemon|mango|pineapple|1</item>
+    <item>малина|pear|mango|pineapple|raspberry|4</item>
+    <item>клубника|pineapple|strawberry|raspberry|pumpkin|2</item>
+    <item>помидор|pineapple|pear|tomato|raspberry|3</item>
+    <item>арбуз|watermelon|apple|pear|tomato|1</item>
+    <item>баклажан|mango|tomato|pumpkin|aubergine|4</item>
+    <item>бобы, фасоль|banana|beans|aubergine|tomato|2</item>
+    <item>свекла|raspberry|pumpkin|tomato|beetroot|4</item>
+    <item>болгарский перец|bell pepper|beetroot|tomato|pear|1</item>
+    <item>капуста|juice|tomato|cabbage|beetroot|3</item>
+    <item>морковь|bell pepper|carrot|cabbage|corn|2</item>
+    <item>кукуруза|beetroot|pear|cabbage|corn|4</item>
+    <item>кабачок|juice|courgette|corn|banana|2</item>
+    <item>чеснок|garlic|cabbage|corn|apple|1</item>
+    <item>лук|beetroot|banana|onion|apple|3</item>
+    <item>гриб|pumpkin|courgette|apple|mushroom|4</item>
+    <item>картофель|potato|berry|apple|mushroom|1</item>
+    <item>молочные продукты|dairy|butter|cheese|cream|1</item>
+    <item>масло|cream|dairy|butter|cheese|3</item>
+    <item>сыр|cream|milk|curd|cheese|4</item>
+    <item>крем, сливки|dairy|cream|cheese|butter|2</item>
+    <item>творог|curd|dairy|cream|butter|1</item>
+    <item>молоко|dairy|cream|cheese|milk|4</item>
+    <item>йогурт|cream|yogurt|butter|milk|2</item>
+    <item>котлета|chicken|fish|ham|cutlet|4</item>
+    <item>мясо|meat|ham|sausage|seafood|1</item>
+    <item>говядина|lamb|beef|fish|duck|2</item>
+    <item>курица, цыпленок|cutlet|seafood|sausage|chicken|4</item>
+    <item>рыба|pork|cutlet|fish|seafood|3</item>
+    <item>утка|pork|duck|fish|seafood|2</item>
+    <item>ветчина|ham|seafood|lamb|sausage|1</item>
+    <item>баранина, ягненок|fish|pork|sausage|lamb|4</item>
+    <item>свинина|chicken|seafood|pork|sausage|3</item>
+    <item>колбаса, сосиска|duck|sausage|fish|lamb|2</item>
+    <item>морепродукты|seafood|ham|cutlet|seafood|4</item>
+    <item>десерт|cake|chocolate|honey|dessert|4</item>
+    <item>печенье|pie|jam|biscuit|ice cream|3</item>
+    <item>булочка|biscuit|bun|honey|chocolate|2</item>
+    <item>торт|pie|jam|ice cream|cake|4</item>
+    <item>шоколад|jam pie|chocolate|ice cream|cake|2</item>
+    <item>мед|cake|chocolate|honey|ice cream|3</item>
+    <item>мороженое|cake|pie|biscuit|ice cream|4</item>
+    <item>варенье|pie|jam|cake|chocolate|2</item>
+    <item>пирог|pie|ice cream|cake|chocolate|1</item>
+    <item>хлеб|oil|oatmeal|pepper|bread|4</item>
+    <item>яйцо|spices|salt|egg|rice|3</item>
+    <item>мука|egg|flour|rice|oatmeal|2</item>
+    <item>орех|sugar|oil|nut|pepper|3</item>
+    <item>овсянка|sugar|spices|oatmeal|sauce|3</item>
+    <item>растительное масло|oil|spices|oatmeal|rice|1</item>
+    <item>перец|oatmeal|pepper|oil|spices|2</item>
+    <item>рис|rice|spices|pepper|flour|1</item>
+    <item>соль|oil|sugar|salt|flour|3</item>
+    <item>соус|pepper|rice|spices|sauce|4</item>
+    <item>специи|spices|sauce|rice|sugar|1</item>
+    <item>сахар|pepper|sugar|sauce|egg|2</item>
+    <item>напиток|a drink|tea|water|wine|1</item>
+    <item>кофе|soda|coffee|wine|water|2</item>
+    <item>сок|soda|water|juice|wine|3</item>
+    <item>газировка|a drink|juice|water|soda|4</item>
+    <item>чай|tea|soda|juice|water|1</item>
+    <item>вода|wine|tea|water|juice|3</item>
+    <item>вино|soda|wine|coffee|juice|2</item>
 
     </string-array>
 
     <string-array name="posuda">
-    <item>бутылка|Onion|Attach|heart</item>
-    <item>стакан, стекло|Garlic|Attack|window</item>
-    <item>чашка|Lemon|Attain|radio</item>
-    <item>чайник|Orange|Attempt|sunset</item>
-    <item>я тарелка, миска|Banana|Attend|garden</item>
-    <item>тарелка|Strawberry|Attention|grass</item>
-    <item>вилка|Watermelon|Attic|moon</item>
-    <item>нож|Grapes|Attract|bird</item>
-    <item>ложка|Pineapple|Attribute|tree</item>
-    <item>сковородка|Mango|Auction|elephant</item>
-    <item>кастрюля|Pear|Audacious|whisper</item>
-    <item>салфетка|Avocado|Audio|juice</item>
+    <item>бутылка|kettle|bowl|fork|bottle|4</item>
+    <item>стакан, стекло|glass|napkin|knife|pan|1</item>
+    <item>чашка|fork|cup|plate|bowl|2</item>
+    <item>чайник|napkin|fork|kettle|plate|3</item>
+    <item>глубокая тарелка, миска|plate|knife|frying pan|bowl|4</item>
+    <item>тарелка|glass|plate|knife|bottle|2</item>
+    <item>вилка|fork|spoon|knife|napkin|1</item>
+    <item>нож|bottle|cup|knife|napkin|3</item>
+    <item>ложка|cup|bottle|napkin|spoon|4</item>
+    <item>сковородка|bottle|frying pan|pan|napkin|2</item>
+    <item>кастрюля|pan|fork|spoon|glass|1</item>
+    <item>салфетка|knife|frying pan|glass|napkin|4</item>
 
     </string-array>
 
-    <string-array name="human_30">
-    <item>животное|Carrot|August|pen</item>
-    <item>муравей|Broccoli|Aunt|chair</item>
-    <item>медведь|Lettuce|Aura|mother</item>
-    <item>пчела|Spinach|Authentic|yawning</item>
-    <item>птица|Mushroom|Author|zebra</item>
-    <item>кот, кошка|Chocolate|Authority|brother</item>
-    <item>таракан|Candy|Autobiography|mountain</item>
-    <item>корова|Cookie|Autocracy|guitar</item>
-    <item>собака|Icecream|Automobile|river</item>
-    <item>слон|Cake|Autumn|dream</item>
-    <item>лиса|Pie|Auxiliary|ocean</item>
-    <item>лягушка|Chocolatechip|Avalanche|pencil</item>
-    <item>жираф|Vanilla|Avarice|banana</item>
-    <item>гусь|Strawberry|Avenue|book</item>
-    <item>лошадь|Blueberry|Average|flower</item>
-    <item>насекомое|Raspberry|Averse|dog</item>
-    <item>лев|Blackberry|Aversion|cat</item>
-    <item>львица|Pine|Aviator|paper</item>
-    <item>обезьяна|Oak|Avocado|mirror</item>
-    <item>мышь|Maple|Avoidance|rainbow</item>
-    <item>свинья|Cherry|Await|green</item>
-    <item>заяц|Palm|Awake|friend</item>
-    <item>крыса|Rose|Award|phone</item>
-    <item>змея|Lily|Aware|car</item>
-    <item>паук|Sunflower|Away|music</item>
-    <item>белка|Tulip|Awesome|hour</item>
+    <string-array name="flora_i_fauna">
+
+    <item>животное|ant|bear|bee|animal|4</item>
+    <item>муравей|ant|bear|bee|animal|1</item>
+    <item>медведь|cockroach|dog|bear|frog|3</item>
+    <item>пчела|dog|bee|bear|frog|2</item>
+    <item>птица|bird|cat|dog|animal|1</item>
+    <item>кот, кошка|bear|cockroach|cat|animal|3</item>
+    <item>таракан|ant|cockroach|frog|cat|2</item>
+    <item>корова|cow|frog|bear|dog|1</item>
+    <item>собака|bear|cat|animal|dog|4</item>
+    <item>слон|ant|elephant|dog|animal|2</item>
+    <item>лиса|cat|ant|fox|animal|3</item>
+    <item>лягушка|frog|bee|cockroach|animal|1</item>
+    <item>жираф|bee|cockroach|ant|giraffe|4</item>
+    <item>гусь|bee|goose|cockroach|horse|2</item>
+    <item>лошадь|horse|ant|giraffe|elephant|1</item>
+    <item>насекомое|giraffe|elephant|frog|insect|4</item>
+    <item>лев|lion|cockroach|elephant|ant|1</item>
+    <item>львица|ant|frog|lioness|animal|3</item>
+    <item>обезьяна|horse|monkey|lioness|elephant|</item>
+    <item>мышь|mouse|animal|lioness|frog|1</item>
+    <item>свинья|pig|rabbit|rat|lioness|1</item>
+    <item>заяц|elephant|rat|rabbit|bee|3</item>
+    <item>крыса|frog|lioness|fox|rat|4</item>
+    <item>змея|ant|cat|snake|dog|3</item>
+    <item>паук|animal|spider|dog|elephant|2</item>
+    <item>белка|squirrel|cow|fox|monkey|1</item>
+    <item>растение|bush|flower|grass|plant|4</item>
+    <item>куст|leaf|tree|bush|flower|3</item>
+    <item>цветок|tree|flower|plant|grass|2</item>
+    <item>трава|grass|flower|bush|plant|1</item>
+    <item>лист|flower|bush|plant|leaf|4</item>
+    <item>дерево|bush|tree|leaf|plant|2</item>
 
     </string-array>
 
-    <string-array name="human_31">
-    <item>растение|Mountain|Axe|radio</item>
-    <item>куст|Beach|Axiom|bottle</item>
-    <item>цветок|Forest|Babble|lamp</item>
-    <item>трава|Desert|Baboon|queen</item>
-    <item>лист|Field|Bachelor|dream</item>
-    <item>дерево|Park|Backdrop|garden</item>
-
-    </string-array>
-
-    <string-array name="human_32">
-    <item>природа|Ocean|Backpacker|ruby</item>
-    <item>пляж|Island|Backstage|fire</item>
-    <item> побережье|City|Backward|watch</item>
-    <item>поле|Country|Bacon|paint</item>
-    <item>огонь, пожар|World|Bacteria|globe</item>
-    <item>лес|Universe|Badger|monkey</item>
-    <item>остров|Nature|Baggage|basketball</item>
-    <item>озеро|Sunrise|Bailiff|castle</item>
-    <item>гора|Sunset|Balance|park</item>
-    <item>океан|Starry|Ballad|cloud</item>
-    <item>река|Cloudy|Ballerina|bird</item>
-    <item>песок|Rainy|Ballet|soccer</item>
-    <item>море|Snowy|Balloon|gold</item>
-    <item>камень|Windy|Balmy|tree</item>
-    <item>мир (планета)|Stormy|Balsam|key</item>
-
-    </string-array>
-
-    <string-array name="human_33">
-    <item>воздух|Sad|Bandage|zebra</item>
-    <item>градус|Angry|Bandit|dolphin</item>
-    <item>луна|Excited|Banish|apple</item>
-    <item>небо|Bored|Banker|house</item>
-    <item>солнце|Tired|Bankrupt|heart</item>
-    <item>температура|Energetic|Banner|shoes</item>
-    <item>погода|Beautiful|Banquet|heart</item>
-    <item>ясный|Ugly|Baptist|bike</item>
-    <item>облачный|Kind|Barbecue|swim</item>
-    <item>холодный, холодно|Mean|Barber|star</item>
-    <item>прохладный, прохладно|Smart|Bargain|flower</item>
-    <item>туманный|Stupid|Baritone|window</item>
-    <item>горячий, жаркий, жарко|Brave|Barometer|door</item>
-    <item>дождливый, дождливо|Coward|Barrage|jungle</item>
-    <item>снежный, снежно|Honest|Barrier|lemon</item>
-    <item>тепло, теплый|Liar|Baseball|cup</item>
-    <item>ветрено|Generous|Basement|rain</item>
+    <string-array name="priroda">
+    <item>природа|beach|coast|field|nature|4</item>
+    <item>пляж|fire|beach|ocean|lake|2</item>
+    <item>морское побережье|beach|nature|coast|lake|3</item>
+    <item>поле|field|fire|beach|nature|1</item>
+    <item>огонь, пожар|sand|lake|fire|coast|3</item>
+    <item>лес|lake|forest|fire|coast|2</item>
+    <item>остров|beach|field|lake|island|4</item>
+    <item>озеро|lake|beach|field|island|1</item>
+    <item>гора|island|mountain|fire|lake|2</item>
+    <item>океан|coast|field|lake|ocean|4</item>
+    <item>река|island|beach|river|ocean|3</item>
+    <item>песок|field|sand|river|lake|2</item>
+    <item>море|sea|coast|beach|lake|1</item>
+    <item>камень|nature|stone|ocean|lake|2</item>
+    <item>мир (планета)|nature|ocean|sand|world|4</item>
+    <item>воздух|degree|moon|air|weather|3</item>
+    <item>градус|moon|degree|weather|air|2</item>
+    <item>луна|sky|degree|sun|moon|4</item>
+    <item>небо|sky|sun|degree|weather|1</item>
+    <item>солнце|moon|degree|sun|weather|3</item>
+    <item>температура|degree|temperature|weather|air|2</item>
+    <item>погода|degree|sky|weather|temperature|3</item>
+    <item>ясный|clear|sky|moon|air|1</item>
+    <item>облачный|clear|weather|air|cloudy|4</item>
+    <item>холодный, холодно|sky|cold|cloudy|air|2</item>
+    <item>прохладный, прохладно|cool|cold|sky|weather|1</item>
+    <item>туманный|temperature|cold|foggy|sky|3</item>
+    <item>горячий, жаркий, жарко|cloudy|hot|moon|degree|2</item>
+    <item>дождливый, дождливо|rainy|moon|degree|hot|1</item>
+    <item>снежный, снежно|weather|sky|hot|snowy|4</item>
+    <item>тепло, теплый|cloudy|warm|hot|moon|2</item>
+    <item>ветрено|weather|snowy|windy|moon|3</item>
 
     </string-array>
 
@@ -1149,20 +1132,20 @@
     </string-array>
 
     <string-array name="human_39">
-    <item>мяч, шар|Kindness|Pineapple|fish</item>
-    <item>одеяло|Gratitude|Mango|elephant</item>
-    <item>ковер|Love|Pear|juice</item>
-    <item>ключ, клавиша|Hope|Avocado|whisper</item>
-    <item>журнал|Happiness|Coconut|orange</item>
-    <item>почта|Forgiveness|Cucumber|image</item>
-    <item>зеркало|Peace|Carrot|ivory</item>
-    <item>газета|Success|Broccoli|guitar</item>
-    <item>упаковка, посылка|Growth|Lettuce|mother</item>
-    <item>подушка|Change|Spinach|knock</item>
-    <item>простыня|Progress|Mushroom|yawning</item>
-    <item>мыло|Improvement|Chocolate|zebra</item>
-    <item>полотенце|Health|Candy|brother</item>
-    <item>ваза|Wealth|Cookie|mountain</item>
+    <item>мяч, шар|Kindness|Pineapple|fish||</item>
+    <item>одеяло|Gratitude|Mango|elephant||</item>
+    <item>ковер|Love|Pear|juice||</item>
+    <item>ключ, клавиша|Hope|Avocado|whisper||</item>
+    <item>журнал|Happiness|Coconut|orange||</item>
+    <item>почта|Forgiveness|Cucumber|image||</item>
+    <item>зеркало|Peace|Carrot|ivory||</item>
+    <item>газета|Success|Broccoli|guitar||</item>
+    <item>упаковка, посылка|Growth|Lettuce|mother||</item>
+    <item>подушка|Change|Spinach|knock||</item>
+    <item>простыня|Progress|Mushroom|yawning||</item>
+    <item>мыло|Improvement|Chocolate|zebra||</item>
+    <item>полотенце|Health|Candy|brother||</item>
+    <item>ваза|Wealth|Cookie|mountain||</item>
     </string-array>
 
 </resources>

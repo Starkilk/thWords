@@ -115,15 +115,15 @@ class ProcessFragment : Fragment() {
                 28 -> processSlova(counterItem,resources.getStringArray(R.array.students))
                 29 -> processSlova(counterItem,resources.getStringArray(R.array.modal_verbs))
                 30 -> processSlova(counterItem,resources.getStringArray(R.array.gotovka_upotreblenie))
-                /*31 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                32 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                33 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                34 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                35 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                36 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                37 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                38 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-                39 -> processSlova(0,resources.getStringArray(R.array.procc_array1))*/
+                31 -> processSlova(counterItem,resources.getStringArray(R.array.producti))
+                32 -> processSlova(counterItem,resources.getStringArray(R.array.posuda))
+                33 -> processSlova(counterItem,resources.getStringArray(R.array.flora_i_fauna))
+                34 -> processSlova(counterItem,resources.getStringArray(R.array.priroda))
+                /*35 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+               36 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+               37 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+               38 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
+               39 -> processSlova(0,resources.getStringArray(R.array.procc_array1))*/
             }
 
         }
