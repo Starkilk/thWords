@@ -32,7 +32,7 @@ class FragmentHomeMainY : Fragment() {
         }
 
         binding.pbInHomeView.progress = homeProgress
-        val tmp = "${homeProgress} из 1000"
+        val tmp = "${homeProgress / 2} из 1000"
         binding.tvCountWordsHome.text = tmp
     }
 
