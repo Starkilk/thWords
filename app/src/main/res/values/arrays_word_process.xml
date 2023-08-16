@@ -3,303 +3,554 @@
 
     <string-array name="human">
 
-    <item>человек, персона|Apple|Person|Lion|Kite|2</item>
-    <item>мужчина|Man|Cat|Computer|Lamp|1</item>
-    <item>женщина|Cat|Mirror|Blue|Woman|4</item>
-    <item>ребенок|Dog|Tree|Child|Notebook|3</item>
-    <item>мальчик|Elephant|Boy|Girl|Pencilcase|2</item>
-    <item>девочка|Girl|Dog|Juice|Quicksand|1</item>
-    <item>друг|Grape|Book|Friend|Rug|3</item>
-    <item>сосед|Horse|Table|Neighbour|Sunglasses|3</item>
-    <item>имя, название|Icecream|Thermometer|Rename|Name|4</item>
-    <item>фамилия|Surname|Lamp|Orange|Ukulele|1</item>
-    <item>девичья фамилия|Name|Day|Maiden Name|Volleyball|3</item>
-    <item>адрес|Lemon|Pencil|Address|Whistle|3</item>
-    <item>холостой/незамужняя|Single|Paper|Pizza|Xbox controller|1</item>
-    <item>женатый/замужняя|Nut|Married|Guitar|Yogamat|2</item>
-    <item>возраст|Orange|Zipper|Happy|Age|4</item>
-    <item>старый|Penguin|Old|Window|Airplane|2</item>
-    <item>молодой|Queen|Star|Young|Backpack|3</item>
+
+        <item>человек, персона|Apple|Person|Lion|Kite|2</item>
+        <item>мужчина|Man|Cat|Computer|Lamp|1</item>
+        <item>person, individual|молодой|Человек|сосед|женатый|2</item>
+        <item>man|Мужчина|сосед|имя|возраст|1</item>
+        <item>женщина|Cat|Mirror|Blue|Woman|4</item>
+        <item>ребенок|Dog|Tree|Child|Notebook|3</item>
+        <item>мальчик|Elephant|Boy|Girl|Pencilcase|2</item>
+        <item>woman|молодой|адрес|друг|Женщина|4</item>
+        <item>child|девичья фамилия|женщина|Ребенок|мужчина|3</item>
+        <item>boy|фамилия|Мальчик|Девочка|ребенок|2</item>
+        <item>девочка|Girl|Dog|Juice|Quicksand|1</item>
+        <item>друг|Grape|Book|Friend|Rug|3</item>
+        <item>сосед|Horse|Table|Neighbour|Sunglasses|3</item>
+        <item>girl|Девочка|мальчик|холостой|молодой|1</item>
+        <item>friend|старый|название|Друг|старый|3</item>
+        <item>neighbor|человек|мужчина|Сосед|фамилия|3</item>
+        <item>имя, название|Icecream|Thermometer|Rename|Name|4</item>
+        <item>фамилия|Surname|Lamp|Orange|Ukulele|1</item>
+        <item>name, title|холостой|женатый|Переименовать|Имя|4</item>
+        <item>surname|Фамилия|адрес|старый|Укулеле|1</item>
+        <item>девичья фамилия|Name|Day|Maiden Name|Volleyball|3</item>
+        <item>адрес|Lemon|Pencil|Address|Whistle|3</item>
+        <item>maiden name|Имя|День|Девичья фамилия|друг|3</item>
+        <item>address|замужняя|ребенок|Адрес|фамилия|3</item>
+        <item>холостой/незамужняя|Single|Paper|Pizza|Xbox controller|1</item>
+        <item>женатый/замужняя|Nut|Married|Guitar|Yogamat|2</item>
+        <item>возраст|Orange|Zipper|Happy|Age|4</item>
+        <item>single|Одиночный|человек|мужчина|молодой|1</item>
+        <item>married|Орех|Женатый|мальчик|девочка|2</item>
+        <item>age|Апельсин|старый|Счастливый|Возраст|4</item>
+        <item>старый|Penguin|Old|Window|Airplane|2</item>
+        <item>молодой|Queen|Star|Young|Backpack|3</item>
+        <item>old|Пингвин|Старый|друг|возраст|2</item>
+        <item>young|Королева|Звезда|Молодой|адрес|3</item>
 
     </string-array>
 
     <string-array name="mestoimeniya">
-    <item>я|Turtle|Cloud|I|Calculator|3</item>
-    <item>ты, вы|Unicorn|You|Car|Door|2</item>
-    <item>мы|Vase|River|Espresso machine|we|4</item>
-    <item>они|They|Ocean|Dog|Globe(againagain)|1</item>
-    <item>он|He|Mountain|Music|Hairbrush|1</item>
-    <item>она|Yak|Road|She|Icecream|3</item>
-    <item>оно (о неодушевленном в единственном числе)|Jacket|House|Chair|it|4</item>
-    <item>мой|Aeroplane|My|Cat|Keyboard|2</item>
-    <item>твой|Your|Key|Sun|Ladder|1</item>
-    <item>наш|Car|Clock|Our|Microphone|3</item>
-    <item>их|Their|Mirror|Phone|Nailpolish|1</item>
-    <item>его|His|Music|Moon|Oven|1</item>
-    <item>ее/ей|Fork|Her|Chocolate|Pictureframe|2</item>
-    <item>его, ее / ему, ей (о неодушевленном)|Guitar|Quilt|House|Its|4</item>
+        <item>я|Turtle|Cloud|I|Calculator|3</item>
+        <item>ты, вы|Unicorn|You|Car|Door|2</item>
+        <item>I|ты|мы|Я|он|3</item>
+        <item>You, You|она|Вы|оно|мой|2</item>
+        <item>мы|Vase|River|Espresso machine|we|4</item>
+        <item>они|They|Ocean|Dog|Globe(againagain)|1</item>
+        <item>We|твой|наш|их|его|Мы|4</item>
+        <item>They|Они|ей|ему|ей|1</item>
+        <item>он|He|Mountain|Music|Hairbrush|1</item>
+        <item>она|Yak|Road|She|Icecream|3</item>
+        <item>He|Он|я|ты|они|1</item>
+        <item>She|оно|мой|Она|я|3</item>
+        <item>оно (о неодушевленном в единственном числе)|Jacket|House|Chair|it|4</item>
+        <item>мой|Aeroplane|My|Cat|Keyboard|2</item>
+        <item>It (о неодушевленном)|наш|их|ей|Оно|4</item>
+        <item>My|его|Мой|ее|ему|2</item>
+        <item>твой|Your|Key|Sun|Ladder|1</item>
+        <item>наш|Car|Clock|Our|Microphone|3</item>
+        <item>Your|Твой|я|вы|мы|1</item>
+        <item>Our|они|он|Наш|она|3</item>
+        <item>их|Their|Mirror|Phone|Nailpolish|1</item>
+        <item>его|His|Music|Moon|Oven|1</item>
+        <item>ее/ей|Fork|Her|Chocolate|Pictureframe|2</item>
+        <item>Their|Их|оно|мой|твой|1</item>
+        <item>His|Его|наш|ее|я|1</item>
+        <item>Her|ты|Ее|мы|они|2</item>
+        <item>его, ее / ему, ей (о неодушевленном)|Guitar|Quilt|House|Its|4</item>
+        <item>Its (о неодушевленном)|он|она|оно|Его|4</item>
 
     </string-array>
 
     <string-array name="family">
-    <item>родители|car|Dance|Flower|parents|4</item>
-    <item>отец|Kite|Party|Father|Icecream|3</item>
-    <item>мать|Mother|Wine|Bird|Jacket|1</item>
-    <item>муж|Mouse|Cheese|Husband|Key|3</item>
-    <item>жена|Nail|Wife|Camera|Lamp|2</item>
-    <item>сын|Island|Son|Rain|Moon|2</item>
-    <item>дочь|daughter|Salad|shoe|Note|1</item>
-    <item>брат|Strawberry|orange|red|brother|4</item>
-    <item>сестра|Rabbit|Fish|sister|Pizza|3</item>
-    <item>дедушка|grandfather|Rice|apple|Queen|1</item>
-    <item>бабушка|banana|grandmother|watch|Rainbow|2</item>
-    <item>дядя|cat|Coffee|uncle|Sun|3</item>
-    <item>тетя|aunt|Tea|shirt|Table|1</item>
-    <item>племянник|umbrella|Sugar|paper|nephew|4</item>
-    <item>племянница|fish|niece|headphone|Violin|2</item>
-    <item>двоюродный брат/сестра|guitar|window|mountain|cousin|4</item>
+        <item>родители|car|Dance|Flower|parents|4</item>
+        <item>отец|Kite|Party|Father|Icecream|3</item>
+        <item>мать|Mother|Wine|Bird|Jacket|1</item>
+        <item>parents|папа|отец|мать|родители|4</item>
+        <item>father|сестра|брат|отец|двоюродный брат|3</item>
+        <item>mother|Мать|племянница|племянник|тетя|1</item>
+        <item>муж|Mouse|Cheese|Husband|Key|3</item>
+        <item>жена|Nail|Wife|Camera|Lamp|2</item>
+        <item>сын|Island|Son|Rain|Moon|2</item>
+        <item>husband|дядя|сын|муж|бабушка|3</item>
+        <item>wife|дедушка|жена|сестра|брат|2</item>
+        <item>son|дочь|сын|бабушка|муж|2</item>
+        <item>дочь|daughter|Salad|shoe|Note|1</item>
+        <item>брат|Strawberry|orange|red|brother|4</item>
+        <item>сестра|Rabbit|Fish|sister|Pizza|3</item>
+        <item>daughter|дочь|отец|племянник|сын|1</item>
+        <item>brother|племянник|тетя|красный|родители|4</item>
+        <item>sister|тетя|мать|сестра|дочь|3</item>
+        <item>дедушка|grandfather|Rice|apple|Queen|1</item>
+        <item>бабушка|banana|grandmother|watch|Rainbow|2</item>
+        <item>grandfather|племянник|дедушка|отец|двоюродный брат|1</item>
+        <item>grandmother|дядя|бабушка|дедушка|тетя|2</item>
+        <item>дядя|cat|Coffee|uncle|Sun|3</item>
+        <item>тетя|aunt|Tea|shirt|Table|1</item>
+        <item>uncle|родители|дочь|дядя|муж|3</item>
+        <item>aunt|Тётушка|сын|дедушка|племянница|1</item>
+        <item>племянник|umbrella|Sugar|paper|nephew|4</item>
+        <item>племянница|fish|niece|headphone|Violin|2</item>
+        <item>двоюродный брат/сестра|guitar|window|mountain|cousin|4</item>
+        <item>nephew|родители|отец|жена|племянник|4</item>
+        <item>niece|племянник|племянница|дядя|брат|2</item>
+        <item>cousin|мать|сестра|муж|двоюродный брат/сестра|4</item>
 
     </string-array>
 
     <string-array name="body">
-    <item>рука|arm|Honey|pizza|Xylophone|1</item>
-    <item>спина|kite|Egg|back|Yoga|3</item>
-    <item>борода|beard|Bread|water|Zipper|1</item>
-    <item>кость|monkey|bone|cup|Apple|2</item>
-    <item>ягодицы|nest|Potato|buttocks|Ball|3</item>
-    <item>щека|orange|Onion|cheek|Car|3</item>
-    <item>грудь|chest|Garlic|purple|Drum|1</item>
-    <item>подбородок|queen|egg|tiger|chin|4</item>
-    <item>ухо|rabbit|Orange|ear|Fan|3</item>
-    <item>локоть|elbow|Banana|penguin|Globe|1</item>
-    <item>глаз|tree|eye|snack|Hat|2</item>
-    <item>бровь|umbrella|eyebrow|ocean|Ink|2</item>
-    <item>лицо|face|Grapes|cheese|Juice|1</item>
-    <item>палец на руке|finger|Pineapple|bicycle|Kite|1</item>
-    <item>ступня|xylophone|Mango|leg|foot|4</item>
-    <item>лоб|yogurt|forehead|sunflower|Mirror|2</item>
-    <item>волосы|zebra|hair|keyboard|Newspaper|2</item>
-    <item>кисть руки|airplane|Coconut|hand|Orange|3</item>
-    <item>голова|head|Cucumber|yellow|Pencil|1</item>
-    <item>сердце|car|Carrot|heart|Quarter|3</item>
-    <item>пятка|donkey|robot|clock|heel|4</item>
-    <item>колено|knee|Lettuce|cloud|Sun|1</item>
-    <item>нога|frog|leg|book|Toy|2</item>
-    <item>губы|giraffe|Mushroom|lips|Umbrella|3</item>
-    <item>рот|mouth|Chocolate|bag|Vase|1</item>
-    <item>усы|igloo|Candy|mustache|Watch|3</item>
-    <item>ноготь|nail|Cookie|music|Yacht|1</item>
-    <item>шея|kangaroo|zigzag|beach|neck|4</item>
-    <item>нос|lion|nose|rose|Album|2</item>
-    <item>орган|mouse|Pie|organ|Bat|3</item>
-    <item>плечо|shoulder|Chocolatechip|door|Candle|1</item>
-    <item>кожа|octopus|Vanilla|skin|Door|3</item>
-    <item>позвоночник|spine|Strawberry|pencil|Earring|1</item>
-    <item>живот, желудок|quilt|stomach|spider|Feather|2</item>
-    <item>горло|rabbit|Raspberry|guitar|throat|4</item>
-    <item>палец ноги|snake|toe|orange|Hat|2</item>
-    <item>язык|turtle|Pine|tongue|Ice|3</item>
-    <item>зуб|tooth|Oak|moon|Jacket|1</item>
+        <item>рука|arm|Honey|pizza|Xylophone|1</item>
+        <item>спина|kite|Egg|back|Yoga|3</item>
+        <item>борода|beard|Bread|water|Zipper|1</item>
+        <item>arm|рука|зуб|язык|палец ноги|1</item>
+        <item>kite|живот|горло|спина|йога|3</item>
+        <item>beard|борода|желудок|позвоночник|кожа|1</item>
+        <item>кость|monkey|bone|cup|Apple|2</item>
+        <item>ягодицы|nest|Potato|buttocks|Ball|3</item>
+        <item>щека|orange|Onion|cheek|Car|3</item>
+        <item>bone|плечо|кость|орган|нос|2</item>
+        <item>buttocks|шея|ноготь|ягодицы|мяч|3</item>
+        <item>cheek|усы|лук|щека|рот|3</item>
+        <item>грудь|chest|Garlic|purple|Drum|1</item>
+        <item>подбородок|queen|egg|tiger|chin|4</item>
+        <item>ухо|rabbit|Orange|ear|Fan|3</item>
+        <item>chest|грудь|губы|нога|колено|1</item>
+        <item>chin|яйцо|пятка|сердце|подбородок|4</item>
+        <item>ear|ушко|голова|ухо|кисть руки|3</item>
+        <item>локоть|elbow|Banana|penguin|Globe|1</item>
+        <item>глаз|tree|eye|snack|Hat|2</item>
+        <item>бровь|umbrella|eyebrow|ocean|Ink|2</item>
+        <item>elbow|локоть|глаз|бровь|лицо|1</item>
+        <item>eye|рука|глаз|спина|борода|2</item>
+        <item>eyebrow|кость|бровь|ягодицы|тинта|2</item>
+        <item>лицо|face|Grapes|cheese|Juice|1</item>
+        <item>палец на руке|finger|Pineapple|bicycle|Kite|1</item>
+        <item>ступня|xylophone|Mango|leg|foot|4</item>
+        <item>лоб|yogurt|forehead|sunflower|Mirror|2</item>
+        <item>face|лицо|щека|грудь|подбородок|1</item>
+        <item>finger|палец на руке|лоб|глаз|бровь|1</item>
+        <item>foot|зуб|палец ноги|живот|ступня|4</item>
+        <item>волосы|zebra|hair|keyboard|Newspaper|2</item>
+        <item>кисть руки|airplane|Coconut|hand|Orange|3</item>
+        <item>голова|head|Cucumber|yellow|Pencil|1</item>
+        <item>forehead|волосы|лоб|голова|сердце|2</item>
+        <item>hair|рука|волосы|спина|борода|2</item>
+        <item>hand|грудь|спина|кисть руки|подбородок|3</item>
+        <item>сердце|car|Carrot|heart|Quarter|3</item>
+        <item>пятка|donkey|robot|clock|heel|4</item>
+        <item>колено|knee|Lettuce|cloud|Sun|1</item>
+        <item>head|голова|ступня|бровь|ноготь|1</item>
+        <item>heart|палец ноги|нос|сердце|Четверть|3</item>
+        <item>heel|волосы|лоб|локоть|пятка|4</item>
+        <item>нога|frog|leg|book|Toy|2</item>
+        <item>губы|giraffe|Mushroom|lips|Umbrella|3</item>
+        <item>рот|mouth|Chocolate|bag|Vase|1</item>
+        <item>knee|колено|ягодицы|облако|рука|1</item>
+        <item>leg|пятка|нога|колено|щека|2</item>
+        <item>lips|ступня|спина|губы|борода|3</item>
+        <item>усы|igloo|Candy|mustache|Watch|3</item>
+        <item>ноготь|nail|Cookie|music|Yacht|1</item>
+        <item>шея|kangaroo|zigzag|beach|neck|4</item>
+        <item>mouth|рот|кость|ягодицы|щека|1</item>
+        <item>mustache|грудь|подбородок|усы|ухо|3</item>
+        <item>nail|ноготь|локоть|глаз|бровь|1</item>
+        <item>нос|lion|nose|rose|Album|2</item>
+        <item>орган|mouse|Pie|organ|Bat|3</item>
+        <item>плечо|shoulder|Chocolatechip|door|Candle|1</item>
+        <item>neck|лицо|зигзаг|палец на руке|шея|4</item>
+        <item>nose|ступня|нос|лоб|волосы|2</item>
+        <item>organ|кисть руки|голова|орган|сердце|3</item>
+        <item>кожа|octopus|Vanilla|skin|Door|3</item>
+        <item>позвоночник|spine|Strawberry|pencil|Earring|1</item>
+        <item>живот, желудок|quilt|stomach|spider|Feather|2</item>
+        <item>shoulder|плечо|пятка|колено|Свеча|1</item>
+        <item>skin|нога|губы|кожа|рот|3</item>
+        <item>spine|позвоночник|усы|ноготь|Серьга|1</item>
+        <item>горло|rabbit|Raspberry|guitar|throat|4</item>
+        <item>палец ноги|snake|toe|orange|Hat|2</item>
+        <item>stomach|шея|желудок|нос|Перо|2</item>
+        <item>throat|орган|плечо|кожа|горло|4</item>
+        <item>toe|позвоночник|палец ноги|желудок|горло|2</item>
+        <item>язык|turtle|Pine|tongue|Ice|3</item>
+        <item>зуб|tooth|Oak|moon|Jacket|1</item>
+        <item>tongue|локоть|лицо|язык|сердце|3</item>
+        <item>tooth|зуб|щека|борода|лоб|1</item>
 
     </string-array>
 
     <string-array name="health">
-    <item>кровь|x-ray|blood|banana|Kite|2</item>
-    <item>синяк|yak|Rose|dog|bruise|4</item>
-    <item>кашель|zucchini|Lily|cough|Map|3</item>
-    <item>кашлять|to cough|Sunflower|camera|Necklace|1</item>
-    <item>головокружение|bee|Tulip|rainbow|dizziness|4</item>
-    <item>жар|caterpillar|fever|sky|Pumpkin|2</item>
-    <item>грипп|dragon|flu|green|Quill|2</item>
-    <item>боль|pain|Mountain|flower|Rug|1</item>
-    <item>насморк|fox|Beach|bee|running nose|4</item>
-    <item>пятно, точка|goat|spot|lion|Tie|2</item>
-    <item>рана|wound|Desert|computer|Umbrella|1</item>
-    <item>чихать|icecream|Field|blue|to sneeze|4</item>
-    <item>ранить, повреждать|to hurt|Park|jacket|Wallet|1</item>
-    <item>в хорошей форме|kiwi|fit|elephant|X-ray|2</item>
-    <item>здоровый|lemon|River|juice|healthy|4</item>
-    <item>опухший|swollen|Ocean|coffee|Zigzag|1</item>
-    <item>больной|narwhal|Island|sick|Anchor|3</item>
-    <item>толстый, жирный|owl|City|fat|Backpack|3</item>
-    <item>мертвый|penguin|Country|orange|dead|4</item>
+        <item>кровь|x-ray|blood|banana|Kite|2</item>
+        <item>синяк|yak|Rose|dog|bruise|4</item>
+        <item>кашель|zucchini|Lily|cough|Map|3</item>
+        <item>blood|рентген|кровь|мертвый|толстый|2</item>
+        <item>bruise|жирный|больной|опухший|синяк|4</item>
+        <item>cough|здоровый|в хорошей форме|кашель|Карта|3</item>
+        <item>кашлять|to cough|Sunflower|camera|Necklace|1</item>
+        <item>головокружение|bee|Tulip|rainbow|dizziness|4</item>
+        <item>жар|caterpillar|fever|sky|Pumpkin|2</item>
+        <item>to cough|кашлять|ранить|фотоаппарат|повреждать|1</item>
+        <item>dizziness|чихать|рана|пятно|головокружение|4</item>
+        <item>fever|точка|жар|насморк|боль|2</item>
+        <item>грипп|dragon|flu|green|Quill|2</item>
+        <item>боль|pain|Mountain|flower|Rug|1</item>
+        <item>насморк|fox|Beach|bee|running nose|4</item>
+        <item>flu|жар|грипп|головокружение|кровь|2</item>
+        <item>pain|боль|синяк|мертвый|толстый|1</item>
+        <item>running nose|здоровый|опухший|чихать|насморк|4</item>
+        <item>пятно, точка|goat|spot|lion|Tie|2</item>
+        <item>рана|wound|Desert|computer|Umbrella|1</item>
+        <item>чихать|icecream|Field|blue|to sneeze|4</item>
+        <item>spot|кровь|пятно|лев|синяк|2</item>
+        <item>wound|рана|грипп|пятно|Зонт|1</item>
+        <item>to sneeze|мертвый|жар|синее|чихать|4</item>
+        <item>ранить, повреждать|to hurt|Park|jacket|Wallet|1</item>
+        <item>в хорошей форме|kiwi|fit|elephant|X-ray|2</item>
+        <item>to hurt|ранить|кашель|головокружение|жирный|1</item>
+        <item>fit|кровь|в хорошей форме|синяк|рентген|2</item>
+        <item>здоровый|lemon|River|juice|healthy|4</item>
+        <item>опухший|swollen|Ocean|coffee|Zigzag|1</item>
+        <item>healthy|кашель|опухший|сок|здоровый|4</item>
+        <item>swollen|опухший|головокружение|жар|грипп|1</item>
+        <item>больной|narwhal|Island|sick|Anchor|3</item>
+        <item>толстый, жирный|owl|City|fat|Backpack|3</item>
+        <item>мертвый|penguin|Country|orange|dead|4</item>
+        <item>sick|боль|насморк|больной|Якорь|3</item>
+        <item>fat|пятно|рана|толстый|чихать|3</item>
+        <item>dead|ранить|здоровый|повреждать|мертвый|4</item>
 
     </string-array>
 
     <string-array name="good">
-    <item>положительный|squirrel|Nature|pizza|positive|4</item>
-    <item>удивительный|amazing|Sunrise|guitar|Dinosaur|1</item>
-    <item>красивый|unicorn|Sunset|happy|beautiful|4</item>
-    <item>красивый (о мужчине)|vulture|Starry|handsome|Flower|3</item>
-    <item>смелый|whale|brave|river|Globe|2</item>
-    <item>спокойный|calm|Rainy|lamp|Hammock|1</item>
-    <item>осторожный|yak|careful|tree|Ink|2</item>
-    <item>умный|zebra|Windy|clever|Jacket|3</item>
-    <item>любопытный|curious|Stormy|car|Key|1</item>
-    <item>элегантный|elegant|Sunny|banana|Lamp|1</item>
-    <item>энергичный|carrot|Abacus|energetic|Moon|3</item>
-    <item>справедливый, честный|donut|Abandon|fair|Notebook|3</item>
-    <item>прекрасный, прекрасно|eggplant|Abate|fine|Orange|3</item>
-    <item>дружелюбный|frenchfries|Abbey|chair|friendly|4</item>
-    <item>хороший, добрый|good|Abbot|cat|Quilt|1</item>
-    <item>счастливый|honey|happy|sun|Rainbow|2</item>
-    <item>трудолюбивый|hard-working|Abdomen|star|Suitcase|1</item>
-    <item>честный|juice|honest|phone|Table|2</item>
-    <item>добрый|kiwifruit|Abhor|moon|kind|4</item>
-    <item>везучий, счастливый|lime|Ability|lucky|Violin|3</item>
-    <item>милый, хороший, приятный|nice|Ablaze|house|Watch|1</item>
-    <item>вежливый|nuts|polite|sky|Xylophone|2</item>
-    <item>талантливый|orange|Abnormal|green|talented|4</item>
+        <item>положительный|squirrel|Nature|pizza|positive|4</item>
+        <item>удивительный|amazing|Sunrise|guitar|Dinosaur|1</item>
+        <item>positive|талантливый|вежливый|милый|положительный|4</item>
+        <item>amazing|удивительный|хороший|приятный|везучий|1</item>
+        <item>красивый|unicorn|Sunset|happy|beautiful|4</item>
+        <item>красивый (о мужчине)|vulture|Starry|handsome|Flower|3</item>
+        <item>beautiful|добрый|честный|счастливый|красивый|4</item>
+        <item>handsome|трудолюбивый|звёздный|красивый(о мужчине)|хороший|3</item>
+        <item>смелый|whale|brave|river|Globe|2</item>
+        <item>спокойный|calm|Rainy|lamp|Hammock|1</item>
+        <item>осторожный|yak|careful|tree|Ink|2</item>
+        <item>brave|добрый|смелый|дружелюбный|довольный|2</item>
+        <item>calm|спокойный|вежливый|грубый|смешной|1</item>
+        <item>careful|опасный|осторожный|приятный|мягкий|2</item>
+        <item>умный|zebra|Windy|clever|Jacket|3</item>
+        <item>любопытный|curious|Stormy|car|Key|1</item>
+        <item>элегантный|elegant|Sunny|banana|Lamp|1</item>
+        <item>clever|чистый|ветренный|умный|холодный|3</item>
+        <item>curious|любопытный|бурный|энергичный|Ключ|1</item>
+        <item>elegant|элегантный|умный|разумный|глупый|1</item>
+        <item>энергичный|carrot|Abacus|energetic|Moon|3</item>
+        <item>справедливый, честный|donut|Abandon|fair|Notebook|3</item>
+        <item>прекрасный, прекрасно|eggplant|Abate|fine|Orange|3</item>
+        <item>energetic|вялый|смелый|энергичный|упрямый|3</item>
+        <item>fair|самоннадеянный|врун|честный|красивый|3</item>
+        <item>fine|большой|хрупкий|прекрасный|мелкий|3</item>
+        <item>дружелюбный|frenchfries|Abbey|chair|friendly|4</item>
+        <item>хороший, добрый|good|Abbot|cat|Quilt|1</item>
+        <item>счастливый|honey|happy|sun|Rainbow|2</item>
+        <item>friendly|злой|вредный|хороший|дружелюбный|4</item>
+        <item>good|хороший|доброжелательный|угрюмый|наглый|1</item>
+        <item>happy|милая|счастливый|грустный|прекрасный|2</item>
+        <item>трудолюбивый|hard-working|Abdomen|star|Suitcase|1</item>
+        <item>честный|juice|honest|phone|Table|2</item>
+        <item>добрый|kiwifruit|Abhor|moon|kind|4</item>
+        <item>hard-working|трудолюбивый|энергичный|звезда|хрупкий|1</item>
+        <item>honest|опасный|честный|сильный|холодный|2</item>
+        <item>kind|честный|ненавистный|лунный|добрый|4</item>
+        <item>везучий, счастливый|lime|Ability|lucky|Violin|3</item>
+        <item>милый, хороший, приятный|nice|Ablaze|house|Watch|1</item>
+        <item>вежливый|nuts|polite|sky|Xylophone|2</item>
+        <item>lucky|добрый|спосообный|везучий|отличный|3</item>
+        <item>niceй|приятный, милый|Пылающий|храбрый|умный|1</item>
+        <item>polite|комфортный|вежливый|политический|токсичный|2</item>
+        <item>талантливый|orange|Abnormal|green|talented|4</item>
+        <item>talented|нормальный|Ненормальный|умный|талантливый|4</item>
 
     </string-array>
 
     <string-array name="neitral">
-    <item>нейтральный|neutral|About|bird|Yarn|1</item>
-    <item>средний|strawberry|Above|bed|average|4</item>
-    <item>скучный|tomato|Abroad|boring|Alarm|3</item>
-    <item>занятой|uglifruit|Abrade|rain|busy|4</item>
-    <item>неуклюжий|vanilla|clumsy|shoe|Chair|2</item>
-    <item>дорогой|dear|Abroad|red|Desk|1</item>
-    <item>другой, разный|xigua|Abscess|friend|different|4</item>
-    <item>трудный, тяжелый|different|Abscond|difficult|Feather|3</item>
-    <item>легкий, нетрудный|zucchini|Absence|watch|easy|4</item>
-    <item>смущенный|airplane|embarrassed|absent|Hat|2</item>
-    <item>знаменитый|boat|Absolute|shirt|famous|4</item>
-    <item>важный|car|important|paper|Jacket|2</item>
-    <item>невозможный|impossible|Abstain|headphone|Key|1</item>
-    <item>интересный|train|Abstract|mountain|interesting|4</item>
-    <item>настоящий|truck|Absurd|real|Mirror|3</item>
-    <item>богатый|van|Abundance|smile|rich|4</item>
-    <item>новый|new|Abuse|pizza|yacht|1</item>
-    <item>современный|zeppelin|Abyss|soccer|modern|4</item>
+        <item>нейтральный|neutral|About|bird|Yarn|1</item>
+        <item>средний|strawberry|Above|bed|average|4</item>
+        <item>скучный|tomato|Abroad|boring|Alarm|3</item>
+        <item>neutral|нейтральный|современный|новый|богатый|1</item>
+        <item>average|невозможный|интересный|настоящий|средний/4</item>
+        <item>boring|важный|знаменитый|скучный|тревожный|3</item>
+        <item>занятой|uglifruit|Abrade|rain|busy|4</item>
+        <item>неуклюжий|vanilla|clumsy|shoe|Chair|2</item>
+        <item>дорогой|dear|Abroad|red|Desk|1</item>
+        <item>busy|уродливый|смущенный|легкий|занятой|4</item>
+        <item>clumsy|ванильный|неуклюжий|нетрудный|трудный|2</item>
+        <item>dear|дорогой|красный|Рабочий|тяжелый|1</item>
+        <item>другой, разный|xigua|Abscess|friend|different|4</item>
+        <item>трудный, тяжелый|different|Abscond|difficult|Feather|3</item>
+        <item>легкий, нетрудный|zucchini|Absence|watch|easy|4</item>
+        <item>different|современный|богатый|новый|другой|4</item>
+        <item>difficult|разный|Скрывающийся|трудный|Перо|3</item>
+        <item>easy|нейтральный|Отсутствие|средний|легко|4</item>
+        <item>смущенный|airplane|embarrassed|absent|Hat|2</item>
+        <item>знаменитый|boat|Absolute|shirt|famous|4</item>
+        <item>важный|car|important|paper|Jacket|2</item>
+        <item>embarrassed|легко|смущенный|отсутствующий|скучный|2</item>
+        <item>famous|лодка|занятой|неуклюжий|знаменитый|4</item>
+        <item>important|Скрывающийся|важный|дорогой|тяжелый|2</item>
+        <item>невозможный|impossible|Abstain|headphone|Key|1</item>
+        <item>интересный|train|Abstract|mountain|interesting|4</item>
+        <item>настоящий|truck|Absurd|real|Mirror|3</item>
+        <item>impossible|невозможный|Воздержаться|интересный|разный|1</item>
+        <item>interesting|разный|легко|Рабочий|интересный|4</item>
+        <item>real|смущенный|трудный|реальный|Зеркальный|3</item>
+        <item>богатый|van|Abundance|smile|rich|4</item>
+        <item>новый|new|Abuse|pizza|yacht|1</item>
+        <item>современный|zeppelin|Abyss|soccer|modern|4</item>
+        <item>rich|важный|Изобилие|улыбка|богатый|4</item>
+        <item>new|новый|тяжелый|знаменитый|тяжелый|1</item>
+        <item>modern|старый|устарелый|нейтральный|современный|4</item>
 
     </string-array>
 
     <string-array name="bad">
-    <item>отрицательный|canoe|Accelerate|negative|Quilt|3</item>
-    <item>сердитый|dumptruck|Accent|butterfly|angry|4</item>
-    <item>раздражающий|excavator|annoying|purple|Sun|2</item>
-    <item>ужасный, отвратительный|firetruck|Access|tiger|awful|4</item>
-    <item>плохой|garbagetruck|Accessory|eagle|bad|4</item>
-    <item>безумный, сумасшедший|crazy|Accident|penguin|Violin|1</item>
-    <item>опасный|dangerous|Acclaim|hat|Wagon|1</item>
-    <item>ревнивый|jeep|jealous|ocean|car|2</item>
-    <item>ленивый|lazy|Accompany|cheese|Yacht|1</item>
-    <item>нервный|limousine|Accomplish|bicycle|nervous|4</item>
-    <item>бедный, плохой (язык, знания)|motorcycle|Accord|poor|butter|3</item>
-    <item>грубый|rude|According|sunflower|Ball|1</item>
+        <item>отрицательный|canoe|Accelerate|negative|Quilt|3</item>
+        <item>сердитый|dumptruck|Accent|butterfly|angry|4</item>
+        <item>раздражающий|excavator|annoying|purple|Sun|2</item>
+        <item>negative|глупый|Ускоренный|отрицательный|одетый|3</item>
+        <item>angry|грубый|бедный|плохой|злой|4</item>
+        <item>annoying|нервный|раздражающий|ревнивый|ленивый|2</item>
+        <item>ужасный, отвратительный|firetruck|Access|tiger|awful|4</item>
+        <item>плохой|garbagetruck|Accessory|eagle|bad|4</item>
+        <item>безумный, сумасшедший|crazy|Accident|penguin|Violin|1</item>
+        <item>awful|опасный|Доступый|безумный|ужасный|4</item>
+        <item>bad|грубый|некультурный|орел|плохой|4</item>
+        <item>crazy|сумасшедший|Несчастный|раздражающий|удивительный|1</item>
+        <item>опасный|dangerous|Acclaim|hat|Wagon|1</item>
+        <item>ревнивый|jeep|jealous|ocean|car|2</item>
+        <item>ленивый|lazy|Accompany|cheese|Yacht|1</item>
+        <item>dangerous|опасный|Признательный|ужасный|Универсальный|1</item>
+        <item>jealous|страшный|ревнивый|красивый|радужный|2</item>
+        <item>lazy|ленивый|Сопровождающий|сухой|кривой|1</item>
+        <item>нервный|limousine|Accomplish|bicycle|nervous|4</item>
+        <item>бедный, плохой (язык, знания)|motorcycle|Accord|poor|butter|3</item>
+        <item>nervous|спокойный|удивительный|удивлённый|нервный|4</item>
+        <item>poor|богатый|мёртвый|бедный|скользкий|3</item>
+        <item>грубый|rude|According|sunflower|Ball|1</item>
+        <item>rude|грубый|соответствующий|дутый|прямой|1</item>
 
     </string-array>
 
     <string-array name="work">
 
-    <item>бухгалтер|rocket|Accrue|yellow|accountant|4</item>
-    <item>актер/актриса|spaceship|Accuracy|actor/actress|Cup|3</item>
-    <item>художник|artist|Accuse|clock|Desk|1</item>
-    <item>босс|UFO|Ace|cloud|boss|4</item>
-    <item>бизнесмен|vacuumcleaner|Ache|businessman|Fan|3</item>
-    <item>руководитель, главный|chief|Achieve|chair|Globe|1</item>
-    <item>клиент|xylophone|client|bag|Hat|2</item>
-    <item>коллега|colleague|Acknowledge|mouse|Icecream|1</item>
-    <item>врач|doctor|Acorn|music|Jacket|1</item>
-    <item>водитель|alarmclock|Acoustic|beach|driver|4</item>
-    <item>инженер|engineer|Acquire|rose|Lamp|1</item>
-    <item>стюардесса, бортпроводник|camera|Acreage|flight attendant|Moon|3</item>
-    <item>журналист|desk|Acrobat|door|journalist|4</item>
-    <item>адвокат, юрист|eraser|Across|doctor|lawyer|4</item>
-    <item>спасатель|lifeguard|Act|pencil|Pizza|1</item>
-    <item>механик|glasses|Action|mechanic|Quilt|3</item>
-    <item>музыкант|hat|musician|vase|Rainbow|2</item>
-    <item>няня|umbrella|Active|nanny|Sunglasses|3</item>
-    <item>медсестра|jacket|Actor|television|nurse|4</item>
-    <item>пилот|pilot|Actress|moon|plumber|1</item>
-    <item>сантехник|laptop|Actual|plumber|Violin|3</item>
-    <item>полицейский|marker|Acute|policeman|Watch|3</item>
-    <item>школьник|notebook|pupil|Adage|Xylophone|2</item>
-    <item>продавец|shop assistant|Adapt|dog|Yarn|1</item>
-    <item>студент|quilt|student|mirror|Zipper|2</item>
-    <item>учитель|ruler|Addict|camera|teacher|4</item>
-    <item>официант/официантка|scissors|Addition|rainbow|waiter/waitress|4</item>
-    <item>рабочий|worker|Address|sky|Chair|1</item>
+        <item>бухгалтер|rocket|Accrue|yellow|accountant|4</item>
+        <item>актер/актриса|spaceship|Accuracy|actor/actress|Cup|3</item>
+        <item>художник|artist|Accuse|clock|Desk|1</item>
+        <item>accountant|рабочий|Начисление|официант|бухгалтер|4</item>
+        <item>actor/actress|официантка|Точность|актер/актриса|учитель|3</item>
+        <item>artist|художник|Обвинитель|студент|Рабочий стол|1</item>
+        <item>босс|UFO|Ace|cloud|boss|4</item>
+        <item>бизнесмен|vacuumcleaner|Ache|businessman|Fan|3</item>
+        <item>руководитель, главный|chief|Achieve|chair|Globe|1</item>
+        <item>boss|продавец|полицейский|школьник|босс|4</item>
+        <item>businessman|сантехник|пилот|бизнесмен|поклонник|3</item>
+        <item>chief|руководитель|Достижение|председатель|медсестра|1</item>
+        <item>клиент|xylophone|client|bag|Hat|2</item>
+        <item>коллега|colleague|Acknowledge|mouse|Icecream|1</item>
+        <item>врач|doctor|Acorn|music|Jacket|1</item>
+        <item>client|музыкант|клиент|няня|механик|2</item>
+        <item>colleague|коллега|Подтверждение|бухгалтер|актер|1</item>
+        <item>doctor|доктор|художник|музыка|босс|1</item>
+        <item>водитель|alarmclock|Acoustic|beach|driver|4</item>
+        <item>инженер|engineer|Acquire|rose|Lamp|1</item>
+        <item>стюардесса, бортпроводник|camera|Acreage|flight attendant|Moon|3</item>
+        <item>driver|будильник|Акустический|бизнесмен|водитель|4</item>
+        <item>engineer|инженер|Приобретение|рабочий|продавец|1</item>
+        <item>flight attendant|рабочий|Площадь|стюардесса|студент|3</item>
+        <item>журналист|desk|Acrobat|door|journalist|4</item>
+        <item>адвокат, юрист|eraser|Across|doctor|lawyer|4</item>
+        <item>спасатель|lifeguard|Act|pencil|Pizza|1</item>
+        <item>journalist|рабочий стол|Акробат|няня|журналист|4</item>
+        <item>lawyer|ластик|Поперек|врач|юрист|4</item>
+        <item>lifeguard|спасатель|Действие|писарь|повар|1</item>
+        <item>механик|glasses|Action|mechanic|Quilt|3</item>
+        <item>музыкант|hat|musician|vase|Rainbow|2</item>
+        <item>няня|umbrella|Active|nanny|Sunglasses|3</item>
+        <item>mechanic|руководитель|клиент|механик|коллега|3</item>
+        <item>musician|врач|музыкант|водитель|инженер|2</item>
+        <item>nanny|рабочий|Активный отдых|няня|официантка|3</item>
+        <item>медсестра|jacket|Actor|television|nurse|4</item>
+        <item>пилот|pilot|Actress|moon|plumber|1</item>
+        <item>сантехник|laptop|Actual|plumber|Violin|3</item>
+        <item>nurse|учитель|Актер|телевидение|медсестра|4</item>
+        <item>pilot|пилот|актриса|главный|сантехник|1</item>
+        <item>plumber|ноутбук|Актуальный|сантехник|спасатель|3</item>
+        <item>полицейский|marker|Acute|policeman|Watch|3</item>
+        <item>школьник|notebook|pupil|Adage|Xylophone|2</item>
+        <item>продавец|shop assistant|Adapt|dog|Yarn|1</item>
+        <item>policeman|маркер|Острый|полицейский|Часовой|3</item>
+        <item>pupil|тетрадь|ученик|Пословица|механик|2</item>
+        <item>shop assistant|продавец-консультант|Адаптация|журналист|бухгалтер|1</item>
+        <item>студент|quilt|student|mirror|Zipper|2</item>
+        <item>учитель|ruler|Addict|camera|teacher|4</item>
+        <item>официант/официантка|scissors|Addition|rainbow|waiter/waitress|4</item>
+        <item>student|учитель|студент|рабочий|пилот|2</item>
+        <item>teacher|линейка|Наркоман|клиент|учитель|4</item>
+        <item>waiter/waitress|водитель|Дополнение|бизнесмен|официант/официантка|4</item>
+        <item>рабочий|worker|Address|sky|Chair|1</item>
+        <item>worker|рабочий|адвокат|коллега|актер|1</item>
 
     </string-array>
 
     <string-array name="work_question">
 
-    <item>область, сфера, район|area|Adhesive|bee|Adventure|1</item>
-    <item>дело|xylophone|Adjacent|lion|case|4</item>
-    <item>обстоятельство|yoyo|Adjective|circumstance|Ant|3</item>
-    <item>решение|zipper|Adjoin|decision|Art|3</item>
-    <item>обязанность|acrobat|duty|jacket|Astronomy|2</item>
-    <item>цель|balletdancer|Admirable|elephant|goal|4</item>
-    <item>список|list|Admire|juice|Beach|1</item>
-    <item>перечислять|doctor|Admit|to list|Bicycle|3</item>
-    <item>возможность|engineer|Admix|bread|opportunity|4</item>
-    <item>проблема|firefighter|Adolescence|problem|Book|3</item>
-    <item>разрешение (на въезд/выезд/проживание)|permit|Adopt|orange|Bottle|1</item>
-    <item>причина|hockey|reason|pencil|cap|2</item>
-    <item>результат|result|Adorn|table|Bridge|1</item>
-    <item>успех|Adult|adobe|success|circle|3</item>
-    <item>задача, задание|king|Advance|task|Cactus|3</item>
+        <item>область, сфера, район|area|Adhesive|bee|Adventure|1</item>
+        <item>дело|xylophone|Adjacent|lion|case|4</item>
+        <item>обстоятельство|yoyo|Adjective|circumstance|Ant|3</item>
+        <item>area|область, сфера|деятельность|трудоемкость|действие|1</item>
+        <item>case|Производство|выполнение|выполнить|дело|4</item>
+        <item>circumstance|Организация|рабочий|обстоятельство|сотрудник|3</item>
+        <item>решение|zipper|Adjoin|decision|Art|3</item>
+        <item>обязанность|acrobat|duty|jacket|Astronomy|2</item>
+        <item>цель|balletdancer|Admirable|elephant|goal|4</item>
+        <item>decision|Менеджер|задача|решение|метод|3</item>
+        <item>duty|Рабочая нагрузка|обязанность|технология|трудолюбие|2</item>
+        <item>goal|Совместная работа|поток|контроль|цель|4</item>
+        <item>список|list|Admire|juice|Beach|1</item>
+        <item>перечислять|doctor|Admit|to list|Bicycle|3</item>
+        <item>возможность|engineer|Admix|bread|opportunity|4</item>
+        <item>list|список|координация|доклад|оптимизация|1</item>
+        <item>to list|Отчетность|автоматизация|перечислять|временной промежуток|3</item>
+        <item>opportunity|Инновация|процесс|усовершенствование|возможность|4</item>
+        <item>проблема|firefighter|Adolescence|problem|Book|3</item>
+        <item>разрешение (на въезд/выезд/проживание)|permit|Adopt|orange|Bottle|1</item>
+        <item>причина|hockey|reason|pencil|cap|2</item>
+        <item>problem|Этап| подготовка|проблема|эффективно|3</item>
+        <item>permit|разрешение|прогресс|задание|согласование|1</item>
+        <item>reason|Креативность|причина|практика|исполнение|2</item>
+        <item>результат|result|Adorn|table|Bridge|1</item>
+        <item>result|результат|достижение|определение|операция|1</item>
+        <item>успех|Adult|adobe|success|circle|3</item>
+        <item>success|Командный труд|распределение|успех|оптимизация|3</item>
+        <item>задача, задание|king|Advance|task|Cactus|3</item>
+        <item>task|Производительность|рационализация|задача|контрольный этап|3</item>
 
     </string-array>
 
     <string-array name="clothes">
 
-    <item>пояс, ремень|nurse|belt|river|Cake|2</item>
-    <item>блузка|optician|Adverb|lamp|blouse|4</item>
-    <item>сапог, ботинок|painter|Adversary|tree|boot|4</item>
-    <item>кепка|cat|coat|cap|Cat|3</item>
-    <item>кардиган, кофта|reporter|Advertise|cardigan|Cellphone|3</item>
-    <item>пальто|coat|Advice|scientist|Cheese|1</item>
-    <item>платье|teacher|Advise|dog|dress|4</item>
-    <item>одевать(ся)|undertaker|Advocate|to dress|City|3</item>
-    <item>перчатка|veterinarian|Aerial|glove|Clown|3</item>
-    <item>шляпа|hat|Aerobic|hood|head|1</item>
-    <item>капюшон|xylographer|hood|cat|hit|2</item>
-    <item>жакет, пиджак, куртка|yogainstructor|Affect|jacket|Cooking|3</item>
-    <item>джинсы|zookeeper|jeans|star|Cow|2</item>
-    <item>пижама|pyjamas |Affiliate|phone|Dance|1</item>
-    <item>шарф|broccoli|Affinity|moon|scarf|4</item>
-    <item>рубашка|shirt|Affirmative|chocolate|Doctor|1</item>
-    <item>обувь|cucumber|Affix|house|shoes|4</item>
-    <item>шорты|durian|shorts|sky|shoes|2</item>
-    <item>юбка|skirt|Affluent|green|Dragon|1</item>
-    <item>носок|fennel|Afford|sock|Dream|3</item>
-    <item>костюм|suit|Afghan|beach|Dress|1</item>
-    <item>идти к лицу|honeydewmelon|Afraid|bird|to suit|4</item>
-    <item>свитер|sweater|African|bed|Elephant|1</item>
-    <item>галстук|jalapeno|Aftermath|camera|tie|4</item>
-    <item>колготы|kiwi|tights|rain|Energy|2</item>
-    <item>кроссовки|lemon|Afterward|trainers|Exercise|3</item>
-    <item>штаны|trousers|Again|red|Family|1</item>
-    <item>футболка|nectarine|Against|T-shirt|Fish|3</item>
-    <item>нижнее белье|onion|Agape|underwear|Flower|3</item>
-    <item>браслет|bracelet|Agate|watch|Forest|1</item>
-    <item>сережка|quince|earring|football|Friend|2</item>
-    <item>очки|radish|Agency|shirt|glasses|4</item>
-    <item>ожерелье|necklace|Agenda|paper|Garden|1</item>
-    <item>дамская сумка, кошелек|tomato|Agent|headphone|purse|4</item>
-    <item>бумажник|uglifruit|wallet|mountain|wear|2</item>
+        <item>пояс, ремень|nurse|belt|river|Cake|2</item>
+        <item>блузка|optician|Adverb|lamp|blouse|4</item>
+        <item>сапог, ботинок|painter|Adversary|tree|boot|4</item>
+        <item>belt|Рубашка|пояс, ремень|Сапоги|Шапка|2</item>
+        <item>blouse|Штаны|Кофта|Свитер|блузка|4</item>
+        <item>boot|Футболка|Джинсы|Ботинки|ботинок|4</item>
+        <item>кепка|cat|coat|cap|Cat|3</item>
+        <item>кардиган, кофта|reporter|Advertise|cardigan|Cellphone|3</item>
+        <item>пальто|coat|Advice|scientist|Cheese|1</item>
+        <item>cap|Костюм|Пиджак|кепка|Блузка|3</item>
+        <item>cardigan|Шорты|Сумка|кофта|Жакет|3</item>
+        <item>coat|пальто|Носки|Юбка|Ремень|1</item>
+        <item>платье|teacher|Advise|dog|dress|4</item>
+        <item>одевать(ся)|undertaker|Advocate|to dress|City|3</item>
+        <item>перчатка|veterinarian|Aerial|glove|Clown|3</item>
+        <item>dress|Кепка|Шляпа|Туфли|платье|4</item>
+        <item>to dress|Треники|Ветровка|одевать|Комбинезон|3</item>
+        <item>glove|Халат|Пончо|перчатка|Зонт|3</item>
+        <item>шляпа|hat|Aerobic|hood|head|1</item>
+        <item>капюшон|xylographer|hood|cat|hit|2</item>
+        <item>жакет, пиджак, куртка|yogainstructor|Affect|jacket|Cooking|3</item>
+        <item>hat|шляпа|Шнурки|Тапочки|Полотенце|1</item>
+        <item>hood|футболка|капюшон|свитер|платье|2</item>
+        <item>jacket|брюки|рубашка|куртка|кофта|3</item>
+        <item>джинсы|zookeeper|jeans|star|Cow|2</item>
+        <item>пижама|pyjamas |Affiliate|phone|Dance|1</item>
+        <item>шарф|broccoli|Affinity|moon|scarf|4</item>
+        <item>jeans|шапка|джинсы|ботинки|куртка|2</item>
+        <item>pyjamas|пижама|шарф|жакет|костюм|1</item>
+        <item>scarf|шляпа|свитшот|джинсы|шарф|4</item>
+        <item>рубашка|shirt|Affirmative|chocolate|Doctor|1</item>
+        <item>обувь|cucumber|Affix|house|shoes|4</item>
+        <item>шорты|durian|shorts|sky|shoes|2</item>
+        <item>shirt|рубашка|берет|брючки|блузка|1</item>
+        <item>shoes|балетки|туфли|кардиган|обувь|4</item>
+        <item>shorts|поло|шорты|утепленные штаны|пончо|2</item>
+        <item>юбка|skirt|Affluent|green|Dragon|1</item>
+        <item>носок|fennel|Afford|sock|Dream|3</item>
+        <item>костюм|suit|Afghan|beach|Dress|1</item>
+        <item>skirt|юбка|шорты|лосины|костюмчик|1</item>
+        <item>sock|кимоно|шейла|носок|плащ|3</item>
+        <item>suit|костюм|сапогивысокие|пижама|рукавицы|1</item>
+        <item>идти к лицу|honeydewmelon|Afraid|bird|to suit|4</item>
+        <item>свитер|sweater|African|bed|Elephant|1</item>
+        <item>галстук|jalapeno|Aftermath|camera|tie|4</item>
+        <item>to suit|комбез|чулки|халатик|идти к лицу|4</item>
+        <item>sweater|свитер|джеггинсы|тайтсы|саржевка|1</item>
+        <item>tie|Рубашка|Брюки|Сапоги|галстук|4</item>
+        <item>колготы|kiwi|tights|rain|Energy|2</item>
+        <item>кроссовки|lemon|Afterward|trainers|Exercise|3</item>
+        <item>штаны|trousers|Again|red|Family|1</item>
+        <item>tights|Штаны|колготы|Свитер|Пальто|2</item>
+        <item>trainers|Футболка|Джинсы|кроссовки|Шарф|3</item>
+        <item>trousers|штаны|Пиджак|Платье|Блузка |1</item>
+        <item>футболка|nectarine|Against|T-shirt|Fish|3</item>
+        <item>нижнее белье|onion|Agape|underwear|Flower|3</item>
+        <item>T-shirt|Шорты|Сумка|футболка|Жакет|3</item>
+        <item>underwear|Куртка|Носки|нижнее белье|Ремень|3</item>
+        <item>bracelet|браслет|Шляпа|Туфли|Жилет|1</item>
+        <item>браслет|bracelet|Agate|watch|Forest|1</item>
+        <item>сережка|quince|earring|football|Friend|2</item>
+        <item>очки|radish|Agency|shirt|glasses|4</item>
+        <item>earring|Треники|сережка|Туника|Комбинезон|2</item>
+        <item>glasses|Халат|Пончо|Галстук|очки|4</item>
+        <item>necklace|ожерелье|штаны|свитер|платье|1</item>
+        <item>ожерелье|necklace|Agenda|paper|Garden|1</item>
+        <item>дамская сумка, кошелек|tomato|Agent|headphone|purse|4</item>
+        <item>purse|Плед|Шнурки|Тапочки|дамская сумка|4</item>
+        <item>wallet|Халат|бумажник|Галстук|Зонт|2</item>
+        <item>бумажник|uglifruit|wallet|mountain|wear|2</item>
 
     </string-array>
 
     <string-array name="colors">
-    <item>красный|xigua|blue|red|green|3</item>
-    <item>оранжевый|orange|Agitate|red|green|1</item>
-    <item>желтый|pink|blue|yellow|orange|3</item>
-    <item>зеленый|green|blue|green|pink|1</item>
-    <item>голубой, синий|bear|blue|beat|blur|2</item>
-    <item>фиолетовый|cheetah|purpose|pink|purple|4</item>
-    <item>розовый|pink|power|print|Jellyfish|1</item>
-    <item>коричневый|back|brown|beat|bread|2</item>
-    <item>черный|room|blue|black|back|3</item>
-    <item>серый|grey|greed|grow|Kangaroo|1</item>
-    <item>белый|horse|week|while|white|4</item>
-    <item>яркий|iguana|bright|break|bread|2</item>
-    <item>цветной|tint|colourful|color|Kite|2</item>
-    <item>темный|digit|duck|dark|down|3</item>
-    <item>светлый, легкий|light|level|leg|legal|1</item>
+        <item>красный|xigua|blue|red|green|3</item>
+        <item>оранжевый|orange|Agitate|red|green|1</item>
+        <item>желтый|pink|blue|yellow|orange|3</item>
+        <item>red|сигуа|синий|красный|зеленый|3</item>
+        <item>orange|оранжевый|агитационный|красный|зеленый|1</item>
+        <item>yellow|розовый|синий|желтый|оранжевый|3</item>
+        <item>зеленый|green|blue|green|pink|1</item>
+        <item>голубой, синий|bear|blue|beat|blur|2</item>
+        <item>фиолетовый|cheetah|purpose|pink|purple|4</item>
+        <item>green|зеленый|синий|салатовый|розовый/1</item>
+        <item>blue|медведь|синий|бит|размытие|2</item>
+        <item>purple|гепард|назначение/розовый|фиолетовый|4</item>
+        <item>розовый|pink|power|print|Jellyfish|1</item>
+        <item>коричневый|back|brown|beat|bread|2</item>
+        <item>черный|room|blue|black|back|3</item>
+        <item>pink|розовый|принт|Медуза|красный|1</item>
+        <item>brown|спинка|коричневый|жёлтый|хлеб|2</item>
+        <item>black|комната|синий|черный|задняя часть|3</item>
+        <item>серый|grey|greed|grow|Kangaroo|1</item>
+        <item>белый|horse|week|while|white|4</item>
+        <item>grey|серый|жадность|расти|Кенгуру|1</item>
+        <item>while|жёлтый|синий|розовый|белый|4</item>
+        <item>яркий|iguana|bright|break|bread|2</item>
+        <item>цветной|tint|colourful|color|Kite|2</item>
+        <item>bright|игуана|яркий|зедёный|синий|2</item>
+        <item>colourful|оттенок|цветной|красный|синий|2</item>
+        <item>темный|digit|duck|dark|down|3</item>
+        <item>светлый, легкий|light|level|leg|legal|1</item>
+        <item>dark|яркий|мутный|темный|чёрный|3</item>
+        <item>light|светлый|розовый|серый|фиолетовый|1</item>
 
     </string-array>
 
