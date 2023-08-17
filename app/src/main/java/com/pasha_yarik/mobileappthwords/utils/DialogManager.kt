@@ -25,11 +25,11 @@ object DialogManager {
         dialig.show()
     }
 
-    fun showNedodel(context: Context, mId: Int){
+    fun showNedodel(context: Context, mId: Int,stringId: Int){
         val builder2 = AlertDialog.Builder(context)
         var dialig2: AlertDialog? = null
         builder2.setMessage(mId)
-        builder2.setTitle(R.string.dialog_dont_worked)
+        builder2.setTitle(stringId)
 
         builder2.setNegativeButton(R.string.dialog_ok){_,_ ->
             dialig2?.dismiss()

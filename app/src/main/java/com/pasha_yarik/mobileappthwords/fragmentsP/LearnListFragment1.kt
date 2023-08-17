@@ -64,6 +64,12 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2,ProcessFragment.OnF
 
         }
 
+        binding.imProgressHint.setOnClickListener {
+            DialogManager.showNedodel(
+                activity as AppCompatActivity,R.string.progress_hint_text,R.string.progress_hint_title
+            )
+        }
+
 
 
     }

@@ -48,7 +48,7 @@ class FragmentHomeMainY : Fragment() {
 
         binding.bSignGoogle.setOnClickListener {
             DialogManager.showNedodel(
-                activity as AppCompatActivity,R.string.dialog_ne_rabotaet
+                activity as AppCompatActivity,R.string.dialog_ne_rabotaet,R.string.dialog_dont_worked
             )
         }
 
