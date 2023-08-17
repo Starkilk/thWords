@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.databinding.FragmentHomeMainYBinding
+import com.pasha_yarik.mobileappthwords.fragmentsP.DescriptionFragment
+import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
 
@@ -34,7 +36,17 @@ class FragmentHomeMainY : Fragment() {
         binding.pbInHomeView.progress = homeProgress
         val tmp = "${homeProgress / 2} из 1000"
         binding.tvCountWordsHome.text = tmp
+
+
+        binding.tvOprilojenii.setOnClickListener {
+
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,DescriptionFragment.newInstance()).commit()
+            FragmentManager.currentFragment = DescriptionFragment()
+        }
+
     }
+
+
 
     companion object {
         @JvmStatic
