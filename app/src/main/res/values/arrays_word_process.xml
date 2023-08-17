@@ -1237,90 +1237,90 @@
 
     </string-array>
 
-    <string-array name="human_34">
-    <item>ждения|Serious|Bassoon|bird</item>
-    <item>Рождество|Shy|Bastard|apple</item>
-    <item>смерть|Outgoing|Bathe|house</item>
-    <item>Пасха|Quiet|Battalion|phone</item>
-    <item>игра|Loud|Bazaar|fish</item>
-    <item>праздник, каникулы, отпуск|Strong|Beach|dog</item>
-    <item>встреча, собрание|Weak|Beacon|cat</item>
-    <item>ового года|Healthy|Beagle|computer</item>
-    <item>вечеринка|Sick|Beam|lamp</item>
-    <item>свадьба|Active|Beanbag|key</item>
-    <item>ый шар|Lazy|Bearable|mirror</item>
-    <item>коробка, боксировать|Love|Beastly|river</item>
-    <item>гость|Hate|Beatific|cloud</item>
-    <item>приглашение|Trust|Beautiful|book</item>
-    <item>подарок|Doubt|Bedding|heart</item>
-    <item>игрушка|Friendship|Bedlam|window</item>
+    <string-array name="sobitiya">
+    <item>день рождения|Christmas|death|wedding|birthday|4</item>
+    <item>Рождество|meeting|party|Christmas|balloon|3</item>
+    <item>смерть|death|game|Easter|birthday|1</item>
+    <item>Пасха|birthday|Easter|meeting|balloon|2</item>
+    <item>игра|toy|party|Easter|game|4</item>
+    <item>праздник, каникулы, отпуск|invitation|box|holiday|balloon|3</item>
+    <item>встреча, собрание|wedding|meeting|balloon|invitation|2</item>
+    <item>канун Нового года|New Year’s Eve|Christmas|box|toy|1</item>
+    <item>вечеринка|birthday|party|game|Christmas|2</item>
+    <item>свадьба|Christmas|meeting|game|wedding|4</item>
+    <item>воздушный шар|balloon|invitation|present|toy|1</item>
+    <item>коробка, боксировать|party|toy|box|present|3</item>
+    <item>гость|box|guest|wedding|party|2</item>
+    <item>приглашение|balloon|party|toy|invitation|4</item>
+    <item>подарок|present|invitation|guest|wedding|1</item>
+    <item>игрушка|Christmas|meeting|invitation|toy|4</item>
 
     </string-array>
 
-    <string-array name="human_35">
-    <item>страна|Father|Beeline|garden</item>
-    <item>таможня|Brother|Beeswax|grass</item>
-    <item>город|Sister|Beget|moon</item>
-    <item>ой город, городок|Son|Beggar|bird</item>
-    <item>деревня|Daughter|Beginner|tree</item>
-    <item>аэропорт|Grandmother|Beguile|elephant</item>
-    <item>банк|Grandfather|Behave|whisper</item>
-    <item>мост|Aunt|Behemoth|juice</item>
-    <item>здание|Uncle|Belated|orange</item>
-    <item>кафе|Cousin|Belch|image</item>
-    <item>центр (города)|Nephew|Belief|pen</item>
-    <item>церковь|Niece|Believe|chair</item>
-    <item>кинотеатр|Boyfriend|Bellboy|mother</item>
-    <item>компания, фирма|Girlfriend|Bellyache|yawning</item>
-    <item>вход|Husband|Belonging|zebra</item>
-    <item>выход|Wife|Below|brother</item>
-    <item>фабрика, завод|Marriage|Beltway|mountain</item>
-    <item>мусор|Divorce|Bench|guitar</item>
-    <item>больница|Baby|Beneath|driver</item>
-    <item>гостиница|Child|Benefactor|ocean</item>
-    <item>перекресток, точка пересечения|Teenager|Benefit|pencil</item>
-    <item>рынок|Adult|Benevolent|banana</item>
-    <item>офис|Elderly|Benign|book</item>
-    <item>парк|School|Berate|flower</item>
-    <item>тротуар|College|Bereft|dog</item>
-    <item>аптека|University|Beset|cat</item>
-    <item>полиция|Teacher|Besiege|paper</item>
-    <item>почта|Student|Besmirch|mirror</item>
-    <item>ресторан|Doctor|Bestow|rainbow</item>
-    <item>дорога|Nurse|Betrayal|green</item>
-    <item>школа|Engineer|Betterment|friend</item>
-    <item>магазин|Lawyer|Between|phone</item>
-    <item>станция, вокзал|Artist|Beverage|car</item>
-    <item>улица|Chef|Beware|music</item>
-    <item>театр|Pilot|Bewilderment|hour</item>
-    <item>университет|Astronaut|Beyond|airplane</item>
-    <item>чистый|Scientist|Bias|butterfly</item>
-    <item>удобный, уютный|Writer|Bible|radio</item>
-    <item>людный, переполненный|Actor|Bibliography|bottle</item>
-    <item>грязный|Singer|Bicycle|lamp</item>
-    <item>основной, главный|Dancer|Bifocal|queen</item>
-    <item>этот/эти|Athlete|Bigotry|dream</item>
-    <item>тот/те|Football|Billboard|garden</item>
-    <item>левый, налево|Basketball|Billet-doux|lake</item>
-    <item>правый, направо|Baseball|Billionaire|mouse</item>
-    <item>тут, сюда|Soccer|Biology|ruby</item>
-    <item>там, туда|Tennis|Biopsy|fire</item>
-    <item>вниз|Golf|Biscuit|watch</item>
-    <item>вверх|Swimming|Bisexual|paint</item>
-    <item>о, около, примерно|Running|Bitterness|globe</item>
-    <item>над|Cycling|Blackmail|monkey</item>
-    <item>против|Gymnastics|Blackout|basketball</item>
-    <item>сзади, позади|Yoga|Blameless|castle</item>
-    <item>между|Meditation|Blanch|park</item>
-    <item>из|Travel|Blasphemy|mouse</item>
-    <item>в|Adventure|Blast|tiger</item>
-    <item>впереди|Explore|Blatant|bicycle</item>
-    <item>на|Discover|Bleach|mountain</item>
-    <item>через, сквозь|Dream|Bleak|cookie</item>
-    <item>по направлению к|Believe|Blemish|bird</item>
-    <item>под|Achieve|Blend|laptop</item>
-    <item>с|Success|Blessing|lake</item>
-    <item>без|Failure|Blight|flower</item>
+    <string-array name="mesta">
+    <item>страна|customs|city|town|country|4</item>
+    <item>таможня|city|town|customs|country|3</item>
+    <item>город|airport|city|country|building|2</item>
+    <item>небольшой город, городок|town|cafe|building|centre|1</item>
+    <item>деревня|a village|building|cinema|cafe|1</item>
+    <item>аэропорт|town|country|airport|cafe|3</item>
+    <item>банк|country|bank|centre|cinema|2</item>
+    <item>мост|bridge|cinema|building|customs|1</item>
+    <item>здание|country|centre|customs|building|4</item>
+    <item>кафе|cinema|cafe|town|building|2</item>
+    <item>центр (города)|centre|cinema|airport|building|1</item>
+    <item>церковь|town|cinema|airport|church|4</item>
+    <item>кинотеатр|cafe|airport|cinema|building|3</item>
+    <item>компания, фирма|company|hotel|hospital|customs|1</item>
+    <item>вход|hospital|entrance|hotel|airport|2</item>
+    <item>выход|country|cafe|cinema|exit|4</item>
+    <item>фабрика, завод|hotel|hospital|factory|exit|3</item>
+    <item>мусор|hospital|garbage|factory|cinema|2</item>
+    <item>больница|hospital|customs|church|town|1</item>
+    <item>гостиница|hospital|church|city|hotel|4</item>
+    <item>перекресток, точка пересечения|intersection|hotel|town|airport|1</item>
+    <item>рынок|hotel|factory|market|town|3</item>
+    <item>офис|intersection|office|market|country|2</item>
+    <item>парк|church|market|country|park|4</item>
+    <item>тротуар|market|pavement|park|city|2</item>
+    <item>аптека|pharmacy|city|town|church|1</item>
+    <item>полиция|airport|police|church|city|2</item>
+    <item>почта|cinema|exit|post office|town|3</item>
+    <item>ресторан|church|police|restaurant|country|3</item>
+    <item>дорога|market|road|police|school|2</item>
+    <item>школа|factory|school|hospital|exit|2</item>
+    <item>магазин|intersection|church|school|shop|4</item>
+    <item>станция, вокзал|station|church|school|restaurant|1</item>
+    <item>улица|city|town|school|street|4</item>
+    <item>театр|intersection|exit|theatre|post office|3</item>
+    <item>университет|factory|university|park|market|2</item>
+    <item>чистый|clean|station|street|park|1</item>
+    <item>удобный, уютный|church|theatre|market|comfortable|4</item>
+    <item>людный, переполненный|city|crowded|market|comfortable|2</item>
+    <item>грязный|station|school|dirty|exit|3</item>
+    <item>основной, главный|main|school|exit|dirty|1</item>
+    <item>этот/эти|that/those|this/these|factory|street|2</item>
+    <item>тот/те|country|this/these|that/those|exit|3</item>
+    <item>левый, налево|down|up|right|left|4</item>
+    <item>правый, направо|right|left|up|down|1</item>
+    <item>тут, сюда|school|here|left|up|2</item>
+    <item>там, туда|comfortable|factory|down|there|4</item>
+    <item>вниз|left|right|down|up|3</item>
+    <item>вверх|up|right|down|school|1</item>
+    <item>о, около, примерно|comfortable|above|exit|about|4</item>
+    <item>над|to|above|against|about|2</item>
+    <item>против|about|to|against|exit|3</item>
+    <item>сзади, позади|above|behind|exit|about|2</item>
+    <item>между|between|exit|park|above|1</item>
+    <item>из|park|between|about|from|4</item>
+    <item>в|about|to|on|in|4</item>
+    <item>впереди|in front of|or|if|up|1</item>
+    <item>на|against|above|on|or|3</item>
+    <item>через, сквозь|about|through|on|up|2</item>
+    <item>по направлению к|against|up|down|to|4</item>
+    <item>под|up|behind|without|under|4</item>
+    <item>с|with|behind|against|through|1</item>
+    <item>без|between|on|without|through|3</item>
 
     </string-array>
 

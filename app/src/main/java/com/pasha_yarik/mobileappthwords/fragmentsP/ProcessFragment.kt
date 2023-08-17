@@ -119,11 +119,11 @@ class ProcessFragment : Fragment() {
                 32 -> processSlova(counterItem,resources.getStringArray(R.array.posuda))
                 33 -> processSlova(counterItem,resources.getStringArray(R.array.flora_i_fauna))
                 34 -> processSlova(counterItem,resources.getStringArray(R.array.priroda))
-                /*35 -> processSlova(0,resources.getStringArray(R.array.procc_array1))
-               36 -> processSlova(0,resources.getStringArray(R.array.procc_array1)) */
-               37 -> processSlova(counterItem,resources.getStringArray(R.array.dom))
-               38 -> processSlova(counterItem,resources.getStringArray(R.array.pribori))
-               39 -> processSlova(counterItem,resources.getStringArray(R.array.veshi))
+                35 -> processSlova(counterItem,resources.getStringArray(R.array.sobitiya))
+                36 -> processSlova(counterItem,resources.getStringArray(R.array.mesta))
+                37 -> processSlova(counterItem,resources.getStringArray(R.array.dom))
+                38 -> processSlova(counterItem,resources.getStringArray(R.array.pribori))
+                39 -> processSlova(counterItem,resources.getStringArray(R.array.veshi))
             }
 
         }
