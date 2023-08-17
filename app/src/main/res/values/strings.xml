@@ -14,4 +14,7 @@
     <string name="grade_prilojeniem">Оценить приложение</string>
     <string name="o_app">О приложении</string>
     <string name="o_app_text">df</string>
+    <string name="dialog_dont_worked">Не работает(</string>
+    <string name="dialog_ok">Ок</string>
+    <string name="dialog_ne_rabotaet">Эта функция пока недоступна :(</string>
 </resources>

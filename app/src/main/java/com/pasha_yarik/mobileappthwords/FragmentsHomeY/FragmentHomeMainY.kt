@@ -5,10 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
 import com.pasha_yarik.mobileappthwords.R
 import com.pasha_yarik.mobileappthwords.databinding.FragmentHomeMainYBinding
 import com.pasha_yarik.mobileappthwords.fragmentsP.DescriptionFragment
+import com.pasha_yarik.mobileappthwords.utils.DialogManager
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
@@ -19,7 +21,7 @@ class FragmentHomeMainY : Fragment() {
     private var homeProgress = 0
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
 
         binding = FragmentHomeMainYBinding.inflate(inflater,container,false)
         return binding.root
@@ -42,6 +44,12 @@ class FragmentHomeMainY : Fragment() {
 
             requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,DescriptionFragment.newInstance()).commit()
             FragmentManager.currentFragment = DescriptionFragment()
+        }
+
+        binding.bSignGoogle.setOnClickListener {
+            DialogManager.showNedodel(
+                activity as AppCompatActivity,R.string.dialog_ne_rabotaet
+            )
         }
 
     }
