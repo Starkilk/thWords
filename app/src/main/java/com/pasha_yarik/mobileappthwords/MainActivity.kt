@@ -13,6 +13,8 @@ import com.pasha_yarik.mobileappthwords.fragmentsP.Learn1Fragment
 import com.pasha_yarik.mobileappthwords.fragmentsP.LearnListFragment
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
+import com.yandex.mobile.ads.banner.AdSize
+import com.yandex.mobile.ads.common.AdRequest
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
@@ -22,6 +24,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+        binding.banner.setAdUnitId("demo-banner-yandex")
+        //binding.banner.setAdSize(AdSize.stickySize(400))
+        binding.banner.setAdSize(AdSize(400,75))
+        val adRequest = AdRequest.Builder().build()
+        binding.banner.loadAd(adRequest)
+
+
 
         model.pref = getSharedPreferences("main", MODE_PRIVATE)
         model.progr = getSharedPreferences("main2", MODE_PRIVATE)

@@ -1,5 +1,6 @@
 package com.pasha_yarik.mobileappthwords.FragmentsHomeY
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -13,6 +14,8 @@ import com.pasha_yarik.mobileappthwords.fragmentsP.DescriptionFragment
 import com.pasha_yarik.mobileappthwords.utils.DialogManager
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
+import com.yandex.mobile.ads.banner.AdSize
+import com.yandex.mobile.ads.common.AdRequest
 
 
 class FragmentHomeMainY : Fragment() {
@@ -20,6 +23,7 @@ class FragmentHomeMainY : Fragment() {
     private val model: MainViewModel by activityViewModels()
     private var homeProgress = 0
 
+    val intent = Intent(Intent.ACTION_SEND)
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
 
@@ -29,6 +33,20 @@ class FragmentHomeMainY : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        intent.type = "text/plain"
+        intent.putExtra(Intent.EXTRA_TEXT, "Потренируй свой английский: тут типо сылка на приложение")
+
+        binding.tvShare.setOnClickListener {
+            startActivity(Intent.createChooser(intent, "Поделиться"))
+        }
+
+
+        binding.bannerHome.setAdUnitId("demo-banner-yandex")
+        //binding.banner.setAdSize(AdSize.stickySize(400))
+        binding.bannerHome.setAdSize(AdSize(400,160))
+        val adRequest1 = AdRequest.Builder().build()
+        binding.bannerHome.loadAd(adRequest1)
 
         binding.bSignGoogle.visibility =View.GONE
         binding.imGooogle.visibility = View.GONE
