@@ -555,772 +555,772 @@
     </string-array>
 
     <string-array name="svoistva">
-    <item>круг|octopus|Album|circle|Lamp|3</item>
-    <item>округлый|round|Alcohol|yellow|Leaf|1</item>
-    <item>квадрат|quokka|Alert|round|Library|3</item>
-    <item>квадратный|rabbit|Algebra|clock|square|4</item>
-    <item>прямой, ровный|straight|Algorithm|cloud|Lizard|1</item>
-    <item>колесо|tiger|Alien|wheel|Love|3</item>
-    <item>расстояние|distance|Align|chair|Lunch|1</item>
-    <item>размер|vulture|size|bag|Map|2</item>
-    <item>скорость|walrus|Alimony|mouse|speed|4</item>
-    <item>сила|strength|Alive|music|Moon|1</item>
-    <item>много|yellowfintuna|Allay|beach|a lot of|4</item>
-    <item>много (с исчисляемыми существительными в отрицаниях и вопросах)|many|Allegation|rose|Music|1</item>
-    <item>много (с неисчисляемыми существительными в отрицаниях и вопросах)|astronaut|much|window|Nature|2</item>
-    <item>мало (с исчисляемыми существительными)|baker|Allegro|door|few|4</item>
-    <item>мало (с неисчисляемыми существительными)|chef|little|doctor|Night|2</item>
-    <item>меньше, менее|dancer|less|pencil|Ocean|2</item>
-    <item>больше, более|engineer|Allocate|spider|more|4</item>
-    <item>несколько, некоторое количество (в утверждениях)|firefighter|Allow|vase|some|4</item>
-    <item>несколько, некоторое количество (в отрицаниях и вопросах), какой-нибудь|any|Alloy|orange|Park|1</item>
-    <item>пара (вещей, объектов)|hairstylist|Allude|television|pair|4</item>
-    <item>часть|part|Ally|moon|circle|1</item>
-    <item>кусок, часть|journalist|Almanac|piece|Pizza|3</item>
-    <item>большой|king|Aloof|car|big|4</item>
-    <item>далекий|lawyer|far|banana|Plant|2</item>
-    <item>быстрый, быстро|fast|Already|dog|Problem|1</item>
-    <item>твердый, трудный, жесткий, усердно|nurse|hard|mirror|Puzzle|2</item>
-    <item>тяжелый|optometrist|Also|camera|heavy|4</item>
-    <item>высокий (об объектах)|pilot|high|rainbow|Rain|2</item>
-    <item>большой, просторный|queen|Alter|sky|large|4</item>
-    <item>длинный, долгий|large|Alternative|green|Robot|1</item>
-    <item>громкий|loud|Although|flower|Rock|1</item>
-    <item>низкий, низко|undertaker|low|bee|Rose|2</item>
-    <item>узкий|veterinarian|Always|narrow|Sailing|3</item>
-    <item>близкий|waiter|Amateur|juice|near|4</item>
-    <item>шумный|noisy|Amaze|knock|Science|1</item>
-    <item>мощный|yogainstructor|powerful|reptile|Sea|2</item>
-    <item>быстрый|zookeeper|Amber|mother|quick|4</item>
-    <item>тихий|quiet|Ambience|guitar|Shirt|1</item>
-    <item>низкий, короткий|blueberrymuffin|Ambiguous|short|Shoes|3</item>
+        <item>круг|octopus|Album|circle|Lamp|3</item>
+        <item>округлый|round|Alcohol|yellow|Leaf|1</item>
+        <item>квадрат|quokka|Alert|round|Library|3</item>
+        <item>квадратный|rabbit|Algebra|clock|square|4</item>
+        <item>прямой, ровный|straight|Algorithm|cloud|Lizard|1</item>
+        <item>колесо|tiger|Alien|wheel|Love|3</item>
+        <item>расстояние|distance|Align|chair|Lunch|1</item>
+        <item>размер|vulture|size|bag|Map|2</item>
+        <item>скорость|walrus|Alimony|mouse|speed|4</item>
+        <item>сила|strength|Alive|music|Moon|1</item>
+        <item>много|yellowfintuna|Allay|beach|a lot of|4</item>
+        <item>много (с исчисляемыми существительными в отрицаниях и вопросах)|many|Allegation|rose|Music|1</item>
+        <item>много (с неисчисляемыми существительными в отрицаниях и вопросах)|astronaut|much|window|Nature|2</item>
+        <item>мало (с исчисляемыми существительными)|baker|Allegro|door|few|4</item>
+        <item>мало (с неисчисляемыми существительными)|chef|little|doctor|Night|2</item>
+        <item>меньше, менее|dancer|less|pencil|Ocean|2</item>
+        <item>больше, более|engineer|Allocate|spider|more|4</item>
+        <item>несколько, некоторое количество (в утверждениях)|firefighter|Allow|vase|some|4</item>
+        <item>несколько, некоторое количество (в отрицаниях и вопросах), какой-нибудь|any|Alloy|orange|Park|1</item>
+        <item>пара (вещей, объектов)|hairstylist|Allude|television|pair|4</item>
+        <item>часть|part|Ally|moon|circle|1</item>
+        <item>кусок, часть|journalist|Almanac|piece|Pizza|3</item>
+        <item>большой|king|Aloof|car|big|4</item>
+        <item>далекий|lawyer|far|banana|Plant|2</item>
+        <item>быстрый, быстро|fast|Already|dog|Problem|1</item>
+        <item>твердый, трудный, жесткий, усердно|nurse|hard|mirror|Puzzle|2</item>
+        <item>тяжелый|optometrist|Also|camera|heavy|4</item>
+        <item>высокий (об объектах)|pilot|high|rainbow|Rain|2</item>
+        <item>большой, просторный|queen|Alter|sky|large|4</item>
+        <item>длинный, долгий|large|Alternative|green|Robot|1</item>
+        <item>громкий|loud|Although|flower|Rock|1</item>
+        <item>низкий, низко|undertaker|low|bee|Rose|2</item>
+        <item>узкий|veterinarian|Always|narrow|Sailing|3</item>
+        <item>близкий|waiter|Amateur|juice|near|4</item>
+        <item>шумный|noisy|Amaze|knock|Science|1</item>
+        <item>мощный|yogainstructor|powerful|reptile|Sea|2</item>
+        <item>быстрый|zookeeper|Amber|mother|quick|4</item>
+        <item>тихий|quiet|Ambience|guitar|Shirt|1</item>
+        <item>низкий, короткий|blueberrymuffin|Ambiguous|short|Shoes|3</item>
 
     </string-array>
 
     <string-array name="process">
-    <item>снова|espresso|again|image|Soccer|2</item>
-    <item>все, весь|fruitsalad|Amenities|all|Star|3</item>
-    <item>почти|almost|America|ivory|Sun|1</item>
-    <item>каждый (по отдельности)|each|American|lamp|Sunglasses|1</item>
-    <item>достаточно|icecream|Amidst|yawning|enough|4</item>
-    <item>каждый|jellybeans|every|zebra|Sushi|2</item>
-    <item>только|keylimepie|Amnesia|only|Swimming|3</item>
-    <item>чем (в сравнениях)|lemonade|Amnesty|river|than|4</item>
-    <item>вместе|together|Amongst|dream|Tea|1</item>
-    <item>тоже, слишком|nachos|Amount|too|Tree|3</item>
-    <item>очень|very|Amphibian|rainbow|Turtle|1</item>
+        <item>снова|espresso|again|image|Soccer|2</item>
+        <item>все, весь|fruitsalad|Amenities|all|Star|3</item>
+        <item>почти|almost|America|ivory|Sun|1</item>
+        <item>каждый (по отдельности)|each|American|lamp|Sunglasses|1</item>
+        <item>достаточно|icecream|Amidst|yawning|enough|4</item>
+        <item>каждый|jellybeans|every|zebra|Sushi|2</item>
+        <item>только|keylimepie|Amnesia|only|Swimming|3</item>
+        <item>чем (в сравнениях)|lemonade|Amnesty|river|than|4</item>
+        <item>вместе|together|Amongst|dream|Tea|1</item>
+        <item>тоже, слишком|nachos|Amount|too|Tree|3</item>
+        <item>очень|very|Amphibian|rainbow|Turtle|1</item>
 
     </string-array>
 
     <string-array name="digit">
 
-    <item>ноль|zero|two|five|one|1</item>
-    <item>один|zero|six|one|two|3</item>
-    <item>два|one|six|five|two|4</item>
-    <item>три|three|one|five|ten|1</item>
-    <item>четыре|six|four|three|ten|2</item>
-    <item>пять|twelve|five|one|eleven|2</item>
-    <item>шесть|seven|zero|six|twelve|3</item>
-    <item>семь|zero|four|one|seven|4</item>
-    <item>восемь|eight|seven|twelve|one|1</item>
-    <item>девять|one|nine|eight|nineteen|2</item>
-    <item>десять|six|seven|twelve|ten|4</item>
-    <item>одиннадцать|zero|six|eleven|four|3</item>
-    <item>двенадцать|ten|twelve|three|sixteen|2</item>
-    <item>тринадцать|thirteen|sixteen|three|nineteen|1</item>
-    <item>четырнадцать|ten|eleven|four|fourteen|4</item>
-    <item>пятнадцать|fifteen|five|twelve|four|1</item>
-    <item>шестнадцать|one|sixteen|ten|two|2</item>
-    <item>семнадцать|seven|two|seventeen|four|3</item>
-    <item>восемнадцать|ten|six|eighteen|eight|3</item>
-    <item>девятнадцать|nineteen|sixteen|fifteen|four|1</item>
-    <item>двадцать|three|twenty|twelve|two|2</item>
-    <item>тридцать|thirteen|fourteen|thirty|three|3</item>
-    <item>сорок|fourteen|ten|thirty|forty|4</item>
-    <item>пятьдесят|fifty|five|four|fifteen|1</item>
-    <item>шестьдесят|seven|sixty|six|sixteen|2</item>
-    <item>семьдесят|sevety|six|seventeen|ten|1</item>
-    <item>восемьдесят|three|seven|eighty|eight|3</item>
-    <item>девяносто|nineteen|six|nine|ninety|4</item>
-    <item>сто|hundred|zero|ten|four|1</item>
-    <item>тысяча|hundred|two|thousand|four|3</item>
-    <item>миллион|million|thousand|hundred|ten|1</item>
+        <item>ноль|zero|two|five|one|1</item>
+        <item>один|zero|six|one|two|3</item>
+        <item>два|one|six|five|two|4</item>
+        <item>три|three|one|five|ten|1</item>
+        <item>четыре|six|four|three|ten|2</item>
+        <item>пять|twelve|five|one|eleven|2</item>
+        <item>шесть|seven|zero|six|twelve|3</item>
+        <item>семь|zero|four|one|seven|4</item>
+        <item>восемь|eight|seven|twelve|one|1</item>
+        <item>девять|one|nine|eight|nineteen|2</item>
+        <item>десять|six|seven|twelve|ten|4</item>
+        <item>одиннадцать|zero|six|eleven|four|3</item>
+        <item>двенадцать|ten|twelve|three|sixteen|2</item>
+        <item>тринадцать|thirteen|sixteen|three|nineteen|1</item>
+        <item>четырнадцать|ten|eleven|four|fourteen|4</item>
+        <item>пятнадцать|fifteen|five|twelve|four|1</item>
+        <item>шестнадцать|one|sixteen|ten|two|2</item>
+        <item>семнадцать|seven|two|seventeen|four|3</item>
+        <item>восемнадцать|ten|six|eighteen|eight|3</item>
+        <item>девятнадцать|nineteen|sixteen|fifteen|four|1</item>
+        <item>двадцать|three|twenty|twelve|two|2</item>
+        <item>тридцать|thirteen|fourteen|thirty|three|3</item>
+        <item>сорок|fourteen|ten|thirty|forty|4</item>
+        <item>пятьдесят|fifty|five|four|fifteen|1</item>
+        <item>шестьдесят|seven|sixty|six|sixteen|2</item>
+        <item>семьдесят|sevety|six|seventeen|ten|1</item>
+        <item>восемьдесят|three|seven|eighty|eight|3</item>
+        <item>девяносто|nineteen|six|nine|ninety|4</item>
+        <item>сто|hundred|zero|ten|four|1</item>
+        <item>тысяча|hundred|two|thousand|four|3</item>
+        <item>миллион|million|thousand|hundred|ten|1</item>
 
     </string-array>
 
     <string-array name="poradok">
-    <item>первый|alarmclock|Anteater|star|first|4</item>
-    <item>второй|bed|second|happy|first|2</item>
-    <item>третий|second|fifth|third|first|3</item>
-    <item>четвертый|fourth|first|third|two|1</item>
-    <item>пятый|first|fourth|third|fifth|4</item>
+        <item>первый|alarmclock|Anteater|star|first|4</item>
+        <item>второй|bed|second|happy|first|2</item>
+        <item>третий|second|fifth|third|first|3</item>
+        <item>четвертый|fourth|first|third|two|1</item>
+        <item>пятый|first|fourth|third|fifth|4</item>
 
     </string-array>
 
     <string-array name="time">
-    <item>сезон, время года|hat|Anxious|song|a season|4</item>
-    <item>зима|spring|summer|winter|autumn|3</item>
-    <item>весна|spring|Anyhow|horse|juicer|1</item>
-    <item>лето|winter|summer|spring|Anyone|2</item>
-    <item>осень|spring|summer|winter|autumn|4</item>
-    <item>месяц|oven|Apathetic|train|a month|4</item>
-    <item>январь|January|June|March|February|1</item>
-    <item>февраль|June|February|August|March|2</item>
-    <item>март|September|March|June|February|2</item>
-    <item>апрель|March|February|August|April|4</item>
-    <item>май|May|March|April|August|1</item>
-    <item>июнь|February|June|August|April|3</item>
-    <item>июль|July|February|June|August|1</item>
-    <item>август|April|Apparel|August|February|3</item>
-    <item>сентябрь|September|August|June|March|1</item>
-    <item>октябрь|February|August|September|October|4</item>
-    <item>ноябрь|October|November|September|February|2</item>
-    <item>декабрь|November|September|February|December|4</item>
-    <item>день|date|data|dear|day|4</item>
-    <item>понедельник|Monday|Tuesday|Wednesday|Thursday|1</item>
-    <item>вторник|Monday|Tuesday|Friday|Saturday|2</item>
-    <item>среда|Friday|Sunday|Wednesday|Thursday|3</item>
-    <item>четверг|Thursday|Monday|Sunday|Saturday|1</item>
-    <item>пятница|Thursday|Tuesday|Sunday|Friday|4</item>
-    <item>суббота|Saturday|Thursday|Sunday|Wednesday|1</item>
-    <item>воскресенье|Tuesday|Saturday|Friday|Sunday|4</item>
-    <item>вчера|yesterday|today|now|afternoon|1</item>
-    <item>сегодня|midnight|yesterday|evening|today|4</item>
-    <item>сейчас, теперь|tomorrow|morning|now|evening|3</item>
-    <item>утро|tomorrow|yesterday|midnight|morning|4</item>
-    <item>день (после полудня)|evening|afternoon|today|night|2</item>
-    <item>вечер|today|morning|tomorrow|evening|4</item>
-    <item>ночь|night|morning|today|afternoon|1</item>
-    <item>сегодня вечером, ночью|morning|tonight|yesterday|tomorrow|2</item>
-    <item>полночь|now|yesterday|afternoon|midnight|4</item>
-    <item>завтра|yesterday|now|tomorrow|afternoon|3</item>
-    <item>секунда|show|hour|minute|second|4</item>
-    <item>минута|minute|hour|second|minus|1</item>
-    <item>час|minus|minute|hour|second|3</item>
-    <item>неделя|week|year|century|near|1</item>
-    <item>год|near|minute|diamond|year|4</item>
-    <item>век|second|century|year|week|3</item>
+        <item>сезон, время года|hat|Anxious|song|a season|4</item>
+        <item>зима|spring|summer|winter|autumn|3</item>
+        <item>весна|spring|Anyhow|horse|juicer|1</item>
+        <item>лето|winter|summer|spring|Anyone|2</item>
+        <item>осень|spring|summer|winter|autumn|4</item>
+        <item>месяц|oven|Apathetic|train|a month|4</item>
+        <item>январь|January|June|March|February|1</item>
+        <item>февраль|June|February|August|March|2</item>
+        <item>март|September|March|June|February|2</item>
+        <item>апрель|March|February|August|April|4</item>
+        <item>май|May|March|April|August|1</item>
+        <item>июнь|February|June|August|April|3</item>
+        <item>июль|July|February|June|August|1</item>
+        <item>август|April|Apparel|August|February|3</item>
+        <item>сентябрь|September|August|June|March|1</item>
+        <item>октябрь|February|August|September|October|4</item>
+        <item>ноябрь|October|November|September|February|2</item>
+        <item>декабрь|November|September|February|December|4</item>
+        <item>день|date|data|dear|day|4</item>
+        <item>понедельник|Monday|Tuesday|Wednesday|Thursday|1</item>
+        <item>вторник|Monday|Tuesday|Friday|Saturday|2</item>
+        <item>среда|Friday|Sunday|Wednesday|Thursday|3</item>
+        <item>четверг|Thursday|Monday|Sunday|Saturday|1</item>
+        <item>пятница|Thursday|Tuesday|Sunday|Friday|4</item>
+        <item>суббота|Saturday|Thursday|Sunday|Wednesday|1</item>
+        <item>воскресенье|Tuesday|Saturday|Friday|Sunday|4</item>
+        <item>вчера|yesterday|today|now|afternoon|1</item>
+        <item>сегодня|midnight|yesterday|evening|today|4</item>
+        <item>сейчас, теперь|tomorrow|morning|now|evening|3</item>
+        <item>утро|tomorrow|yesterday|midnight|morning|4</item>
+        <item>день (после полудня)|evening|afternoon|today|night|2</item>
+        <item>вечер|today|morning|tomorrow|evening|4</item>
+        <item>ночь|night|morning|today|afternoon|1</item>
+        <item>сегодня вечером, ночью|morning|tonight|yesterday|tomorrow|2</item>
+        <item>полночь|now|yesterday|afternoon|midnight|4</item>
+        <item>завтра|yesterday|now|tomorrow|afternoon|3</item>
+        <item>секунда|show|hour|minute|second|4</item>
+        <item>минута|minute|hour|second|minus|1</item>
+        <item>час|minus|minute|hour|second|3</item>
+        <item>неделя|week|year|century|near|1</item>
+        <item>год|near|minute|diamond|year|4</item>
+        <item>век|second|century|year|week|3</item>
     </string-array>
 
     <string-array name="promezutki">
-    <item>назад (например, 2 дня назад)|late|before|during|ago|4</item>
-    <item>ранний, рано|then|early|before|for|2</item>
-    <item>последний, прошлый|early|before|last|during|3</item>
-    <item>поздний, поздно, опоздавший|always|during|before|late|4</item>
-    <item>следующий (год, неделя)|next|before|then|for|1</item>
-    <item>после|ago|after|before|during|2</item>
-    <item>до|ago|always|since|before|4</item>
-    <item>во время|during|last|after|since|1</item>
-    <item>для, в течение (времени)|since|last|for|always|3</item>
-    <item>с (определенного времени)|early|since|always|then|2</item>
-    <item>затем, потом, тогда|then|next|during|always|1</item>
-    <item>всегда|always|after|late|before|1</item>
-    <item>никогда|soon|usually|already|never|4</item>
-    <item>часто|probably|often|usually|already|2</item>
-    <item>иногда|often|just|sometimes|already|3</item>
-    <item>скоро|will|soon|probably|already|2</item>
-    <item>обычно|will|probably|just|usually|4</item>
-    <item>уже|already|sometimes|often|never|1</item>
-    <item>только что, просто|sometimes|just|already|never|2</item>
-    <item>ещё не|often|will|just|yet|4</item>
-    <item>вероятно|really|probably|often|never|2</item>
-    <item>действительно|really|just|sometimes|usually|1</item>
-    <item>для образования будущего времени|soon|really|probably|will|4</item>
+        <item>назад (например, 2 дня назад)|late|before|during|ago|4</item>
+        <item>ранний, рано|then|early|before|for|2</item>
+        <item>последний, прошлый|early|before|last|during|3</item>
+        <item>поздний, поздно, опоздавший|always|during|before|late|4</item>
+        <item>следующий (год, неделя)|next|before|then|for|1</item>
+        <item>после|ago|after|before|during|2</item>
+        <item>до|ago|always|since|before|4</item>
+        <item>во время|during|last|after|since|1</item>
+        <item>для, в течение (времени)|since|last|for|always|3</item>
+        <item>с (определенного времени)|early|since|always|then|2</item>
+        <item>затем, потом, тогда|then|next|during|always|1</item>
+        <item>всегда|always|after|late|before|1</item>
+        <item>никогда|soon|usually|already|never|4</item>
+        <item>часто|probably|often|usually|already|2</item>
+        <item>иногда|often|just|sometimes|already|3</item>
+        <item>скоро|will|soon|probably|already|2</item>
+        <item>обычно|will|probably|just|usually|4</item>
+        <item>уже|already|sometimes|often|never|1</item>
+        <item>только что, просто|sometimes|just|already|never|2</item>
+        <item>ещё не|often|will|just|yet|4</item>
+        <item>вероятно|really|probably|often|never|2</item>
+        <item>действительно|really|just|sometimes|usually|1</item>
+        <item>для образования будущего времени|soon|really|probably|will|4</item>
 
     </string-array>
 
     <string-array name="money">
-    <item>счет|discount|price|expensive|bill|4</item>
-    <item>наличка|cash|cheap|price|discount|1</item>
-    <item>скидка|cheap|discount|cheap|expensive|2</item>
-    <item>цена|discount|tip|expensive|price|4</item>
-    <item>чаевые|discount|cash|tip|expensive|3</item>
-    <item>дешевый|cheap|discount|price|free|1</item>
-    <item>дорогой (о цене)|bill|expensive|cash|free|2</item>
-    <item>бесплатный, свободный|price|expensive|discount|free|4</item>
+        <item>счет|discount|price|expensive|bill|4</item>
+        <item>наличка|cash|cheap|price|discount|1</item>
+        <item>скидка|cheap|discount|cheap|expensive|2</item>
+        <item>цена|discount|tip|expensive|price|4</item>
+        <item>чаевые|discount|cash|tip|expensive|3</item>
+        <item>дешевый|cheap|discount|price|free|1</item>
+        <item>дорогой (о цене)|bill|expensive|cash|free|2</item>
+        <item>бесплатный, свободный|price|expensive|discount|free|4</item>
 
     </string-array>
 
     <string-array name="hobbi">
-    <item>искусство|literature|music|picture|art|4</item>
-    <item>фильм|story|music|film|picture|3</item>
-    <item>литература|literature|story|act|song|1</item>
-    <item>музыка|play|music|act|song|2</item>
-    <item>фото|film|write|make|photo|4</item>
-    <item>картина, фотография|picture|write|draw|play|1</item>
-    <item>песня|swim|write|read|song|4</item>
-    <item>история, рассказ|story|dance|teach|swim|1</item>
-    <item>играть (на сцене),вести себя|swim|act|make|read|2</item>
-    <item>строить|build|create|teach|write|1</item>
-    <item>создавать|draw|swim|create|teach|3</item>
-    <item>танец|photo|dance|swim|picture|2</item>
-    <item>танцевать|swim|play|make|to dance|4</item>
-    <item>делать|to do|teach|dance|swim|</item>
-    <item>рисовать|write|draw|read|play|2</item>
-    <item>слушать|listen|play|teach|literature|1</item>
-    <item>делать, изготавливать|literature|make|teach|play|2</item>
-    <item>спектакль|a play|make|literature|dance|1</item>
-    <item>играть|build|Atrocious|to play|music|3</item>
-    <item>читать|literature|draw|teach|read|4</item>
-    <item>петь|sing|literature|build|draw|1</item>
-    <item>плавать|music|swim|draw|build|2</item>
-    <item>учить, преподавать|music|draw|teach|build|3</item>
-    <item>писать|play|write|draw|build|2</item>
+        <item>искусство|literature|music|picture|art|4</item>
+        <item>фильм|story|music|film|picture|3</item>
+        <item>литература|literature|story|act|song|1</item>
+        <item>музыка|play|music|act|song|2</item>
+        <item>фото|film|write|make|photo|4</item>
+        <item>картина, фотография|picture|write|draw|play|1</item>
+        <item>песня|swim|write|read|song|4</item>
+        <item>история, рассказ|story|dance|teach|swim|1</item>
+        <item>играть (на сцене),вести себя|swim|act|make|read|2</item>
+        <item>строить|build|create|teach|write|1</item>
+        <item>создавать|draw|swim|create|teach|3</item>
+        <item>танец|photo|dance|swim|picture|2</item>
+        <item>танцевать|swim|play|make|to dance|4</item>
+        <item>делать|to do|teach|dance|swim|</item>
+        <item>рисовать|write|draw|read|play|2</item>
+        <item>слушать|listen|play|teach|literature|1</item>
+        <item>делать, изготавливать|literature|make|teach|play|2</item>
+        <item>спектакль|a play|make|literature|dance|1</item>
+        <item>играть|build|Atrocious|to play|music|3</item>
+        <item>читать|literature|draw|teach|read|4</item>
+        <item>петь|sing|literature|build|draw|1</item>
+        <item>плавать|music|swim|draw|build|2</item>
+        <item>учить, преподавать|music|draw|teach|build|3</item>
+        <item>писать|play|write|draw|build|2</item>
 
     </string-array>
 
 
     <string-array name="travel">
-    <item>рюкзак|card|suitcase|destination|backpack|4</item>
-    <item>сумка|bag|taxi|ship|train|1</item>
-    <item>открытка, карточка (банковская)|luggage|ticket|card|suitcase|3</item>
-    <item>задержка|plane|delay|destination|bus|2</item>
-    <item>задерживать|ticket|luggage|ship|to delay|4</item>
-    <item>пункт назначения|bicycle|destination|ticket|suitcase|2</item>
-    <item>багаж|incurance|luggage|butterfly|suitcase|2</item>
-    <item>карта|plane|incurance|tram|map|4</item>
-    <item>чемодан|plane|destination|suitcase|incurance|3</item>
-    <item>билет|ticket|ship|bicycle|car|1</item>
-    <item>велосипед|Cardamom|Inquisitive|lamp||</item>
-    <item>автобус|ship|bicycle|car|incurance|2</item>
-    <item>автомобиль|taxi|plane|car|ship|3</item>
-    <item>самолет|plane|ship|car|taxi|1</item>
-    <item>корабль|taxi|ship|dream|car|2</item>
-    <item>такси|bicycle|plane|car|taxi|4</item>
-    <item>поезд|ship|train|car|taxi|2</item>
-    <item>трамвай|car|tram|mouse|train|2</item>
-    <item>страховка|plane|ship|car|incurance|4</item>
+        <item>рюкзак|card|suitcase|destination|backpack|4</item>
+        <item>сумка|bag|taxi|ship|train|1</item>
+        <item>открытка, карточка (банковская)|luggage|ticket|card|suitcase|3</item>
+        <item>задержка|plane|delay|destination|bus|2</item>
+        <item>задерживать|ticket|luggage|ship|to delay|4</item>
+        <item>пункт назначения|bicycle|destination|ticket|suitcase|2</item>
+        <item>багаж|incurance|luggage|butterfly|suitcase|2</item>
+        <item>карта|plane|incurance|tram|map|4</item>
+        <item>чемодан|plane|destination|suitcase|incurance|3</item>
+        <item>билет|ticket|ship|bicycle|car|1</item>
+        <item>велосипед|Cardamom|Inquisitive|lamp||</item>
+        <item>автобус|ship|bicycle|car|incurance|2</item>
+        <item>автомобиль|taxi|plane|car|ship|3</item>
+        <item>самолет|plane|ship|car|taxi|1</item>
+        <item>корабль|taxi|ship|dream|car|2</item>
+        <item>такси|bicycle|plane|car|taxi|4</item>
+        <item>поезд|ship|train|car|taxi|2</item>
+        <item>трамвай|car|tram|mouse|train|2</item>
+        <item>страховка|plane|ship|car|incurance|4</item>
 
     </string-array>
 
     <string-array name="move">
-    <item>прибывать|to bring|to catch|to put|to arrive|4</item>
-    <item>приносить|to bring|to come|to drive|to ride|1</item>
-    <item>ловить|to run|to put|to catch|to push|3</item>
-    <item>приходить|to walk|to come|to put|to start|2</item>
-    <item>водить (транспорт)|to stand|to drive|to move|to run|2</item>
-    <item>ронять|to drop|to walk|to turn|to arrive|1</item>
-    <item>падать|to pass|to fly|to fall|to put|3</item>
-    <item>заканчивать|to stay|to finish|to run|to throw|2</item>
-    <item>летать|to fly|to move|to walk|to leave|1</item>
-    <item>идти, уезжать|to pass|to start|to run|to go|4</item>
-    <item>расти|to walk|to ride|to grow|to put|3</item>
-    <item>случаться|to happen|to run|to walk|to turn|1</item>
-    <item>прыгать|to walk|to stop|to start|to jump|4</item>
-    <item>приземляться|to grow|to land|to walk|to turn|2</item>
-    <item>покидать, оставлять, уходить|to leave|to run|to start|to take|1</item>
-    <item>двигаться|to fall|to put|to move|to push|3</item>
-    <item>проходить|to leave|to walk|to stand|to pass|4</item>
-    <item>тянуть|to pull|to put|to walk|to leave|1</item>
-    <item>толкать|to walk|to stand|to ride|to push|4</item>
-    <item>положить, класть|to push|to stand|to put|to walk|3</item>
-    <item>верхом (на лошади, велосипеде)|to run|to ride|to walk|to travel|2</item>
-    <item>бежать|to take|to stop|to run|to travel|3</item>
-    <item>стоять|to stand|to turn|to walk|to ride|1</item>
-    <item>начинать|to ride|to stop|to travel|to start|4</item>
-    <item>оставаться|to stay|to take|to walk|to travel|1</item>
-    <item>останавливаться|to turn|to walk|to stop|to travel|3</item>
-    <item>брать|to travel|to take|to turn|to ride|2</item>
-    <item>бросать|to ride|to travel|to throw|to walk|3</item>
-    <item>путешествовать|to turn|to walk|to start|to travel|4</item>
-    <item>поворачивать|to turn|to throw|to start|to take|1</item>
-    <item>шком, гулять|to ride|to walk|to start|to take|2</item>
+        <item>прибывать|to bring|to catch|to put|to arrive|4</item>
+        <item>приносить|to bring|to come|to drive|to ride|1</item>
+        <item>ловить|to run|to put|to catch|to push|3</item>
+        <item>приходить|to walk|to come|to put|to start|2</item>
+        <item>водить (транспорт)|to stand|to drive|to move|to run|2</item>
+        <item>ронять|to drop|to walk|to turn|to arrive|1</item>
+        <item>падать|to pass|to fly|to fall|to put|3</item>
+        <item>заканчивать|to stay|to finish|to run|to throw|2</item>
+        <item>летать|to fly|to move|to walk|to leave|1</item>
+        <item>идти, уезжать|to pass|to start|to run|to go|4</item>
+        <item>расти|to walk|to ride|to grow|to put|3</item>
+        <item>случаться|to happen|to run|to walk|to turn|1</item>
+        <item>прыгать|to walk|to stop|to start|to jump|4</item>
+        <item>приземляться|to grow|to land|to walk|to turn|2</item>
+        <item>покидать, оставлять, уходить|to leave|to run|to start|to take|1</item>
+        <item>двигаться|to fall|to put|to move|to push|3</item>
+        <item>проходить|to leave|to walk|to stand|to pass|4</item>
+        <item>тянуть|to pull|to put|to walk|to leave|1</item>
+        <item>толкать|to walk|to stand|to ride|to push|4</item>
+        <item>положить, класть|to push|to stand|to put|to walk|3</item>
+        <item>верхом (на лошади, велосипеде)|to run|to ride|to walk|to travel|2</item>
+        <item>бежать|to take|to stop|to run|to travel|3</item>
+        <item>стоять|to stand|to turn|to walk|to ride|1</item>
+        <item>начинать|to ride|to stop|to travel|to start|4</item>
+        <item>оставаться|to stay|to take|to walk|to travel|1</item>
+        <item>останавливаться|to turn|to walk|to stop|to travel|3</item>
+        <item>брать|to travel|to take|to turn|to ride|2</item>
+        <item>бросать|to ride|to travel|to throw|to walk|3</item>
+        <item>путешествовать|to turn|to walk|to start|to travel|4</item>
+        <item>поворачивать|to turn|to throw|to start|to take|1</item>
+        <item>шком, гулять|to ride|to walk|to start|to take|2</item>
 
     </string-array>
 
     <string-array name="life">
-    <item>добавлять|to be|to become|to drink|to add|4</item>
-    <item>быть|to smoke|to take off|to be|to sleep|3</item>
-    <item>становиться|to become|to visit|to use|to wake up|1</item>
-    <item>начинать|to try|to begin|to spend|to work|2</item>
-    <item>ломать|to sleep|to spend|to break|to take off|3</item>
-    <item>покупать|to buy|to give|to break|to be|1</item>
-    <item>менять|to smoke|to wait|to visit|to change|4</item>
-    <item>проверять|to be|to check|to buy|to change|2</item>
-    <item>выбирать|to become|to change|to choose|to visit|3</item>
-    <item>закрывать|to close|to wait|to change|to buy|1</item>
-    <item>продолжать|to change|to visit|to continue|to buy|3</item>
-    <item>контролировать|to control|to change|to buy|to visit|1</item>
-    <item>готовить|to sleep|to give|to cook|to plan|3</item>
-    <item>стоить|to change|to plan|to visit|to cost|4</item>
-    <item>резать|to cut|to cost|to put|to spend|1</item>
-    <item>развивать|to take|to spend|to use|to develop|4</item>
-    <item>пить|to cost|to drink|to use|to visit|2</item>
-    <item>есть, кушать|to change|to sleep|to eat|to visit|3</item>
-    <item>кормить|to feed|to try|to wait|to work|1</item>
-    <item>находить|to cook|to give|to find|to wait|3</item>
-    <item>получать, добывать|to get|to wait|to try|to wait|1</item>
-    <item>давать|to smoke|to try|to sleep|to give|4</item>
-    <item>иметь, обладать|to try|to have|to wait|to move|2</item>
-    <item>держать|to wake up|to smoke|to hold|to visit|3</item>
-    <item>хранить, продолжать|to keep|to hold|to watch|to rest|1</item>
-    <item>убивать|to buy|to keep|to kill|to sell|3</item>
-    <item>жить|to live|to look|to sell|to smoke|1</item>
-    <item>выглядеть|to put|to look|to eat|to swim|2</item>
-    <item>открывать|to visit|to wait|to spend|to open|4</item>
-    <item>заказывать|to order|to try|to wear|to watch|1</item>
-    <item>платить|to show|to pay|to risk|to sell|2</item>
-    <item>планировать|to ring|to save|to plan|to put on|3</item>
-    <item>надевать|to put on|to order|to work|to sell|1</item>
-    <item>отдыхать|to shave|to sign|to rest|to try|3</item>
-    <item>звенеть, звонить|to use|to work|to sit|to ring|4</item>
-    <item>рисковать|to rest|to work|to risk|to smoke|3</item>
-    <item>спасать, сохранять|to send|to save|to buy|to visit|2</item>
-    <item>продавать|to sell|to risk|to wash|to smoke|1</item>
-    <item>отправлять|to smoke|to sleep|to show|to send|4</item>
-    <item>бриться|to watch|to wake up|to use|to shave|4</item>
-    <item>показывать|to show|to send|to wait|to sleep|1</item>
-    <item>подписывать|to work|to risk|to sign|to buy|3</item>
-    <item>сидеть|to sleep|to sit|to show|to sell|2</item>
-    <item>спать|to visit|to wake|to sell|to sleep|4</item>
-    <item>курить|to wear|to smoke|to buy|to wait|2</item>
-    <item>проводить (время), тратить|to spend|to sell|to sign|to buy|1</item>
-    <item>снимать (одежду),взлетать (о самолете)|to wear|to wake up|to visit|to take off|4</item>
-    <item>пытаться|to rest|to try|to work|to sleep|2</item>
-    <item>использовать|to send|to ring|to use|to save|3</item>
-    <item>посещать|to visit|to wear|to wash|to spend|1</item>
-    <item>ждать|to wear|to wait|to ring|to sell|2</item>
-    <item>просыпаться|to wash|to ring|to wake up|to ring|3</item>
-    <item>мыть, стирать|to wash|to shave|to sit|to work|1</item>
-    <item>смотреть, наблюдать|to take off|to watch|to try|to sleep|2</item>
-    <item>носить (одежду)|to rest|to save|music|to wear|4</item>
-    <item>работать|to buy|to work|to show|to sleep|2</item>
+        <item>добавлять|to be|to become|to drink|to add|4</item>
+        <item>быть|to smoke|to take off|to be|to sleep|3</item>
+        <item>становиться|to become|to visit|to use|to wake up|1</item>
+        <item>начинать|to try|to begin|to spend|to work|2</item>
+        <item>ломать|to sleep|to spend|to break|to take off|3</item>
+        <item>покупать|to buy|to give|to break|to be|1</item>
+        <item>менять|to smoke|to wait|to visit|to change|4</item>
+        <item>проверять|to be|to check|to buy|to change|2</item>
+        <item>выбирать|to become|to change|to choose|to visit|3</item>
+        <item>закрывать|to close|to wait|to change|to buy|1</item>
+        <item>продолжать|to change|to visit|to continue|to buy|3</item>
+        <item>контролировать|to control|to change|to buy|to visit|1</item>
+        <item>готовить|to sleep|to give|to cook|to plan|3</item>
+        <item>стоить|to change|to plan|to visit|to cost|4</item>
+        <item>резать|to cut|to cost|to put|to spend|1</item>
+        <item>развивать|to take|to spend|to use|to develop|4</item>
+        <item>пить|to cost|to drink|to use|to visit|2</item>
+        <item>есть, кушать|to change|to sleep|to eat|to visit|3</item>
+        <item>кормить|to feed|to try|to wait|to work|1</item>
+        <item>находить|to cook|to give|to find|to wait|3</item>
+        <item>получать, добывать|to get|to wait|to try|to wait|1</item>
+        <item>давать|to smoke|to try|to sleep|to give|4</item>
+        <item>иметь, обладать|to try|to have|to wait|to move|2</item>
+        <item>держать|to wake up|to smoke|to hold|to visit|3</item>
+        <item>хранить, продолжать|to keep|to hold|to watch|to rest|1</item>
+        <item>убивать|to buy|to keep|to kill|to sell|3</item>
+        <item>жить|to live|to look|to sell|to smoke|1</item>
+        <item>выглядеть|to put|to look|to eat|to swim|2</item>
+        <item>открывать|to visit|to wait|to spend|to open|4</item>
+        <item>заказывать|to order|to try|to wear|to watch|1</item>
+        <item>платить|to show|to pay|to risk|to sell|2</item>
+        <item>планировать|to ring|to save|to plan|to put on|3</item>
+        <item>надевать|to put on|to order|to work|to sell|1</item>
+        <item>отдыхать|to shave|to sign|to rest|to try|3</item>
+        <item>звенеть, звонить|to use|to work|to sit|to ring|4</item>
+        <item>рисковать|to rest|to work|to risk|to smoke|3</item>
+        <item>спасать, сохранять|to send|to save|to buy|to visit|2</item>
+        <item>продавать|to sell|to risk|to wash|to smoke|1</item>
+        <item>отправлять|to smoke|to sleep|to show|to send|4</item>
+        <item>бриться|to watch|to wake up|to use|to shave|4</item>
+        <item>показывать|to show|to send|to wait|to sleep|1</item>
+        <item>подписывать|to work|to risk|to sign|to buy|3</item>
+        <item>сидеть|to sleep|to sit|to show|to sell|2</item>
+        <item>спать|to visit|to wake|to sell|to sleep|4</item>
+        <item>курить|to wear|to smoke|to buy|to wait|2</item>
+        <item>проводить (время), тратить|to spend|to sell|to sign|to buy|1</item>
+        <item>снимать (одежду),взлетать (о самолете)|to wear|to wake up|to visit|to take off|4</item>
+        <item>пытаться|to rest|to try|to work|to sleep|2</item>
+        <item>использовать|to send|to ring|to use|to save|3</item>
+        <item>посещать|to visit|to wear|to wash|to spend|1</item>
+        <item>ждать|to wear|to wait|to ring|to sell|2</item>
+        <item>просыпаться|to wash|to ring|to wake up|to ring|3</item>
+        <item>мыть, стирать|to wash|to shave|to sit|to work|1</item>
+        <item>смотреть, наблюдать|to take off|to watch|to try|to sleep|2</item>
+        <item>носить (одежду)|to rest|to save|music|to wear|4</item>
+        <item>работать|to buy|to work|to show|to sleep|2</item>
 
     </string-array>
 
     <string-array name="dialog">
-    <item>да|not|not|hi|yes|4</item>
-    <item>нет|no|not|yes|hi|1</item>
-    <item>не|not|yes|me|hello|1</item>
-    <item>привет|thank|hi|please|sorry|2</item>
-    <item>здравствуйте|excuse|sorry|thank|hello|4</item>
-    <item>извините (просим прощения)|welcome|maybe|sorry|me|3</item>
-    <item>извините (просим разрешение)|no|excuse me|me|thank|2</item>
-    <item>пожалуйста, прошу|no|maybe|you|please|4</item>
-    <item>спасибо|thank you|you|ruby|me|1</item>
-    <item>не за что|me|bye|thank|you are welcome|4</item>
-    <item>пока|good|bye|would|me|2</item>
-    <item>может быть|good|excuse me|maybe|me|3</item>
-    <item>хотелось бы (сделать что-то)|would like to|me|to talk|to share|1</item>
-    <item>соглашаться|to explain|to protect|to agree|to talk|3</item>
-    <item>отвечать|to answer|to complain|to support|to share|1</item>
-    <item>спорить, ругаться|to joke|to argue|to call|to speak|2</item>
-    <item>спрашивать|tp say|to meet|to support|to ask|4</item>
-    <item>звонить, звать, называть|to call|to talk|to tell|to fight|1</item>
-    <item>жаловаться|to ask|to joke|to tell|to complain|4</item>
-    <item>описывать|to tell|to share|to describe|to sleep|3</item>
-    <item>обсуждать|to discuss|to offer|to lie|to join|1</item>
-    <item>беспокоить|to fight|to disturb|to share|to say|2</item>
-    <item>объяснять|to joke|to hit|to explain|to help|3</item>
-    <item>драться|to help|to fight|to sleep|to buy|2</item>
-    <item>прощать|to tell|to protect|to offer|to forgive|4</item>
-    <item>помогать|to lie|to help|to fight|to hit|2</item>
-    <item>ударять|to call|to join|to hit|to help|3</item>
-    <item>присоединяться|to join|to share|to buy|to wear|1</item>
-    <item>шутить|to meet|to speak|to joke|to say|3</item>
-    <item>обманывать, врать|to protect|to support|to share|to lie|4</item>
-    <item>встречать|to meet|to sleep|to smoke|to say|1</item>
-    <item>предлагать|to tell|to help|to share|to offer|4</item>
-    <item>защищать|to protect|to join|to talk|to surprise|1</item>
-    <item>сказать|to talk|to ask|to say|to support|3</item>
-    <item>делиться|to share|to sleep|to wear|to tell|1</item>
-    <item>разговаривать|to joke|to meet|to watch|to speak|4</item>
-    <item>поддерживать|to support|to ring|to help|to ask|1</item>
-    <item>удивлять|to join|to lie|to surprise|to tell|3</item>
-    <item>разговаривать|to talk|to meet|to fight|to offer|1</item>
-    <item>рассказывать|to tell|to ask|to talk|to lie|1</item>
+        <item>да|not|not|hi|yes|4</item>
+        <item>нет|no|not|yes|hi|1</item>
+        <item>не|not|yes|me|hello|1</item>
+        <item>привет|thank|hi|please|sorry|2</item>
+        <item>здравствуйте|excuse|sorry|thank|hello|4</item>
+        <item>извините (просим прощения)|welcome|maybe|sorry|me|3</item>
+        <item>извините (просим разрешение)|no|excuse me|me|thank|2</item>
+        <item>пожалуйста, прошу|no|maybe|you|please|4</item>
+        <item>спасибо|thank you|you|ruby|me|1</item>
+        <item>не за что|me|bye|thank|you are welcome|4</item>
+        <item>пока|good|bye|would|me|2</item>
+        <item>может быть|good|excuse me|maybe|me|3</item>
+        <item>хотелось бы (сделать что-то)|would like to|me|to talk|to share|1</item>
+        <item>соглашаться|to explain|to protect|to agree|to talk|3</item>
+        <item>отвечать|to answer|to complain|to support|to share|1</item>
+        <item>спорить, ругаться|to joke|to argue|to call|to speak|2</item>
+        <item>спрашивать|tp say|to meet|to support|to ask|4</item>
+        <item>звонить, звать, называть|to call|to talk|to tell|to fight|1</item>
+        <item>жаловаться|to ask|to joke|to tell|to complain|4</item>
+        <item>описывать|to tell|to share|to describe|to sleep|3</item>
+        <item>обсуждать|to discuss|to offer|to lie|to join|1</item>
+        <item>беспокоить|to fight|to disturb|to share|to say|2</item>
+        <item>объяснять|to joke|to hit|to explain|to help|3</item>
+        <item>драться|to help|to fight|to sleep|to buy|2</item>
+        <item>прощать|to tell|to protect|to offer|to forgive|4</item>
+        <item>помогать|to lie|to help|to fight|to hit|2</item>
+        <item>ударять|to call|to join|to hit|to help|3</item>
+        <item>присоединяться|to join|to share|to buy|to wear|1</item>
+        <item>шутить|to meet|to speak|to joke|to say|3</item>
+        <item>обманывать, врать|to protect|to support|to share|to lie|4</item>
+        <item>встречать|to meet|to sleep|to smoke|to say|1</item>
+        <item>предлагать|to tell|to help|to share|to offer|4</item>
+        <item>защищать|to protect|to join|to talk|to surprise|1</item>
+        <item>сказать|to talk|to ask|to say|to support|3</item>
+        <item>делиться|to share|to sleep|to wear|to tell|1</item>
+        <item>разговаривать|to joke|to meet|to watch|to speak|4</item>
+        <item>поддерживать|to support|to ring|to help|to ask|1</item>
+        <item>удивлять|to join|to lie|to surprise|to tell|3</item>
+        <item>разговаривать|to talk|to meet|to fight|to offer|1</item>
+        <item>рассказывать|to tell|to ask|to talk|to lie|1</item>
 
     </string-array>
 
     <string-array name="sousi_i_voprosi">
-    <item>также|and|because|but|also|4</item>
-    <item>и|when|what|and|but|3</item>
-    <item>потому что|because|but|who|if|1</item>
-    <item>из-за|how|when|what|because of|4</item>
-    <item>но|but|what|how|why|1</item>
-    <item>если|why|if|what|where|2</item>
-    <item>или|so|but|or|if|3</item>
-    <item>итак, таким образом, поэтому|Angelfoodcake|Temerarious|so|why|3</item>
-    <item>что, какой|why|when|how|what|4</item>
-    <item>кто|if|who|what|when|2</item>
-    <item>когда|when|what|how|who|1</item>
-    <item>где, куда|or|where|who|how|2</item>
-    <item>как, каким образом|what|or|how|if|3</item>
-    <item>почему, зачем|or|where|what|why|4</item>
+        <item>также|and|because|but|also|4</item>
+        <item>и|when|what|and|but|3</item>
+        <item>потому что|because|but|who|if|1</item>
+        <item>из-за|how|when|what|because of|4</item>
+        <item>но|but|what|how|why|1</item>
+        <item>если|why|if|what|where|2</item>
+        <item>или|so|but|or|if|3</item>
+        <item>итак, таким образом, поэтому|Angelfoodcake|Temerarious|so|why|3</item>
+        <item>что, какой|why|when|how|what|4</item>
+        <item>кто|if|who|what|when|2</item>
+        <item>когда|when|what|how|who|1</item>
+        <item>где, куда|or|where|who|how|2</item>
+        <item>как, каким образом|what|or|how|if|3</item>
+        <item>почему, зачем|or|where|what|why|4</item>
 
     </string-array>
 
     <string-array name="emotion">
-    <item>страх|passion|peace|pleasure|fear|4</item>
-    <item>веселье|fun|to cry|to enjoy|passion|1</item>
-    <item>страсть|pleasure|passion|fun|fear|2</item>
-    <item>мир|passion|pleasure|peace|fun|3</item>
-    <item>удовольствие|pleasure|to enjoy|to like|peace|1</item>
-    <item>плакать, кричать|to miss|to cry|to love|to need|2</item>
-    <item>наслаждаться|to cry|to worry|to smile|to enjoy|4</item>
-    <item>смеяться|to cry|to laugh|to miss|to need|2</item>
-    <item>нравиться|to laugh|to cry|to miss|to like|4</item>
-    <item>любить|to cry|to love|to miss|to grow|2</item>
-    <item>скучать|to miss|to like|to love|to smile|1</item>
-    <item>нуждаться|to laugh|to love|to need|to worry|3</item>
-    <item>улыбаться|to cry|to enjoy|to worry|to smile|4</item>
-    <item>хотеть|to like|to want|to worry|to enjoy|2</item>
-    <item>беспокоиться|to worry|to like|to cry|to smile|1</item>
+        <item>страх|passion|peace|pleasure|fear|4</item>
+        <item>веселье|fun|to cry|to enjoy|passion|1</item>
+        <item>страсть|pleasure|passion|fun|fear|2</item>
+        <item>мир|passion|pleasure|peace|fun|3</item>
+        <item>удовольствие|pleasure|to enjoy|to like|peace|1</item>
+        <item>плакать, кричать|to miss|to cry|to love|to need|2</item>
+        <item>наслаждаться|to cry|to worry|to smile|to enjoy|4</item>
+        <item>смеяться|to cry|to laugh|to miss|to need|2</item>
+        <item>нравиться|to laugh|to cry|to miss|to like|4</item>
+        <item>любить|to cry|to love|to miss|to grow|2</item>
+        <item>скучать|to miss|to like|to love|to smile|1</item>
+        <item>нуждаться|to laugh|to love|to need|to worry|3</item>
+        <item>улыбаться|to cry|to enjoy|to worry|to smile|4</item>
+        <item>хотеть|to like|to want|to worry|to enjoy|2</item>
+        <item>беспокоиться|to worry|to like|to cry|to smile|1</item>
 
     </string-array>
 
     <string-array name="feels">
-    <item>чувствовать|to hear|to see|to smell|to feel|4</item>
-    <item>слышать|to hear|to taste|to smell|to feel|1</item>
-    <item>видеть|to feel|to hear|to see|to smell|3</item>
-    <item>нюхать, иметь запах|to hear|to smell|to feel|to taste|2</item>
-    <item>пробовать, иметь вкус|to smell|to help|to hear|to taste|4</item>
+        <item>чувствовать|to hear|to see|to smell|to feel|4</item>
+        <item>слышать|to hear|to taste|to smell|to feel|1</item>
+        <item>видеть|to feel|to hear|to see|to smell|3</item>
+        <item>нюхать, иметь запах|to hear|to smell|to feel|to taste|2</item>
+        <item>пробовать, иметь вкус|to smell|to help|to hear|to taste|4</item>
 
     </string-array>
 
     <string-array name="mishlenie">
-    <item>поведение|experience|habit|language|behavior|4</item>
-    <item>выбор|choice|habit|lanuage|forget|1</item>
-    <item>опыт|soul|experience|memory|meaning|2</item>
-    <item>привычка|habit|decide|compare|behavior|1</item>
-    <item>язык|Nerds|Verisimilitude|flower|language|4</item>
-    <item>значение, смысл|behavior|choice|meaning|soul|3</item>
-    <item>память, воспоминание|memory|decide|behavior|choice|1</item>
-    <item>душа|learn|solve|forget|soul|4</item>
-    <item>верить|to think|to believe|mirror|to dream|2</item>
-    <item>сравнивать|to compare|to decide|to hope|to know|1</item>
-    <item>считать|to let|to know|to count|to forget|3</item>
-    <item>принимать решение|to learn|to decide|to remember|to forget|2</item>
-    <item>мечтать, видеть сон|to know|to think|to hope|to dream|4</item>
-    <item>ожидать|to expect|to know|to decide|to let|1</item>
-    <item>забывать|to expect|to remember|to forget|to know|3</item>
-    <item>надеяться|to think|to hope|to learn|to solve|2</item>
-    <item>знать|to compare|to believe|to solve|to know|4</item>
-    <item>учить, изучать|to think|to solve|to learn|to expect|3</item>
-    <item>позволять (сделать что-то)|to let|to hope|to learn|to sleep|1</item>
-    <item>помнить|to let|to compare|to decide|to remember|4</item>
-    <item>решать (проблему, задачу)|to solve|to let|to show|to sleep|1</item>
-    <item>думать, считать|to learn|to compare|to think|to show|3</item>
+        <item>поведение|experience|habit|language|behavior|4</item>
+        <item>выбор|choice|habit|lanuage|forget|1</item>
+        <item>опыт|soul|experience|memory|meaning|2</item>
+        <item>привычка|habit|decide|compare|behavior|1</item>
+        <item>язык|Nerds|Verisimilitude|flower|language|4</item>
+        <item>значение, смысл|behavior|choice|meaning|soul|3</item>
+        <item>память, воспоминание|memory|decide|behavior|choice|1</item>
+        <item>душа|learn|solve|forget|soul|4</item>
+        <item>верить|to think|to believe|mirror|to dream|2</item>
+        <item>сравнивать|to compare|to decide|to hope|to know|1</item>
+        <item>считать|to let|to know|to count|to forget|3</item>
+        <item>принимать решение|to learn|to decide|to remember|to forget|2</item>
+        <item>мечтать, видеть сон|to know|to think|to hope|to dream|4</item>
+        <item>ожидать|to expect|to know|to decide|to let|1</item>
+        <item>забывать|to expect|to remember|to forget|to know|3</item>
+        <item>надеяться|to think|to hope|to learn|to solve|2</item>
+        <item>знать|to compare|to believe|to solve|to know|4</item>
+        <item>учить, изучать|to think|to solve|to learn|to expect|3</item>
+        <item>позволять (сделать что-то)|to let|to hope|to learn|to sleep|1</item>
+        <item>помнить|to let|to compare|to decide|to remember|4</item>
+        <item>решать (проблему, задачу)|to solve|to let|to show|to sleep|1</item>
+        <item>думать, считать|to learn|to compare|to think|to show|3</item>
 
     </string-array>
 
     <string-array name="students">
-    <item>книга|calendar|dictionary|exercise|book|4</item>
-    <item>календарь|letter|calendar|knowledge|test|2</item>
-    <item>тетрадь|page|book|notebook|test|3</item>
-    <item>словарь|dictionary|exercise|paper|pencil|1</item>
-    <item>упражнение|lesson|an exercise|information|knowledge|2</item>
-    <item>информация|pencil|mistake|information|letter|3</item>
-    <item>знание|paper|pencil|word|knowledge|4</item>
-    <item>урок|lesson|scissors|word|science|1</item>
-    <item>буква, письмо|pencil|dictionary|letter|mistake|3</item>
-    <item>ошибка|calendar|mistake|scissors|test|2</item>
-    <item>записка, запись|note|scissors|word|book|1</item>
-    <item>страница|calendar|notebook|scissors|page|4</item>
-    <item>бумага|dictionary|paper|information|note|2</item>
-    <item>ручка|scissors|science|pen|pencil|3</item>
-    <item>карандаш|pencil|book|lesson|exercise|1</item>
-    <item>наука|note|calendar|science|word|3</item>
-    <item>ножницы|mistake|notebook|lesson|scissors|4</item>
-    <item>тест|mistake|test|pen|lesson|2</item>
-    <item>слово|paper|knowledge|word|dictionary|3</item>
+        <item>книга|calendar|dictionary|exercise|book|4</item>
+        <item>календарь|letter|calendar|knowledge|test|2</item>
+        <item>тетрадь|page|book|notebook|test|3</item>
+        <item>словарь|dictionary|exercise|paper|pencil|1</item>
+        <item>упражнение|lesson|an exercise|information|knowledge|2</item>
+        <item>информация|pencil|mistake|information|letter|3</item>
+        <item>знание|paper|pencil|word|knowledge|4</item>
+        <item>урок|lesson|scissors|word|science|1</item>
+        <item>буква, письмо|pencil|dictionary|letter|mistake|3</item>
+        <item>ошибка|calendar|mistake|scissors|test|2</item>
+        <item>записка, запись|note|scissors|word|book|1</item>
+        <item>страница|calendar|notebook|scissors|page|4</item>
+        <item>бумага|dictionary|paper|information|note|2</item>
+        <item>ручка|scissors|science|pen|pencil|3</item>
+        <item>карандаш|pencil|book|lesson|exercise|1</item>
+        <item>наука|note|calendar|science|word|3</item>
+        <item>ножницы|mistake|notebook|lesson|scissors|4</item>
+        <item>тест|mistake|test|pen|lesson|2</item>
+        <item>слово|paper|knowledge|word|dictionary|3</item>
 
     </string-array>
 
     <string-array name="modal_verbs">
-    <item>уметь, мочь|must|may|can|should|3</item>
-    <item>быть вынужденным|can|have to|may|should|2</item>
-    <item>иметь разрешение|may|have to|must|should|1</item>
-    <item>быть должным, обязанным|have to|may|should|must|4</item>
-    <item>должен, следует|should|can|have|may|1</item>
+        <item>уметь, мочь|must|may|can|should|3</item>
+        <item>быть вынужденным|can|have to|may|should|2</item>
+        <item>иметь разрешение|may|have to|must|should|1</item>
+        <item>быть должным, обязанным|have to|may|should|must|4</item>
+        <item>должен, следует|should|can|have|may|1</item>
 
     </string-array>
 
     <string-array name="gotovka_upotreblenie">
-    <item>сытый, полный|boiled|fried|ready|full|4</item>
-    <item>голодный|hungry|delivery|baked|ready|1</item>
-    <item>доставка|baked|ready|delivery|fried|3</item>
-    <item>запеченный|full|baked|fried|ready|2</item>
-    <item>вареный|boiled|baked|delivery|full|1</item>
-    <item>жареный|delivery|full|fried|ready|3</item>
-    <item>готовый|hungry|ready|boiled|fried|2</item>
-    <item>горький|bitter|sour|sweet|spicy|1</item>
-    <item>кусный|bitter|delicious|sweet|spicy|2</item>
-    <item>соленый|sour|spicy|sweet|salty|4</item>
-    <item>кислый|bitter|delicious|sour|sweet|3</item>
-    <item>острый|delicious|spicy|sweet|bitter|2</item>
-    <item>сладкий|sweet|salty|sour|spicy|1</item>
-    <item>приём пищи|lunch|dinner|snack|meal|4</item>
-    <item>завтрак|meal|breakfast|dinner|snack|2</item>
-    <item>обед|breakfast|meal|lunch|snack|3</item>
-    <item>ужин|dinner|meal|lunch|snack|1</item>
-    <item>перекус|lunch|meal|breakfast|snack|4</item>
-    <item>блюдо|noodles|porridge|sandwich|dish|4</item>
-    <item>лапша|sandwich|porridge|noodles|soup|3</item>
-    <item>каша|porridge|sandwich|dish|salad|1</item>
-    <item>салат|dish|salad|sandwich|soup|2</item>
-    <item>бутерброд|porridge|dish|sandwich|soup|3</item>
-    <item>суп|noodles|dish|porridge|soup|4</item>
+        <item>сытый, полный|boiled|fried|ready|full|4</item>
+        <item>голодный|hungry|delivery|baked|ready|1</item>
+        <item>доставка|baked|ready|delivery|fried|3</item>
+        <item>запеченный|full|baked|fried|ready|2</item>
+        <item>вареный|boiled|baked|delivery|full|1</item>
+        <item>жареный|delivery|full|fried|ready|3</item>
+        <item>готовый|hungry|ready|boiled|fried|2</item>
+        <item>горький|bitter|sour|sweet|spicy|1</item>
+        <item>кусный|bitter|delicious|sweet|spicy|2</item>
+        <item>соленый|sour|spicy|sweet|salty|4</item>
+        <item>кислый|bitter|delicious|sour|sweet|3</item>
+        <item>острый|delicious|spicy|sweet|bitter|2</item>
+        <item>сладкий|sweet|salty|sour|spicy|1</item>
+        <item>приём пищи|lunch|dinner|snack|meal|4</item>
+        <item>завтрак|meal|breakfast|dinner|snack|2</item>
+        <item>обед|breakfast|meal|lunch|snack|3</item>
+        <item>ужин|dinner|meal|lunch|snack|1</item>
+        <item>перекус|lunch|meal|breakfast|snack|4</item>
+        <item>блюдо|noodles|porridge|sandwich|dish|4</item>
+        <item>лапша|sandwich|porridge|noodles|soup|3</item>
+        <item>каша|porridge|sandwich|dish|salad|1</item>
+        <item>салат|dish|salad|sandwich|soup|2</item>
+        <item>бутерброд|porridge|dish|sandwich|soup|3</item>
+        <item>суп|noodles|dish|porridge|soup|4</item>
 
     </string-array>
 
     <string-array name="producti">
-    <item>фрукты|vegetables|apple|apricot|fruit|4</item>
-    <item>овощи|apple|vegetables|apricot|fruit|2</item>
-    <item>яблоко|juice|orange|apple|apricot|3</item>
-    <item>абрикос|apricot|apple|orange|juice|1</item>
-    <item>банан|apple|orange|banana|apricot|3</item>
-    <item>ягода|fruit|juice|banana|berry|4</item>
-    <item>вишня|orange|cherry|banana|berry|2</item>
-    <item>огурец|cucumber|banana|berry|juice|1</item>
-    <item>виноград|apricot|berry|juice|grapes|4</item>
-    <item>лимон|juice|banana|grapes|lemon|4</item>
-    <item>мандарин|mandarin|apple|fruit|lemon|1</item>
-    <item>манго|fruit|mango|banana|apple|2</item>
-    <item>дыня|lemon|fruit|melon|apple|3</item>
-    <item>персик|peach|apple|fruit|banana|1</item>
-    <item>груша|grapes|fruit|pear|banana|3</item>
-    <item>ананас|melon|pineapple|pear|lemon|2</item>
-    <item>слива|melon|plum|pear|banana|2</item>
-    <item>тыква|pumpkin|lemon|mango|pineapple|1</item>
-    <item>малина|pear|mango|pineapple|raspberry|4</item>
-    <item>клубника|pineapple|strawberry|raspberry|pumpkin|2</item>
-    <item>помидор|pineapple|pear|tomato|raspberry|3</item>
-    <item>арбуз|watermelon|apple|pear|tomato|1</item>
-    <item>баклажан|mango|tomato|pumpkin|aubergine|4</item>
-    <item>бобы, фасоль|banana|beans|aubergine|tomato|2</item>
-    <item>свекла|raspberry|pumpkin|tomato|beetroot|4</item>
-    <item>болгарский перец|bell pepper|beetroot|tomato|pear|1</item>
-    <item>капуста|juice|tomato|cabbage|beetroot|3</item>
-    <item>морковь|bell pepper|carrot|cabbage|corn|2</item>
-    <item>кукуруза|beetroot|pear|cabbage|corn|4</item>
-    <item>кабачок|juice|courgette|corn|banana|2</item>
-    <item>чеснок|garlic|cabbage|corn|apple|1</item>
-    <item>лук|beetroot|banana|onion|apple|3</item>
-    <item>гриб|pumpkin|courgette|apple|mushroom|4</item>
-    <item>картофель|potato|berry|apple|mushroom|1</item>
-    <item>молочные продукты|dairy|butter|cheese|cream|1</item>
-    <item>масло|cream|dairy|butter|cheese|3</item>
-    <item>сыр|cream|milk|curd|cheese|4</item>
-    <item>крем, сливки|dairy|cream|cheese|butter|2</item>
-    <item>творог|curd|dairy|cream|butter|1</item>
-    <item>молоко|dairy|cream|cheese|milk|4</item>
-    <item>йогурт|cream|yogurt|butter|milk|2</item>
-    <item>котлета|chicken|fish|ham|cutlet|4</item>
-    <item>мясо|meat|ham|sausage|seafood|1</item>
-    <item>говядина|lamb|beef|fish|duck|2</item>
-    <item>курица, цыпленок|cutlet|seafood|sausage|chicken|4</item>
-    <item>рыба|pork|cutlet|fish|seafood|3</item>
-    <item>утка|pork|duck|fish|seafood|2</item>
-    <item>ветчина|ham|seafood|lamb|sausage|1</item>
-    <item>баранина, ягненок|fish|pork|sausage|lamb|4</item>
-    <item>свинина|chicken|seafood|pork|sausage|3</item>
-    <item>колбаса, сосиска|duck|sausage|fish|lamb|2</item>
-    <item>морепродукты|seafood|ham|cutlet|seafood|4</item>
-    <item>десерт|cake|chocolate|honey|dessert|4</item>
-    <item>печенье|pie|jam|biscuit|ice cream|3</item>
-    <item>булочка|biscuit|bun|honey|chocolate|2</item>
-    <item>торт|pie|jam|ice cream|cake|4</item>
-    <item>шоколад|jam pie|chocolate|ice cream|cake|2</item>
-    <item>мед|cake|chocolate|honey|ice cream|3</item>
-    <item>мороженое|cake|pie|biscuit|ice cream|4</item>
-    <item>варенье|pie|jam|cake|chocolate|2</item>
-    <item>пирог|pie|ice cream|cake|chocolate|1</item>
-    <item>хлеб|oil|oatmeal|pepper|bread|4</item>
-    <item>яйцо|spices|salt|egg|rice|3</item>
-    <item>мука|egg|flour|rice|oatmeal|2</item>
-    <item>орех|sugar|oil|nut|pepper|3</item>
-    <item>овсянка|sugar|spices|oatmeal|sauce|3</item>
-    <item>растительное масло|oil|spices|oatmeal|rice|1</item>
-    <item>перец|oatmeal|pepper|oil|spices|2</item>
-    <item>рис|rice|spices|pepper|flour|1</item>
-    <item>соль|oil|sugar|salt|flour|3</item>
-    <item>соус|pepper|rice|spices|sauce|4</item>
-    <item>специи|spices|sauce|rice|sugar|1</item>
-    <item>сахар|pepper|sugar|sauce|egg|2</item>
-    <item>напиток|a drink|tea|water|wine|1</item>
-    <item>кофе|soda|coffee|wine|water|2</item>
-    <item>сок|soda|water|juice|wine|3</item>
-    <item>газировка|a drink|juice|water|soda|4</item>
-    <item>чай|tea|soda|juice|water|1</item>
-    <item>вода|wine|tea|water|juice|3</item>
-    <item>вино|soda|wine|coffee|juice|2</item>
+        <item>фрукты|vegetables|apple|apricot|fruit|4</item>
+        <item>овощи|apple|vegetables|apricot|fruit|2</item>
+        <item>яблоко|juice|orange|apple|apricot|3</item>
+        <item>абрикос|apricot|apple|orange|juice|1</item>
+        <item>банан|apple|orange|banana|apricot|3</item>
+        <item>ягода|fruit|juice|banana|berry|4</item>
+        <item>вишня|orange|cherry|banana|berry|2</item>
+        <item>огурец|cucumber|banana|berry|juice|1</item>
+        <item>виноград|apricot|berry|juice|grapes|4</item>
+        <item>лимон|juice|banana|grapes|lemon|4</item>
+        <item>мандарин|mandarin|apple|fruit|lemon|1</item>
+        <item>манго|fruit|mango|banana|apple|2</item>
+        <item>дыня|lemon|fruit|melon|apple|3</item>
+        <item>персик|peach|apple|fruit|banana|1</item>
+        <item>груша|grapes|fruit|pear|banana|3</item>
+        <item>ананас|melon|pineapple|pear|lemon|2</item>
+        <item>слива|melon|plum|pear|banana|2</item>
+        <item>тыква|pumpkin|lemon|mango|pineapple|1</item>
+        <item>малина|pear|mango|pineapple|raspberry|4</item>
+        <item>клубника|pineapple|strawberry|raspberry|pumpkin|2</item>
+        <item>помидор|pineapple|pear|tomato|raspberry|3</item>
+        <item>арбуз|watermelon|apple|pear|tomato|1</item>
+        <item>баклажан|mango|tomato|pumpkin|aubergine|4</item>
+        <item>бобы, фасоль|banana|beans|aubergine|tomato|2</item>
+        <item>свекла|raspberry|pumpkin|tomato|beetroot|4</item>
+        <item>болгарский перец|bell pepper|beetroot|tomato|pear|1</item>
+        <item>капуста|juice|tomato|cabbage|beetroot|3</item>
+        <item>морковь|bell pepper|carrot|cabbage|corn|2</item>
+        <item>кукуруза|beetroot|pear|cabbage|corn|4</item>
+        <item>кабачок|juice|courgette|corn|banana|2</item>
+        <item>чеснок|garlic|cabbage|corn|apple|1</item>
+        <item>лук|beetroot|banana|onion|apple|3</item>
+        <item>гриб|pumpkin|courgette|apple|mushroom|4</item>
+        <item>картофель|potato|berry|apple|mushroom|1</item>
+        <item>молочные продукты|dairy|butter|cheese|cream|1</item>
+        <item>масло|cream|dairy|butter|cheese|3</item>
+        <item>сыр|cream|milk|curd|cheese|4</item>
+        <item>крем, сливки|dairy|cream|cheese|butter|2</item>
+        <item>творог|curd|dairy|cream|butter|1</item>
+        <item>молоко|dairy|cream|cheese|milk|4</item>
+        <item>йогурт|cream|yogurt|butter|milk|2</item>
+        <item>котлета|chicken|fish|ham|cutlet|4</item>
+        <item>мясо|meat|ham|sausage|seafood|1</item>
+        <item>говядина|lamb|beef|fish|duck|2</item>
+        <item>курица, цыпленок|cutlet|seafood|sausage|chicken|4</item>
+        <item>рыба|pork|cutlet|fish|seafood|3</item>
+        <item>утка|pork|duck|fish|seafood|2</item>
+        <item>ветчина|ham|seafood|lamb|sausage|1</item>
+        <item>баранина, ягненок|fish|pork|sausage|lamb|4</item>
+        <item>свинина|chicken|seafood|pork|sausage|3</item>
+        <item>колбаса, сосиска|duck|sausage|fish|lamb|2</item>
+        <item>морепродукты|seafood|ham|cutlet|seafood|4</item>
+        <item>десерт|cake|chocolate|honey|dessert|4</item>
+        <item>печенье|pie|jam|biscuit|ice cream|3</item>
+        <item>булочка|biscuit|bun|honey|chocolate|2</item>
+        <item>торт|pie|jam|ice cream|cake|4</item>
+        <item>шоколад|jam pie|chocolate|ice cream|cake|2</item>
+        <item>мед|cake|chocolate|honey|ice cream|3</item>
+        <item>мороженое|cake|pie|biscuit|ice cream|4</item>
+        <item>варенье|pie|jam|cake|chocolate|2</item>
+        <item>пирог|pie|ice cream|cake|chocolate|1</item>
+        <item>хлеб|oil|oatmeal|pepper|bread|4</item>
+        <item>яйцо|spices|salt|egg|rice|3</item>
+        <item>мука|egg|flour|rice|oatmeal|2</item>
+        <item>орех|sugar|oil|nut|pepper|3</item>
+        <item>овсянка|sugar|spices|oatmeal|sauce|3</item>
+        <item>растительное масло|oil|spices|oatmeal|rice|1</item>
+        <item>перец|oatmeal|pepper|oil|spices|2</item>
+        <item>рис|rice|spices|pepper|flour|1</item>
+        <item>соль|oil|sugar|salt|flour|3</item>
+        <item>соус|pepper|rice|spices|sauce|4</item>
+        <item>специи|spices|sauce|rice|sugar|1</item>
+        <item>сахар|pepper|sugar|sauce|egg|2</item>
+        <item>напиток|a drink|tea|water|wine|1</item>
+        <item>кофе|soda|coffee|wine|water|2</item>
+        <item>сок|soda|water|juice|wine|3</item>
+        <item>газировка|a drink|juice|water|soda|4</item>
+        <item>чай|tea|soda|juice|water|1</item>
+        <item>вода|wine|tea|water|juice|3</item>
+        <item>вино|soda|wine|coffee|juice|2</item>
 
     </string-array>
 
     <string-array name="posuda">
-    <item>бутылка|kettle|bowl|fork|bottle|4</item>
-    <item>стакан, стекло|glass|napkin|knife|pan|1</item>
-    <item>чашка|fork|cup|plate|bowl|2</item>
-    <item>чайник|napkin|fork|kettle|plate|3</item>
-    <item>глубокая тарелка, миска|plate|knife|frying pan|bowl|4</item>
-    <item>тарелка|glass|plate|knife|bottle|2</item>
-    <item>вилка|fork|spoon|knife|napkin|1</item>
-    <item>нож|bottle|cup|knife|napkin|3</item>
-    <item>ложка|cup|bottle|napkin|spoon|4</item>
-    <item>сковородка|bottle|frying pan|pan|napkin|2</item>
-    <item>кастрюля|pan|fork|spoon|glass|1</item>
-    <item>салфетка|knife|frying pan|glass|napkin|4</item>
+        <item>бутылка|kettle|bowl|fork|bottle|4</item>
+        <item>стакан, стекло|glass|napkin|knife|pan|1</item>
+        <item>чашка|fork|cup|plate|bowl|2</item>
+        <item>чайник|napkin|fork|kettle|plate|3</item>
+        <item>глубокая тарелка, миска|plate|knife|frying pan|bowl|4</item>
+        <item>тарелка|glass|plate|knife|bottle|2</item>
+        <item>вилка|fork|spoon|knife|napkin|1</item>
+        <item>нож|bottle|cup|knife|napkin|3</item>
+        <item>ложка|cup|bottle|napkin|spoon|4</item>
+        <item>сковородка|bottle|frying pan|pan|napkin|2</item>
+        <item>кастрюля|pan|fork|spoon|glass|1</item>
+        <item>салфетка|knife|frying pan|glass|napkin|4</item>
 
     </string-array>
 
     <string-array name="flora_i_fauna">
 
-    <item>животное|ant|bear|bee|animal|4</item>
-    <item>муравей|ant|bear|bee|animal|1</item>
-    <item>медведь|cockroach|dog|bear|frog|3</item>
-    <item>пчела|dog|bee|bear|frog|2</item>
-    <item>птица|bird|cat|dog|animal|1</item>
-    <item>кот, кошка|bear|cockroach|cat|animal|3</item>
-    <item>таракан|ant|cockroach|frog|cat|2</item>
-    <item>корова|cow|frog|bear|dog|1</item>
-    <item>собака|bear|cat|animal|dog|4</item>
-    <item>слон|ant|elephant|dog|animal|2</item>
-    <item>лиса|cat|ant|fox|animal|3</item>
-    <item>лягушка|frog|bee|cockroach|animal|1</item>
-    <item>жираф|bee|cockroach|ant|giraffe|4</item>
-    <item>гусь|bee|goose|cockroach|horse|2</item>
-    <item>лошадь|horse|ant|giraffe|elephant|1</item>
-    <item>насекомое|giraffe|elephant|frog|insect|4</item>
-    <item>лев|lion|cockroach|elephant|ant|1</item>
-    <item>львица|ant|frog|lioness|animal|3</item>
-    <item>обезьяна|horse|monkey|lioness|elephant|</item>
-    <item>мышь|mouse|animal|lioness|frog|1</item>
-    <item>свинья|pig|rabbit|rat|lioness|1</item>
-    <item>заяц|elephant|rat|rabbit|bee|3</item>
-    <item>крыса|frog|lioness|fox|rat|4</item>
-    <item>змея|ant|cat|snake|dog|3</item>
-    <item>паук|animal|spider|dog|elephant|2</item>
-    <item>белка|squirrel|cow|fox|monkey|1</item>
-    <item>растение|bush|flower|grass|plant|4</item>
-    <item>куст|leaf|tree|bush|flower|3</item>
-    <item>цветок|tree|flower|plant|grass|2</item>
-    <item>трава|grass|flower|bush|plant|1</item>
-    <item>лист|flower|bush|plant|leaf|4</item>
-    <item>дерево|bush|tree|leaf|plant|2</item>
+        <item>животное|ant|bear|bee|animal|4</item>
+        <item>муравей|ant|bear|bee|animal|1</item>
+        <item>медведь|cockroach|dog|bear|frog|3</item>
+        <item>пчела|dog|bee|bear|frog|2</item>
+        <item>птица|bird|cat|dog|animal|1</item>
+        <item>кот, кошка|bear|cockroach|cat|animal|3</item>
+        <item>таракан|ant|cockroach|frog|cat|2</item>
+        <item>корова|cow|frog|bear|dog|1</item>
+        <item>собака|bear|cat|animal|dog|4</item>
+        <item>слон|ant|elephant|dog|animal|2</item>
+        <item>лиса|cat|ant|fox|animal|3</item>
+        <item>лягушка|frog|bee|cockroach|animal|1</item>
+        <item>жираф|bee|cockroach|ant|giraffe|4</item>
+        <item>гусь|bee|goose|cockroach|horse|2</item>
+        <item>лошадь|horse|ant|giraffe|elephant|1</item>
+        <item>насекомое|giraffe|elephant|frog|insect|4</item>
+        <item>лев|lion|cockroach|elephant|ant|1</item>
+        <item>львица|ant|frog|lioness|animal|3</item>
+        <item>обезьяна|horse|monkey|lioness|elephant|</item>
+        <item>мышь|mouse|animal|lioness|frog|1</item>
+        <item>свинья|pig|rabbit|rat|lioness|1</item>
+        <item>заяц|elephant|rat|rabbit|bee|3</item>
+        <item>крыса|frog|lioness|fox|rat|4</item>
+        <item>змея|ant|cat|snake|dog|3</item>
+        <item>паук|animal|spider|dog|elephant|2</item>
+        <item>белка|squirrel|cow|fox|monkey|1</item>
+        <item>растение|bush|flower|grass|plant|4</item>
+        <item>куст|leaf|tree|bush|flower|3</item>
+        <item>цветок|tree|flower|plant|grass|2</item>
+        <item>трава|grass|flower|bush|plant|1</item>
+        <item>лист|flower|bush|plant|leaf|4</item>
+        <item>дерево|bush|tree|leaf|plant|2</item>
 
     </string-array>
 
     <string-array name="priroda">
-    <item>природа|beach|coast|field|nature|4</item>
-    <item>пляж|fire|beach|ocean|lake|2</item>
-    <item>морское побережье|beach|nature|coast|lake|3</item>
-    <item>поле|field|fire|beach|nature|1</item>
-    <item>огонь, пожар|sand|lake|fire|coast|3</item>
-    <item>лес|lake|forest|fire|coast|2</item>
-    <item>остров|beach|field|lake|island|4</item>
-    <item>озеро|lake|beach|field|island|1</item>
-    <item>гора|island|mountain|fire|lake|2</item>
-    <item>океан|coast|field|lake|ocean|4</item>
-    <item>река|island|beach|river|ocean|3</item>
-    <item>песок|field|sand|river|lake|2</item>
-    <item>море|sea|coast|beach|lake|1</item>
-    <item>камень|nature|stone|ocean|lake|2</item>
-    <item>мир (планета)|nature|ocean|sand|world|4</item>
-    <item>воздух|degree|moon|air|weather|3</item>
-    <item>градус|moon|degree|weather|air|2</item>
-    <item>луна|sky|degree|sun|moon|4</item>
-    <item>небо|sky|sun|degree|weather|1</item>
-    <item>солнце|moon|degree|sun|weather|3</item>
-    <item>температура|degree|temperature|weather|air|2</item>
-    <item>погода|degree|sky|weather|temperature|3</item>
-    <item>ясный|clear|sky|moon|air|1</item>
-    <item>облачный|clear|weather|air|cloudy|4</item>
-    <item>холодный, холодно|sky|cold|cloudy|air|2</item>
-    <item>прохладный, прохладно|cool|cold|sky|weather|1</item>
-    <item>туманный|temperature|cold|foggy|sky|3</item>
-    <item>горячий, жаркий, жарко|cloudy|hot|moon|degree|2</item>
-    <item>дождливый, дождливо|rainy|moon|degree|hot|1</item>
-    <item>снежный, снежно|weather|sky|hot|snowy|4</item>
-    <item>тепло, теплый|cloudy|warm|hot|moon|2</item>
-    <item>ветрено|weather|snowy|windy|moon|3</item>
+        <item>природа|beach|coast|field|nature|4</item>
+        <item>пляж|fire|beach|ocean|lake|2</item>
+        <item>морское побережье|beach|nature|coast|lake|3</item>
+        <item>поле|field|fire|beach|nature|1</item>
+        <item>огонь, пожар|sand|lake|fire|coast|3</item>
+        <item>лес|lake|forest|fire|coast|2</item>
+        <item>остров|beach|field|lake|island|4</item>
+        <item>озеро|lake|beach|field|island|1</item>
+        <item>гора|island|mountain|fire|lake|2</item>
+        <item>океан|coast|field|lake|ocean|4</item>
+        <item>река|island|beach|river|ocean|3</item>
+        <item>песок|field|sand|river|lake|2</item>
+        <item>море|sea|coast|beach|lake|1</item>
+        <item>камень|nature|stone|ocean|lake|2</item>
+        <item>мир (планета)|nature|ocean|sand|world|4</item>
+        <item>воздух|degree|moon|air|weather|3</item>
+        <item>градус|moon|degree|weather|air|2</item>
+        <item>луна|sky|degree|sun|moon|4</item>
+        <item>небо|sky|sun|degree|weather|1</item>
+        <item>солнце|moon|degree|sun|weather|3</item>
+        <item>температура|degree|temperature|weather|air|2</item>
+        <item>погода|degree|sky|weather|temperature|3</item>
+        <item>ясный|clear|sky|moon|air|1</item>
+        <item>облачный|clear|weather|air|cloudy|4</item>
+        <item>холодный, холодно|sky|cold|cloudy|air|2</item>
+        <item>прохладный, прохладно|cool|cold|sky|weather|1</item>
+        <item>туманный|temperature|cold|foggy|sky|3</item>
+        <item>горячий, жаркий, жарко|cloudy|hot|moon|degree|2</item>
+        <item>дождливый, дождливо|rainy|moon|degree|hot|1</item>
+        <item>снежный, снежно|weather|sky|hot|snowy|4</item>
+        <item>тепло, теплый|cloudy|warm|hot|moon|2</item>
+        <item>ветрено|weather|snowy|windy|moon|3</item>
 
     </string-array>
 
     <string-array name="sobitiya">
-    <item>день рождения|Christmas|death|wedding|birthday|4</item>
-    <item>Рождество|meeting|party|Christmas|balloon|3</item>
-    <item>смерть|death|game|Easter|birthday|1</item>
-    <item>Пасха|birthday|Easter|meeting|balloon|2</item>
-    <item>игра|toy|party|Easter|game|4</item>
-    <item>праздник, каникулы, отпуск|invitation|box|holiday|balloon|3</item>
-    <item>встреча, собрание|wedding|meeting|balloon|invitation|2</item>
-    <item>канун Нового года|New Year’s Eve|Christmas|box|toy|1</item>
-    <item>вечеринка|birthday|party|game|Christmas|2</item>
-    <item>свадьба|Christmas|meeting|game|wedding|4</item>
-    <item>воздушный шар|balloon|invitation|present|toy|1</item>
-    <item>коробка, боксировать|party|toy|box|present|3</item>
-    <item>гость|box|guest|wedding|party|2</item>
-    <item>приглашение|balloon|party|toy|invitation|4</item>
-    <item>подарок|present|invitation|guest|wedding|1</item>
-    <item>игрушка|Christmas|meeting|invitation|toy|4</item>
+        <item>день рождения|Christmas|death|wedding|birthday|4</item>
+        <item>Рождество|meeting|party|Christmas|balloon|3</item>
+        <item>смерть|death|game|Easter|birthday|1</item>
+        <item>Пасха|birthday|Easter|meeting|balloon|2</item>
+        <item>игра|toy|party|Easter|game|4</item>
+        <item>праздник, каникулы, отпуск|invitation|box|holiday|balloon|3</item>
+        <item>встреча, собрание|wedding|meeting|balloon|invitation|2</item>
+        <item>канун Нового года|New Year’s Eve|Christmas|box|toy|1</item>
+        <item>вечеринка|birthday|party|game|Christmas|2</item>
+        <item>свадьба|Christmas|meeting|game|wedding|4</item>
+        <item>воздушный шар|balloon|invitation|present|toy|1</item>
+        <item>коробка, боксировать|party|toy|box|present|3</item>
+        <item>гость|box|guest|wedding|party|2</item>
+        <item>приглашение|balloon|party|toy|invitation|4</item>
+        <item>подарок|present|invitation|guest|wedding|1</item>
+        <item>игрушка|Christmas|meeting|invitation|toy|4</item>
 
     </string-array>
 
     <string-array name="mesta">
-    <item>страна|customs|city|town|country|4</item>
-    <item>таможня|city|town|customs|country|3</item>
-    <item>город|airport|city|country|building|2</item>
-    <item>небольшой город, городок|town|cafe|building|centre|1</item>
-    <item>деревня|a village|building|cinema|cafe|1</item>
-    <item>аэропорт|town|country|airport|cafe|3</item>
-    <item>банк|country|bank|centre|cinema|2</item>
-    <item>мост|bridge|cinema|building|customs|1</item>
-    <item>здание|country|centre|customs|building|4</item>
-    <item>кафе|cinema|cafe|town|building|2</item>
-    <item>центр (города)|centre|cinema|airport|building|1</item>
-    <item>церковь|town|cinema|airport|church|4</item>
-    <item>кинотеатр|cafe|airport|cinema|building|3</item>
-    <item>компания, фирма|company|hotel|hospital|customs|1</item>
-    <item>вход|hospital|entrance|hotel|airport|2</item>
-    <item>выход|country|cafe|cinema|exit|4</item>
-    <item>фабрика, завод|hotel|hospital|factory|exit|3</item>
-    <item>мусор|hospital|garbage|factory|cinema|2</item>
-    <item>больница|hospital|customs|church|town|1</item>
-    <item>гостиница|hospital|church|city|hotel|4</item>
-    <item>перекресток, точка пересечения|intersection|hotel|town|airport|1</item>
-    <item>рынок|hotel|factory|market|town|3</item>
-    <item>офис|intersection|office|market|country|2</item>
-    <item>парк|church|market|country|park|4</item>
-    <item>тротуар|market|pavement|park|city|2</item>
-    <item>аптека|pharmacy|city|town|church|1</item>
-    <item>полиция|airport|police|church|city|2</item>
-    <item>почта|cinema|exit|post office|town|3</item>
-    <item>ресторан|church|police|restaurant|country|3</item>
-    <item>дорога|market|road|police|school|2</item>
-    <item>школа|factory|school|hospital|exit|2</item>
-    <item>магазин|intersection|church|school|shop|4</item>
-    <item>станция, вокзал|station|church|school|restaurant|1</item>
-    <item>улица|city|town|school|street|4</item>
-    <item>театр|intersection|exit|theatre|post office|3</item>
-    <item>университет|factory|university|park|market|2</item>
-    <item>чистый|clean|station|street|park|1</item>
-    <item>удобный, уютный|church|theatre|market|comfortable|4</item>
-    <item>людный, переполненный|city|crowded|market|comfortable|2</item>
-    <item>грязный|station|school|dirty|exit|3</item>
-    <item>основной, главный|main|school|exit|dirty|1</item>
-    <item>этот/эти|that/those|this/these|factory|street|2</item>
-    <item>тот/те|country|this/these|that/those|exit|3</item>
-    <item>левый, налево|down|up|right|left|4</item>
-    <item>правый, направо|right|left|up|down|1</item>
-    <item>тут, сюда|school|here|left|up|2</item>
-    <item>там, туда|comfortable|factory|down|there|4</item>
-    <item>вниз|left|right|down|up|3</item>
-    <item>вверх|up|right|down|school|1</item>
-    <item>о, около, примерно|comfortable|above|exit|about|4</item>
-    <item>над|to|above|against|about|2</item>
-    <item>против|about|to|against|exit|3</item>
-    <item>сзади, позади|above|behind|exit|about|2</item>
-    <item>между|between|exit|park|above|1</item>
-    <item>из|park|between|about|from|4</item>
-    <item>в|about|to|on|in|4</item>
-    <item>впереди|in front of|or|if|up|1</item>
-    <item>на|against|above|on|or|3</item>
-    <item>через, сквозь|about|through|on|up|2</item>
-    <item>по направлению к|against|up|down|to|4</item>
-    <item>под|up|behind|without|under|4</item>
-    <item>с|with|behind|against|through|1</item>
-    <item>без|between|on|without|through|3</item>
+        <item>страна|customs|city|town|country|4</item>
+        <item>таможня|city|town|customs|country|3</item>
+        <item>город|airport|city|country|building|2</item>
+        <item>небольшой город, городок|town|cafe|building|centre|1</item>
+        <item>деревня|a village|building|cinema|cafe|1</item>
+        <item>аэропорт|town|country|airport|cafe|3</item>
+        <item>банк|country|bank|centre|cinema|2</item>
+        <item>мост|bridge|cinema|building|customs|1</item>
+        <item>здание|country|centre|customs|building|4</item>
+        <item>кафе|cinema|cafe|town|building|2</item>
+        <item>центр (города)|centre|cinema|airport|building|1</item>
+        <item>церковь|town|cinema|airport|church|4</item>
+        <item>кинотеатр|cafe|airport|cinema|building|3</item>
+        <item>компания, фирма|company|hotel|hospital|customs|1</item>
+        <item>вход|hospital|entrance|hotel|airport|2</item>
+        <item>выход|country|cafe|cinema|exit|4</item>
+        <item>фабрика, завод|hotel|hospital|factory|exit|3</item>
+        <item>мусор|hospital|garbage|factory|cinema|2</item>
+        <item>больница|hospital|customs|church|town|1</item>
+        <item>гостиница|hospital|church|city|hotel|4</item>
+        <item>перекресток, точка пересечения|intersection|hotel|town|airport|1</item>
+        <item>рынок|hotel|factory|market|town|3</item>
+        <item>офис|intersection|office|market|country|2</item>
+        <item>парк|church|market|country|park|4</item>
+        <item>тротуар|market|pavement|park|city|2</item>
+        <item>аптека|pharmacy|city|town|church|1</item>
+        <item>полиция|airport|police|church|city|2</item>
+        <item>почта|cinema|exit|post office|town|3</item>
+        <item>ресторан|church|police|restaurant|country|3</item>
+        <item>дорога|market|road|police|school|2</item>
+        <item>школа|factory|school|hospital|exit|2</item>
+        <item>магазин|intersection|church|school|shop|4</item>
+        <item>станция, вокзал|station|church|school|restaurant|1</item>
+        <item>улица|city|town|school|street|4</item>
+        <item>театр|intersection|exit|theatre|post office|3</item>
+        <item>университет|factory|university|park|market|2</item>
+        <item>чистый|clean|station|street|park|1</item>
+        <item>удобный, уютный|church|theatre|market|comfortable|4</item>
+        <item>людный, переполненный|city|crowded|market|comfortable|2</item>
+        <item>грязный|station|school|dirty|exit|3</item>
+        <item>основной, главный|main|school|exit|dirty|1</item>
+        <item>этот/эти|that/those|this/these|factory|street|2</item>
+        <item>тот/те|country|this/these|that/those|exit|3</item>
+        <item>левый, налево|down|up|right|left|4</item>
+        <item>правый, направо|right|left|up|down|1</item>
+        <item>тут, сюда|school|here|left|up|2</item>
+        <item>там, туда|comfortable|factory|down|there|4</item>
+        <item>вниз|left|right|down|up|3</item>
+        <item>вверх|up|right|down|school|1</item>
+        <item>о, около, примерно|comfortable|above|exit|about|4</item>
+        <item>над|to|above|against|about|2</item>
+        <item>против|about|to|against|exit|3</item>
+        <item>сзади, позади|above|behind|exit|about|2</item>
+        <item>между|between|exit|park|above|1</item>
+        <item>из|park|between|about|from|4</item>
+        <item>в|about|to|on|in|4</item>
+        <item>впереди|in front of|or|if|up|1</item>
+        <item>на|against|above|on|or|3</item>
+        <item>через, сквозь|about|through|on|up|2</item>
+        <item>по направлению к|against|up|down|to|4</item>
+        <item>под|up|behind|without|under|4</item>
+        <item>с|with|behind|against|through|1</item>
+        <item>без|between|on|without|through|3</item>
 
     </string-array>
 

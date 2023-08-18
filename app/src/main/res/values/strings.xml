@@ -12,4 +12,14 @@
     <string name="o_prilojenii">О приложении</string>
     <string name="share_prilijeniem">Поделиться</string>
     <string name="grade_prilojeniem">Оценить приложение</string>
+    <string name="o_app">О приложении</string>
+    <string name="o_app_text">df</string>
+    <string name="dialog_dont_worked">Не работает(</string>
+    <string name="dialog_ok">Ок</string>
+    <string name="dialog_ne_rabotaet">Эта функция пока недоступна :(</string>
+    <string name="dialog_hint">Подсказка</string>
+    <string name="dialog_hint_text">При неправильном ответе нажмите на слово и узнайте его перевод.</string>
+    <string name="progress_hint_title">Прогресс категории</string>
+    <string name="progress_hint_text">Пройдите категорию без ошибок и прогресс станет золотым.</string>
+
 </resources>

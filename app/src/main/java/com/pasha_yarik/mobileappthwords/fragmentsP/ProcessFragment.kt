@@ -15,6 +15,7 @@ import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.pasha_yarik.mobileappthwords.R
@@ -22,6 +23,7 @@ import com.pasha_yarik.mobileappthwords.adapters.CategoryModel
 import com.pasha_yarik.mobileappthwords.adapters.WordsAdapter
 import com.pasha_yarik.mobileappthwords.adapters.WordsModel
 import com.pasha_yarik.mobileappthwords.databinding.FragmentProcessBinding
+import com.pasha_yarik.mobileappthwords.utils.DialogManager
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
@@ -68,6 +70,11 @@ class ProcessFragment : Fragment() {
         animator?.start()
 
 
+
+
+        binding.imHint.setOnClickListener {
+            DialogManager.showNedodel(activity as AppCompatActivity,R.string.dialog_hint_text,R.string.dialog_hint)
+        }
 
 
 

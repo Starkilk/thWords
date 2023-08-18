@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/bLearn"
-        android:icon="@drawable/ic_learn"
-        android:title=""
+        android:icon="@drawable/nav_b_learn"
         android:orderInCategory="1"
-        />
+        android:title="" />
     <item
         android:id="@+id/bDictionary"
-        android:icon="@drawable/ic_dictionary"
-        android:title=""
+        android:icon="@drawable/nav_b_dictionary"
         android:orderInCategory="2"
-        />
+        android:title="" />
     <item
         android:id="@+id/bHome"
-        android:icon="@drawable/ic_home"
-        android:title=""
+        android:icon="@drawable/nav_b_home"
         android:orderInCategory="3"
-        />
+        android:title="" />
 
 </menu>
