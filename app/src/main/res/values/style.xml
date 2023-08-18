@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/background</item>
+        <item name="itemIconTint">@drawable/bottom_nav_selector</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationView.Item.TextAppearance.Inactive</item>
+        <item name="itemTextAppearanceActive">@style/BottomNavigationView.Item.TextAppearance.Active</item>
+        <item name="itemTextColor">@color/colorBottomNavInactiveText</item>
+    </style>
+
+    <style name="BottomNavigationView.Item.TextAppearance.Inactive" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorBottomNavInactiveText</item>
+    </style>
+
+    <style name="BottomNavigationView.Item.TextAppearance.Active" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorBottomNavActiveText</item>
+    </style>
+
+</resources>

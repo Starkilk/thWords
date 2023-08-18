@@ -16,6 +16,7 @@ import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.pasha_yarik.mobileappthwords.R
@@ -31,6 +32,7 @@ import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 class ProcessFragment : Fragment() {
     private lateinit var binding: FragmentProcessBinding
     private var bottomNav: BottomNavigationView? = null
+    private var constr : ConstraintLayout? = null
     private var bGray : Button? = null
     private val model: MainViewModel by activityViewModels()
     var wordList: Int? = null
@@ -55,8 +57,9 @@ class ProcessFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        bottomNav = activity?.findViewById(R.id.bnvNav)
+        //bottomNav = activity?.findViewById(R.id.bnvNav)
         bGray = activity?.findViewById(R.id.bGrayLine)!!
+        constr = activity?.findViewById(R.id.clBottomNaV)
         animator?.start()
 
         mistakes = model.getCountError(model.currentWord.toString())
@@ -83,7 +86,7 @@ class ProcessFragment : Fragment() {
             requireActivity().supportFragmentManager.beginTransaction()
                 .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
             FragmentManager.currentFragment = LearnListFragment()
-            bottomNav?.visibility = View.VISIBLE
+            constr?.visibility = View.VISIBLE
             bGray?.visibility = View.VISIBLE
         }
 
@@ -405,7 +408,7 @@ class ProcessFragment : Fragment() {
                             requireActivity().supportFragmentManager.beginTransaction()
                                 .replace(R.id.placeHolder, LearnListFragment.newInstance()).commit()
                             FragmentManager.currentFragment = LearnListFragment()
-                            bottomNav?.visibility = View.VISIBLE
+                            constr?.visibility = View.VISIBLE
                             bGray?.visibility = View.VISIBLE
 
                         }
@@ -479,6 +482,7 @@ class ProcessFragment : Fragment() {
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,LearnListFragment.newInstance()).commit()
         FragmentManager.currentFragment = LearnListFragment()
         bGray?.visibility = View.VISIBLE
+        constr?.visibility = View.VISIBLE
         Log.d("MyLog","${procc}")
     }
 

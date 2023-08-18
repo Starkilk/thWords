@@ -10,6 +10,7 @@ import com.pasha_yarik.mobileappthwords.FragmentsDictionaryY.FragmentTableLayout
 import com.pasha_yarik.mobileappthwords.FragmentsHomeY.FragmentHomeMainY
 import com.pasha_yarik.mobileappthwords.databinding.ActivityMainBinding
 import com.pasha_yarik.mobileappthwords.fragmentsP.Learn1Fragment
+import com.pasha_yarik.mobileappthwords.fragmentsP.LearnListFragment
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
 
@@ -30,17 +31,41 @@ class MainActivity : AppCompatActivity() {
         //supportFragmentManager.beginTransaction().replace(R.id.placeHolder,Learn1Fragment.newInstance()).commit()
         //при запуске приложения сразу показывается фрагмент из восьми категорий
         FragmentManager.setFragment(Learn1Fragment.newInstance(), this)
+        FragmentManager.currentFragment = Learn1Fragment()
+        binding.imLearnACT.visibility = View.VISIBLE
+        binding.imDictionaryACT.visibility = View.INVISIBLE
+        binding.imHomeACT.visibility = View.INVISIBLE
 
-        binding.bnvNav.setOnItemSelectedListener {
-            when(it.itemId){
-                R.id.bLearn -> {FragmentManager.setFragment(Learn1Fragment.newInstance(), this)}
 
-                R.id.bDictionary -> {FragmentManager.setFragment(FragmentTableLayoutY(), this)}
+        binding.bLearnAct.setOnClickListener {
+            FragmentManager.setFragment(Learn1Fragment.newInstance(),this)
+            FragmentManager.currentFragment = Learn1Fragment()
 
-                R.id.bHome -> {FragmentManager.setFragment(FragmentHomeMainY.newInstance(),this)}
-            }
-            true
+            binding.imLearnACT.visibility = View.VISIBLE
+            binding.imDictionaryACT.visibility = View.INVISIBLE
+            binding.imHomeACT.visibility = View.INVISIBLE
+
         }
+
+        binding.bDictionaryAct.setOnClickListener {
+            FragmentManager.setFragment(FragmentTableLayoutY.newInstance(),this)
+            FragmentManager.currentFragment = FragmentTableLayoutY()
+
+            binding.imLearnACT.visibility = View.INVISIBLE
+            binding.imDictionaryACT.visibility = View.VISIBLE
+            binding.imHomeACT.visibility = View.INVISIBLE
+        }
+
+        binding.bHomeAct.setOnClickListener {
+            FragmentManager.setFragment(FragmentHomeMainY.newInstance(),this)
+            FragmentManager.currentFragment = FragmentHomeMainY()
+
+            binding.imLearnACT.visibility = View.INVISIBLE
+            binding.imDictionaryACT.visibility = View.INVISIBLE
+            binding.imHomeACT.visibility = View.VISIBLE
+        }
+
+
 
 
 
@@ -51,8 +76,10 @@ class MainActivity : AppCompatActivity() {
         if(FragmentManager.currentFragment is Learn1Fragment) super.onBackPressed()//если основной экран, то закрываем приложение
         else {
             FragmentManager.setRequareFragment(Learn1Fragment.newInstance(),this) //если другой экран, то возщвращаемся на основной экран
-            binding.bnvNav.selectedItemId = R.id.bLearn // жёстко пофиксил баг броуди паши
-            binding.bnvNav.visibility = View.VISIBLE // снова пофиксил баг броуди паши
+            //binding.bnvNav.selectedItemId = R.id.bLearn // жёстко пофиксил баг броуди паши
+            binding.imLearnACT.visibility = View.VISIBLE
+            binding.imDictionaryACT.visibility = View.INVISIBLE
+            binding.imHomeACT.visibility = View.INVISIBLE
         }
     }
 

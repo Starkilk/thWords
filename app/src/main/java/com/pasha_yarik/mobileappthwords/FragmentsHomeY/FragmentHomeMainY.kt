@@ -30,6 +30,9 @@ class FragmentHomeMainY : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.bSignGoogle.visibility =View.GONE
+        binding.imGooogle.visibility = View.GONE
+
         for(i in 0..39){
             val modelProgrss = model.getPref(i.toString())
             homeProgress += modelProgrss

@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -22,7 +24,9 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2,ProcessFragment.OnF
     private lateinit var binding: FragmentLearnList1Binding
     private val model: MainViewModel by activityViewModels()
     private lateinit var adapter: WordsAdapter
-    private var navigViewMain :BottomNavigationView? = null
+    //private var navigViewMain :BottomNavigationView? = null
+
+    private var constr :ConstraintLayout? = null
     private var bGray :Button? = null
 
     override fun onCreateView(
@@ -35,7 +39,12 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2,ProcessFragment.OnF
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        navigViewMain = activity?.findViewById(R.id.bnvNav)!!
+        //navigViewMain = activity?.findViewById(R.id.bnvNav)!!
+
+
+        constr = activity?.findViewById(R.id.clBottomNaV)
+
+
         bGray = activity?.findViewById(R.id.bGrayLine)!!
 
         initRcList()
@@ -103,7 +112,11 @@ class LearnListFragment : Fragment(), WordsAdapter.Listener2,ProcessFragment.OnF
         if(word.statusProgres!! < 100){
         fillXyil(word)
         model.currentWord = word.arrayProcess
-        navigViewMain?.visibility = View.GONE//сделал bottomNavigation невидимым
+        //navigViewMain?.visibility = View.GONE//сделал bottomNavigation невидимым
+
+            constr?.visibility = View.GONE
+
+
         bGray?.visibility = View.GONE
         requireActivity().supportFragmentManager.beginTransaction().replace(R.id.placeHolder,ProcessFragment.newInstance()).commit()
         FragmentManager.currentFragment = ProcessFragment()

@@ -4,6 +4,8 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     <item name="android:statusBarColor">#00BBFF</item>
+        <item name="colorPrimary">#3B464A</item>
+
 
 
     </style>

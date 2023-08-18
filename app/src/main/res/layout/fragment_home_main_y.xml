@@ -24,7 +24,7 @@
         app:strokeWidth="2.5dp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imGooogle"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginBottom="16dp"

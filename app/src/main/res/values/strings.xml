@@ -13,7 +13,7 @@
     <string name="share_prilijeniem">Поделиться</string>
     <string name="grade_prilojeniem">Оценить приложение</string>
     <string name="o_app">О приложении</string>
-    <string name="o_app_text">df</string>
+
     <string name="dialog_dont_worked">Не работает(</string>
     <string name="dialog_ok">Ок</string>
     <string name="dialog_ne_rabotaet">Эта функция пока недоступна :(</string>
@@ -21,5 +21,8 @@
     <string name="dialog_hint_text">При неправильном ответе нажмите на слово и узнайте его перевод.</string>
     <string name="progress_hint_title">Прогресс категории</string>
     <string name="progress_hint_text">Пройдите категорию без ошибок и прогресс станет золотым.</string>
+    <string name="o_app_text">
+        Английский язык с thWords v1.1.1\n\nПрилжение позволяет проверить количество изученый слов и помогает выучить новые.\n\nВ приложении представлена тысяча самых часто используемых английских слов.\nИспльзуйте приложение по возможности 2-3 раза в сутки с интервалом в несколько часов.
+    </string>
 
 </resources>

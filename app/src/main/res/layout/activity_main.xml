@@ -5,6 +5,7 @@
     android:id="@+id/clPlaceProcess"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <FrameLayout
@@ -12,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="#141F23"
-        app:layout_constraintBottom_toTopOf="@+id/bGrayLine"
+        app:layout_constraintBottom_toBottomOf="@+id/bGrayLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -27,34 +28,87 @@
         android:clickable="false"
         android:scaleY="1.2"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/bnvNav"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/placeHolder" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bnvNav"
-        android:layout_width="412dp"
-        android:layout_height="68dp"
-        android:background="@color/background"
-        app:backgroundTint="@color/background"
-        app:itemBackground="@drawable/bottom_nav_back"
-        app:itemIconSize="40dp"
-        app:itemIconTint="@drawable/bottom_nav_selector"
-        app:labelVisibilityMode="auto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_menu" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90999997" />
 
-    <FrameLayout
-        android:id="@+id/PlaceProcess"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clBottomNaV"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/background"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/bGrayLine"
+        app:layout_constraintVertical_bias="0.32999998">
 
-    </FrameLayout>
+        <ImageView
+            android:id="@+id/bLearnAct"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nav_b_learn" />
+
+        <ImageView
+            android:id="@+id/bDictionaryAct"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/bHomeAct"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toEndOf="@+id/bLearnAct"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.476"
+            app:srcCompat="@drawable/nav_b_dictionary" />
+
+        <ImageView
+            android:id="@+id/bHomeAct"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nav_b_home" />
+
+        <ImageView
+            android:id="@+id/imLearnACT"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back_b_nav" />
+
+        <ImageView
+            android:id="@+id/imDictionaryACT"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imHomeACT"
+            app:layout_constraintStart_toEndOf="@+id/imLearnACT"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back_b_nav" />
+
+        <ImageView
+            android:id="@+id/imHomeACT"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back_b_nav" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
