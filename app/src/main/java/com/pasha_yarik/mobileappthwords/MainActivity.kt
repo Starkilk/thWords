@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.banner.setAdUnitId("demo-banner-yandex")
+        binding.banner.setAdUnitId("R-M-2649645-1")
         //binding.banner.setAdSize(AdSize.stickySize(400))
         binding.banner.setAdSize(AdSize(400,75))
         val adRequest = AdRequest.Builder().build()

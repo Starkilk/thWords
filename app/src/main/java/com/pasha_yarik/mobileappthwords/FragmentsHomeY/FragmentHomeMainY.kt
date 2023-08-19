@@ -42,7 +42,7 @@ class FragmentHomeMainY : Fragment() {
         }
 
 
-        binding.bannerHome.setAdUnitId("demo-banner-yandex")
+        binding.bannerHome.setAdUnitId("R-M-2649645-2")
         //binding.banner.setAdSize(AdSize.stickySize(400))
         binding.bannerHome.setAdSize(AdSize(400,200))
         val adRequest1 = AdRequest.Builder().build()

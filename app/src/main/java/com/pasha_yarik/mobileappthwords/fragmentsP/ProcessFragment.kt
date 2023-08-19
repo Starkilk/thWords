@@ -70,7 +70,7 @@ class ProcessFragment : Fragment() {
 
 
 
-        binding.bannerProcces.setAdUnitId("demo-banner-yandex")
+        binding.bannerProcces.setAdUnitId("R-M-2649645-1")
         //binding.banner.setAdSize(AdSize.stickySize(400))
         binding.bannerProcces.setAdSize(AdSize.inlineSize(400,100))
         val adRequest2 = AdRequest.Builder().build()
