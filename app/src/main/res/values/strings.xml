@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MobileAppThWords</string>
+    <string name="app_name">thWords</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="how_to_translate">Как переводится слово:</string>
@@ -22,7 +22,7 @@
     <string name="progress_hint_title">Прогресс категории</string>
     <string name="progress_hint_text">Пройдите категорию без ошибок и прогресс станет золотым.</string>
     <string name="o_app_text">
-        Английский язык с thWords v1.1.1\n\nПрилжение позволяет проверить количество изученый слов и помогает выучить новые.\n\nВ приложении представлена тысяча самых часто используемых английских слов.\nИспльзуйте приложение по возможности 2-3 раза в сутки с интервалом в несколько часов.
+        Английский язык с thWords v1.1.1\n\nПрилжение позволяет проверить количество изученый слов и помогает выучить новые.\n\nВ приложении представлена тысяча самых часто используемых английских слов.\nИспльзуйте приложение по возможности 2-3 раза в сутки с интервалом в несколько часов.\n\n\nГрафические изображения были взяты с источника: https://www.flaticon.com/ru/\n\n\nПриложение было разработано студией RaiStar, двумя разработчиками Павлом Болтиным (Starlik) и Ярославом Кузьминым (Raimbl)
     </string>
 
 </resources>

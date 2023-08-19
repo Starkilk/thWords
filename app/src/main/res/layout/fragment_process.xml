@@ -36,11 +36,28 @@
         app:layout_constraintTop_toBottomOf="@+id/pbProcess" />
 
     <Button
+        android:id="@+id/bNextWord"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="@color/my_gray"
+        android:text="@string/button_next_word"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bAnswer3" />
+
+    <Button
         android:id="@+id/bAnswer1"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="180dp"
         android:layout_marginEnd="24dp"
         android:autoText="false"
         android:backgroundTint="@color/background"
@@ -62,6 +79,7 @@
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/background"
         android:text="Tea"
@@ -69,27 +87,9 @@
         android:textSize="18sp"
         app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bAnswer1"
-        app:strokeColor="@color/my_gray"
-        app:strokeWidth="3dp" />
-
-    <Button
-        android:id="@+id/bAnswer3"
-        android:layout_width="0dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:backgroundTint="@color/background"
-        android:text="Water"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:cornerRadius="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bAnswer2"
+        app:layout_constraintTop_toBottomOf="@+id/bAnswer1"
         app:strokeColor="@color/my_gray"
         app:strokeWidth="3dp" />
 
@@ -105,28 +105,30 @@
         android:textSize="18sp"
         app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bAnswer3"
         app:strokeColor="@color/my_gray"
         app:strokeWidth="3dp" />
 
     <Button
-        android:id="@+id/bNextWord"
+        android:id="@+id/bAnswer3"
         android:layout_width="0dp"
         android:layout_height="55dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
-        android:backgroundTint="@color/my_gray"
-        android:text="@string/button_next_word"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/background"
+        android:text="Water"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bAnswer3"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintTop_toBottomOf="@+id/bAnswer2"
+        app:strokeColor="@color/my_gray"
+        app:strokeWidth="3dp" />
 
     <ImageView
         android:id="@+id/imCloseProcess"
@@ -195,5 +197,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.yandex.mobile.ads.banner.BannerAdView
+        android:id="@+id/bannerProcces"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bNextWord" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,7 +21,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="@color/my_gray"
-        app:strokeWidth="2.5dp" />
+        app:strokeWidth="2.5dp"
+        tools:visibility="gone" />
 
     <ImageView
         android:id="@+id/imGooogle"
@@ -32,7 +33,8 @@
         app:layout_constraintBottom_toTopOf="@+id/bSignGoogle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="gone" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
@@ -94,12 +96,12 @@
         android:layout_height="200dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="300dp"
         android:backgroundTint="@color/gray_home"
         app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
@@ -186,6 +188,7 @@
         android:id="@+id/bannerHome"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

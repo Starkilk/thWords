@@ -27,6 +27,8 @@ import com.pasha_yarik.mobileappthwords.databinding.FragmentProcessBinding
 import com.pasha_yarik.mobileappthwords.utils.DialogManager
 import com.pasha_yarik.mobileappthwords.utils.FragmentManager
 import com.pasha_yarik.mobileappthwords.utils.MainViewModel
+import com.yandex.mobile.ads.banner.AdSize
+import com.yandex.mobile.ads.common.AdRequest
 
 
 class ProcessFragment : Fragment() {
@@ -65,6 +67,17 @@ class ProcessFragment : Fragment() {
         mistakes = model.getCountError(model.currentWord.toString())
         counterItem = model.getPref(model.currentWord.toString())
         procc = model.getProgr(model.currentWord.toString())
+
+
+
+        binding.bannerProcces.setAdUnitId("demo-banner-yandex")
+        //binding.banner.setAdSize(AdSize.stickySize(400))
+        binding.bannerProcces.setAdSize(AdSize.inlineSize(400,100))
+        val adRequest2 = AdRequest.Builder().build()
+        binding.bannerProcces.loadAd(adRequest2)
+
+
+
 
         Log.d("MyLog","${procc}")
         animator = ObjectAnimator.ofInt(binding.pbProcess,"progress", (startPb),(procc))

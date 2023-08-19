@@ -35,7 +35,7 @@ class FragmentHomeMainY : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         intent.type = "text/plain"
-        intent.putExtra(Intent.EXTRA_TEXT, "Потренируй свой английский: тут типо сылка на приложение")
+        intent.putExtra(Intent.EXTRA_TEXT, "Английский язык с thWords: сылка")
 
         binding.tvShare.setOnClickListener {
             startActivity(Intent.createChooser(intent, "Поделиться"))
@@ -44,7 +44,7 @@ class FragmentHomeMainY : Fragment() {
 
         binding.bannerHome.setAdUnitId("demo-banner-yandex")
         //binding.banner.setAdSize(AdSize.stickySize(400))
-        binding.bannerHome.setAdSize(AdSize(400,160))
+        binding.bannerHome.setAdSize(AdSize(400,200))
         val adRequest1 = AdRequest.Builder().build()
         binding.bannerHome.loadAd(adRequest1)
 

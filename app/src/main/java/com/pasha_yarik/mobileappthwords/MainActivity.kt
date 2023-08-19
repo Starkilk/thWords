@@ -6,6 +6,7 @@ import android.view.View
 import androidx.activity.viewModels
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import com.pasha_yarik.mobileappthwords.FragmentsDictionaryY.FragSlovAllY
 import com.pasha_yarik.mobileappthwords.FragmentsDictionaryY.FragmentTableLayoutY
 import com.pasha_yarik.mobileappthwords.FragmentsHomeY.FragmentHomeMainY
 import com.pasha_yarik.mobileappthwords.databinding.ActivityMainBinding
@@ -52,6 +53,7 @@ class MainActivity : AppCompatActivity() {
             FragmentManager.setFragment(Learn1Fragment.newInstance(),this)
             FragmentManager.currentFragment = Learn1Fragment()
 
+            binding.banner.visibility = View.VISIBLE
             binding.imLearnACT.visibility = View.VISIBLE
             binding.imDictionaryACT.visibility = View.INVISIBLE
             binding.imHomeACT.visibility = View.INVISIBLE
@@ -59,9 +61,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.bDictionaryAct.setOnClickListener {
-            FragmentManager.setFragment(FragmentTableLayoutY.newInstance(),this)
-            FragmentManager.currentFragment = FragmentTableLayoutY()
+            FragmentManager.setFragment(FragSlovAllY.newInstance(),this)
+            FragmentManager.currentFragment = FragSlovAllY()
 
+            binding.banner.visibility = View.VISIBLE
             binding.imLearnACT.visibility = View.INVISIBLE
             binding.imDictionaryACT.visibility = View.VISIBLE
             binding.imHomeACT.visibility = View.INVISIBLE
@@ -70,6 +73,9 @@ class MainActivity : AppCompatActivity() {
         binding.bHomeAct.setOnClickListener {
             FragmentManager.setFragment(FragmentHomeMainY.newInstance(),this)
             FragmentManager.currentFragment = FragmentHomeMainY()
+
+            binding.banner.visibility = View.GONE
+
 
             binding.imLearnACT.visibility = View.INVISIBLE
             binding.imDictionaryACT.visibility = View.INVISIBLE
