@@ -781,7 +781,7 @@
         <item>карта|plane|incurance|tram|map|4</item>
         <item>чемодан|plane|destination|suitcase|incurance|3</item>
         <item>билет|ticket|ship|bicycle|car|1</item>
-        <item>велосипед|Cardamom|Inquisitive|lamp||</item>
+        <item>велосипед|Cardamom|Inquisitive|lamp|bicycle|4</item>
         <item>автобус|ship|bicycle|car|incurance|2</item>
         <item>автомобиль|taxi|plane|car|ship|3</item>
         <item>самолет|plane|ship|car|taxi|1</item>
